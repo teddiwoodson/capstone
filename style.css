@@ -1,0 +1,23 @@
+/*
+Theme Name: Capstone
+Theme URI:
+Author: Elizabeth, Erika, Teddi
+Description: County Chic Paint Website
+Version: 1.0
+License: Open
+Text Domain: weeks 7
+
+*/
+/* =================
+
+    Header Styles
+
+===================*/
+
+header {
+    background: #2F3E4D;
+}
+header img {
+  max-width: 150px;
+  object-fit: contain;
+}
