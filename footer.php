@@ -1,39 +1,27 @@
-<footer>
-  <div class="row">
-    <div class="col-lg-4">
-      <nav>
-        <?php
-          if(has_nav_menu('footer-left')) {
-            wp_nav_menu(array('theme_location' => 'footer-left', 'container_class' => 'footer-left-class'));
-          } else{
-            echo "Please select a left footer through the dashboard";
-          }
-        ?>
-      </nav>
-    </div>
-    <div class="col-lg-4">
-      <nav>
-        <?php
-          if(has_nav_menu('footer-middle')) {
-            wp_nav_menu(array('theme_location' => 'footer-middle', 'container_class' => 'footer-middle-class'));
-          } else{
-            echo "Please select a middle footer through the dashboard";
-          }
-        ?>
-      </nav>
-    </div>
-    <div class="col-lg-4">
-      <nav>
-        <?php
-          if(has_nav_menu('footer-right')) {
-            wp_nav_menu(array('theme_location' => 'footer-right', 'container_class' => 'footer-right-class'));
-          } else{
-            echo "Please select a right footer through the dashboard";
-          }
-        ?>
-      </nav>
-    </div>
-  </div>
+<footer class="d-flex">
+      <div class="container">
+        <div class="row">
+          <div class="col col-md-3">
+          <?php if(get_header_image() == '') {?>
+              <h1><a href="<?php get_home_url();?>"><?php bloginfo('name');?></a></h1><?php
+            }else {?>
+              <a href="<?php get_home_url();?>"><img src="<?php header_image();?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" atl="logo" /></a>
+
+            <?php } ?>
+          </div>
+          <div class="col-md-9">
+            <nav>
+              <?php
+                if(has_nav_menu('footer-menu')) {
+                  wp_nav_menu(array('theme_location' => 'footer-menu', 'container_class' => 'footer-menu-class'));
+                } else{
+                  echo "Please select a footer menu through the dashboard";
+                }
+              ?>
+            </nav>
+          </div>
+        </div>
+      </div>
 
 </footer>
 

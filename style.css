@@ -13,11 +13,37 @@ Text Domain: weeks 7
     Header Styles
 
 ===================*/
-
+body {
+  font-family: 'Montserrat', sans-serif;
+}
 header {
     background: #2F3E4D;
 }
 header img {
+  max-width: 150px;
+  object-fit: contain;
+}
+nav {
+  padding-top: 5%;
+  text-align: right;
+}
+ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    list-style-type: none;
+}
+ul li {
+    display: inline;
+    padding: 5px;
+}
+ul li a {
+  color: white;
+}
+
+footer {
+    background: #2F3E4D;
+}
+footer img {
   max-width: 150px;
   object-fit: contain;
 }

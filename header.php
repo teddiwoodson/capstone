@@ -6,15 +6,16 @@
 
   <!--link to our style.css file -->
   <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>"/>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 
   <?php wp_head(); ?>
 </head>
 
 <body>
-<header>
+<header class="d-flex">
     <div class="container">
       <div class="row">
-        <div class="col-lg-3">
+        <div class="col col-md-3">
         <?php if(get_header_image() == '') {?>
             <h1><a href="<?php get_home_url();?>"><?php bloginfo('name');?></a></h1><?php
           }else {?>
@@ -22,7 +23,7 @@
 
           <?php } ?>
         </div>
-        <div class="col-lg-9">
+        <div class="col-md-9">
           <nav>
             <?php
               if(has_nav_menu('top-menu')) {
