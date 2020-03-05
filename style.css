@@ -23,10 +23,6 @@ header img {
   max-width: 150px;
   object-fit: contain;
 }
-nav {
-  padding-top: 5%;
-  text-align: right;
-}
 ul {
     margin-top: 0;
     margin-bottom: 1rem;

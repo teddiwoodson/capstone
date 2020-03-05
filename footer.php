@@ -1,6 +1,7 @@
 <footer class="d-flex">
       <div class="container">
         <div class="row">
+          <div class="d-flex align-items-baseline">
           <div class="col col-md-3">
           <?php if(get_header_image() == '') {?>
               <h1><a href="<?php get_home_url();?>"><?php bloginfo('name');?></a></h1><?php
@@ -20,6 +21,7 @@
               ?>
             </nav>
           </div>
+        </div>
         </div>
       </div>
 
