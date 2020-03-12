@@ -68,6 +68,24 @@ function blank_widgets_init() {
     'before_title'  => '<h3 class="hero-image-widget-title">',
     'after_title'   => '</h3>'
   ));
+  register_sidebar(array(
+    'name'          => ('Home Slider 1'),
+    'id'            => 'home-slider-1',
+    'description'   => 'First Slider',
+    'before_widget' => '<div class="widget-home-slider-1>"',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="home-slider-1-title">',
+    'after_title'   => '</h3>'
+  ));
+  register_sidebar(array(
+    'name'          => ('Home Slider 2'),
+    'id'            => 'home-slider-2',
+    'description'   => 'First Slider',
+    'before_widget' => '<div class="widget-home-slider-2>"',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="home-slider-2-title">',
+    'after_title'   => '</h3>'
+  ));
 }
 
 add_action('widgets_init', 'blank_widgets_init');
