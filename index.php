@@ -1,5 +1,10 @@
 <?php get_header(); ?>
 
-<h1>Hello World</h1>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+    <?php dynamic_sidebar('hero-image'); ?>
+  </div>
+</div>
 
 <?php get_footer(); ?>

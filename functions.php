@@ -50,7 +50,27 @@ function register_my_menus(){
 
 }
 
-add_action('init', 'register_my_menus')
+add_action('init', 'register_my_menus');
+
+/* =========
+
+adds widget areas to theme
+
+=================*/
+
+function blank_widgets_init() {
+  register_sidebar(array(
+    'name'          => ('Hero Image'),
+    'id'            => 'hero-image',
+    'description'   => 'Hero image',
+    'before_widget' => '<div class="widget-hero-image>"',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="hero-image-widget-title">',
+    'after_title'   => '</h3>'
+  ));
+}
+
+add_action('widgets_init', 'blank_widgets_init');
 
 
 ?>
