@@ -8,12 +8,12 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-md-12 justify-content-center">
     <?php dynamic_sidebar('hero-image'); ?>
   </div>
-</div>
 
 <h2>paint</h2>
+<?php echo do_shortcode('[sp_wpcarousel id="90"]'); ?>
 
 <div class="container">
   <div class="row">
@@ -30,7 +30,9 @@
     <?php dynamic_sidebar('home-slider-2'); ?>
   </div>
 </div>
+</div>
 
-<h2>reviews</h2>
+<h2>Testimonials</h2>
+<?php dynamic_sidebar('testimonials'); ?>
 
 <?php get_footer(); ?>

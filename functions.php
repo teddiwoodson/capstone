@@ -80,10 +80,19 @@ function blank_widgets_init() {
   register_sidebar(array(
     'name'          => ('Home Slider 2'),
     'id'            => 'home-slider-2',
-    'description'   => 'First Slider',
+    'description'   => 'Second Slider',
     'before_widget' => '<div class="widget-home-slider-2>"',
     'after_widget'  => '</div>',
     'before_title'  => '<h3 class="home-slider-2-title">',
+    'after_title'   => '</h3>'
+  ));
+  register_sidebar(array(
+    'name'          => ('Testimonials'),
+    'id'            => 'testimonials',
+    'description'   => 'Testimonials',
+    'before_widget' => '<div class="widget-testimonials>"',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="testimonials-title">',
     'after_title'   => '</h3>'
   ));
 }
