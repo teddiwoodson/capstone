@@ -220,7 +220,15 @@ figure.effect-chico:hover p {
 .content > h2:first-child {
 	padding-top: 0em;
 }
+/*================
 
+Instagram Styles
+
+===================*/
+
+.sb_instagram_header.sbi_no_avatar {
+    display: none;
+}
 
 footer {
     background: #2F3E4D;

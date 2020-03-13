@@ -31,8 +31,13 @@
   </div>
 </div>
 </div>
-
-<h2>Testimonials</h2>
-<?php dynamic_sidebar('testimonials'); ?>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h2>Testimonials</h2>
+      <?php dynamic_sidebar('testimonials'); ?>
+    </div>
+      </div>
+      </div>
 
 <?php get_footer(); ?>

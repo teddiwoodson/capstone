@@ -95,6 +95,15 @@ function blank_widgets_init() {
     'before_title'  => '<h3 class="testimonials-title">',
     'after_title'   => '</h3>'
   ));
+  register_sidebar(array(
+    'name'          => ('Instagram'),
+    'id'            => 'instagram',
+    'description'   => 'Instagram Feed',
+    'before_widget' => '<div class="widget-instagram>"',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="instagram-title">',
+    'after_title'   => '</h3>'
+  ));
 }
 
 add_action('widgets_init', 'blank_widgets_init');
