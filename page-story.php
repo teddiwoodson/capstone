@@ -19,16 +19,17 @@
   </section>
 
   <section class="row">
-    <div class="col-md-6 d-flex align-items-center">
+    <div class="col-md-6 d-flex justify-content-center">
       <?php dynamic_sidebar('story-left-widget'); ?>
     </div>
-    <div class="col-md-6 d-flex align-items-center">
+    <div class="col-md-6 d-flex justify-content-center">
       <?php dynamic_sidebar('story-right-widget'); ?>
     </div>
   </section>
 
-  <<section class="row">
-    <div class="col-md-12 d-flex align-items-center">
+  <section class="row">
+    <div class="col-md-12 d-flex justify-content-center">
+      <h2>Meet The Team</h2>
       <?php dynamic_sidebar('meet-the-team'); ?>
     </div>
   </section>
