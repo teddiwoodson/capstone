@@ -104,6 +104,33 @@ function blank_widgets_init() {
     'before_title'  => '<h3 class="instagram-title">',
     'after_title'   => '</h3>'
   ));
+  register_sidebar(array(
+    'name'          => ('Left Sidebar'),
+    'id'            => 'story-left-widget',
+    'description'   => 'Left Widget',
+    'before_widget' => '<div class="widget-left-story>"',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="left-story-title">',
+    'after_title'   => '</h3>'
+  ));
+  register_sidebar(array(
+    'name'          => ('Right Sidebar'),
+    'id'            => 'story-right-widget',
+    'description'   => 'right Widget',
+    'before_widget' => '<div class="widget-right-story>"',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="left-right-title">',
+    'after_title'   => '</h3>'
+  ));
+  register_sidebar(array(
+    'name'          => ('Meet The Team'),
+    'id'            => 'meet-the-team',
+    'description'   => 'meet the team',
+    'before_widget' => '<div class="widget-meet-the-team>"',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="meet-the-team-title">',
+    'after_title'   => '</h3>'
+  ));
 }
 
 add_action('widgets_init', 'blank_widgets_init');

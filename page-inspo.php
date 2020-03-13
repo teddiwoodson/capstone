@@ -10,10 +10,9 @@
 <main class="container">
   <section class="row">
     <div class="col-md-12">
-      <?php dynamic_sidebar('hero-image'); ?>
-    </div>
+    <?php dynamic_sidebar('hero-image'); ?>
+  </div>
   </section>
-
   <section class="row justify-content-center">
     <?php if(have_posts()){
       while(have_posts()){
@@ -34,6 +33,18 @@
     } // ends if statement
     ?>
   </section>
+
+  <section class="row">
+    <div class="col-md-12">
+      <h2>Need Some Inspiration?</h2>
+      <?php dynamic_sidebar('instagram');?>
+    </div>
+  </section>
+
+  <section class="row justify-content-center">
+    <a href="#" type="button" class="btn btn-primary btn-lg">More Inspiration Here</a>
+  </section>
+
 </main>
 
 

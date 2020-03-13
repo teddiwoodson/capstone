@@ -41,6 +41,7 @@
       <?php dynamic_sidebar('testimonials'); ?>
     </div>
   </section>
+</main>
 
 
 

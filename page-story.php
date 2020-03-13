@@ -7,11 +7,34 @@
 
 <?php get_header(); ?>
 
-<div class="container">
-  <div class="row">
-    <div class="col-md-12">
-    <?php dynamic_sidebar('hero-image'); ?>
-  </div>
-</div>
+<main class="container">
+  <section class="row">
+    <div class="col-md-12 justify-content-center">
+      <?php dynamic_sidebar('hero-image'); ?>
+    </div>
+  </section>
+
+  <section>
+    <h2>Company Values</h2>
+  </section>
+
+  <section class="row">
+    <div class="col-md-6 d-flex align-items-center">
+      <?php dynamic_sidebar('story-left-widget'); ?>
+    </div>
+    <div class="col-md-6 d-flex align-items-center">
+      <?php dynamic_sidebar('story-right-widget'); ?>
+    </div>
+  </section>
+
+  <<section class="row">
+    <div class="col-md-12 d-flex align-items-center">
+      <?php dynamic_sidebar('meet-the-team'); ?>
+    </div>
+  </section>
+
+</main>
+
+
 
 <?php get_footer(); ?>
