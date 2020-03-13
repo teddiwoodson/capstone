@@ -34,6 +34,7 @@
     } // ends if statement
     ?>
   </section>
+</main>
 
 
 <?php get_footer(); ?>

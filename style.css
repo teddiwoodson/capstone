@@ -8,6 +8,12 @@ License: Open
 Text Domain: weeks 7
 
 */
+
+* {
+  margin: 0;
+	padding: 0;
+	border: 0;
+}
 /* =================
 
     Header Styles
@@ -37,6 +43,16 @@ ul li a {
 }
 h2 {
   text-align: center;
+}
+a.btn.btn-primary {
+    background-color: #839869;
+    border-color: #839869;
+    margin: 10px;
+}
+section a.btn.btn-primary:hover {
+  color: #839869;
+  background-color: white;
+  border-color: #839869;
 }
 /* ========================
 
