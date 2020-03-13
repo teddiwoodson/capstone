@@ -90,7 +90,7 @@ function blank_widgets_init() {
     'name'          => ('Testimonials'),
     'id'            => 'testimonials',
     'description'   => 'Testimonials',
-    'before_widget' => '<div class="widget-testimonials>"',
+    'before_widget' => '<div class="widget-testimonials">',
     'after_widget'  => '</div>',
     'before_title'  => '<h3 class="testimonials-title">',
     'after_title'   => '</h3>'
@@ -107,6 +107,15 @@ function blank_widgets_init() {
 }
 
 add_action('widgets_init', 'blank_widgets_init');
+
+/* =========
+
+adds feature image functionality
+
+=================*/
+
+add_theme_support('post-thumbnails');
+
 
 
 ?>

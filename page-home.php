@@ -6,38 +6,43 @@
  ?>
 <?php get_header(); ?>
 
-<div class="container">
-  <div class="row">
+<main class="container">
+  <section class="row">
     <div class="col-md-12 justify-content-center">
-    <?php dynamic_sidebar('hero-image'); ?>
-  </div>
+      <?php dynamic_sidebar('hero-image'); ?>
+    </div>
+  </section>
 
-<h2>paint</h2>
-<?php echo do_shortcode('[sp_wpcarousel id="90"]'); ?>
+  <section>
+    <h2>paint</h2>
+    <?php echo do_shortcode('[sp_wpcarousel id="90"]'); ?>
+  </section>
 
-<div class="container">
-  <div class="row">
+  <section class="row">
     <div class="col-md-12">
-    <?php dynamic_sidebar('home-slider-1'); ?>
-  </div>
-</div>
+      <?php dynamic_sidebar('home-slider-1'); ?>
+    </div>
+  </section>
 
-<h2>products</h2>
+  <section>
+    <h2>products</h2>
+  </section>
 
-<div class="container">
-  <div class="row">
+  <section class="row">
     <div class="col-md-12">
-    <?php dynamic_sidebar('home-slider-2'); ?>
-  </div>
-</div>
-</div>
-<div class="container">
-  <div class="row">
-    <div class="col-md-12">
+      <?php dynamic_sidebar('home-slider-2'); ?>
+    </div>
+  </section>
+  </main>
+
+  <section class="container-fluid" id="testimonials">
+    <div class="row justify-content-center">
       <h2>Testimonials</h2>
       <?php dynamic_sidebar('testimonials'); ?>
     </div>
-      </div>
-      </div>
+  </section>
+
+
+
 
 <?php get_footer(); ?>

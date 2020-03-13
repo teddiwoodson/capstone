@@ -35,9 +35,44 @@ ul li {
 ul li a {
   color: white;
 }
+h2 {
+  text-align: center;
+}
 /* ========================
 
-Photos
+Testimonials
+
+============================*/
+#testimonials {
+  background-color: #264E83;
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+  padding-top: 20px;
+}
+#testimonials h2 {
+  text-align: center;
+}
+#testimonials .row {
+  margin:0;
+}
+.testimonial-content {
+  display: none;
+}
+.testimonial-content {
+  display: none;
+}
+.testimonials-title {
+  display: none;
+}
+.tesimonial-field {
+  max-width: 350px;
+  margin-left: 0px;
+  margin-right: 0;
+}
+/* ========================
+
+Inspiration/Product Tiles
 
 ============================*/
 
@@ -220,15 +255,11 @@ figure.effect-chico:hover p {
 .content > h2:first-child {
 	padding-top: 0em;
 }
-/*================
+/* ========================
 
-Instagram Styles
+Footer
 
-===================*/
-
-.sb_instagram_header.sbi_no_avatar {
-    display: none;
-}
+============================*/
 
 footer {
     background: #2F3E4D;
