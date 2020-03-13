@@ -131,6 +131,15 @@ function blank_widgets_init() {
     'before_title'  => '<h3 class="meet-the-team-title">',
     'after_title'   => '</h3>'
   ));
+  register_sidebar(array(
+    'name'          => ('Instagram'),
+    'id'            => 'instagram-2',
+    'description'   => 'Instagram Feed',
+    'before_widget' => '<div class="widget-instagram-2>"',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="instagram-title-2">',
+    'after_title'   => '</h3>'
+  ));
 }
 
 add_action('widgets_init', 'blank_widgets_init');

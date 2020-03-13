@@ -37,7 +37,7 @@
   <section class="row">
     <div class="col-md-12">
       <h2>Need Some Inspiration?</h2>
-      <?php dynamic_sidebar('instagram');?>
+      <?php dynamic_sidebar('instagram-2');?>
     </div>
   </section>
 

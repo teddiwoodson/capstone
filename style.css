@@ -89,39 +89,6 @@ Testimonials
 
 /* ========================
 
-Meet The Team
-
-============================*/
-#meet {
-  background-color: #264E83;
-  text-align: center;
-  color: white;
-  margin-top: 10px;
-  padding-top: 20px;
-}
-#meet h2 {
-  text-align: center;
-}
-#meet .row {
-  margin:0;
-}
-.testimonial-content {
-  display: none;
-}
-.testimonial-content {
-  display: none;
-}
-.testimonials-title {
-  display: none;
-}
-.tesimonial-field {
-  max-width: 350px;
-  margin-left: 0px;
-  margin-right: 0;
-}
-
-/* ========================
-
 Inspiration/Product Tiles
 
 ============================*/
