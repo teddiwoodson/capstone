@@ -10,7 +10,7 @@ Text Domain: weeks 7
 */
 /* ========================
 
-Reset Rule
+Reset Rule & Body
 
 ============================*/
 * {
@@ -18,14 +18,18 @@ Reset Rule
 	padding: 0;
 	border: 0;
 }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+h2 {
+  text-align: center;
+}
 /* =================
 
     Header Styles
 
 ===================*/
-body {
-  font-family: 'Montserrat', sans-serif;
-}
 header {
     background: #2F3E4D;
 }
@@ -45,32 +49,15 @@ ul li {
 ul li a {
   color: white;
 }
-h2 {
-  text-align: center;
-}
+/* ======================================
 
-#company-values {
-  background-color: #839969;
-  color: white;
-}
+                                Home Page
+
+=========================================*/
+
 #products {
   background-color: #DDC4C1;
   color: white;
-}
-/* ========================
-
-Button Styles
-
-============================*/
-a.btn.btn-primary {
-    background-color: #839869;
-    border-color: #839869;
-    margin: 10px;
-}
-section a.btn.btn-primary:hover {
-  color: #839869;
-  background-color: white;
-  border-color: #839869;
 }
 /* ========================
 
@@ -105,11 +92,15 @@ Testimonials
   margin-right: 0;
 }
 
-/* ========================
+/* ======================================
 
-Inspiration/Product Tiles
+                                Products Page
 
-============================*/
+=========================================*/
+
+/*---------------*/
+/***** Start Product Tile Grid *****/
+/*---------------*/
 
 .grid {
 	position: relative;
@@ -253,10 +244,6 @@ figure.effect-chico:hover p {
 	transform: scale(1);
 }
 
-/*---------------*/
-/***** End Chico *****/
-/*---------------*/
-
 @media screen and (max-width: 50em) {
 	.content {
 		padding: 0 10px;
@@ -290,6 +277,55 @@ figure.effect-chico:hover p {
 .content > h2:first-child {
 	padding-top: 0em;
 }
+/*---------------*/
+/***** End Product Grid *****/
+/*---------------*/
+
+/* ======================================
+
+                                Inspiration Page
+
+=========================================*/
+
+/* ======================================
+
+                                Our Story Page
+
+=========================================*/
+
+#company-values {
+  background-color: #839969;
+  color: white;
+}
+
+/* ======================================
+
+                                Contact Page
+
+=========================================*/
+
+#FAQ {
+  background-color: #264E83;
+  color: white;
+}
+
+/* ========================
+
+Button Styles
+
+============================*/
+a.btn.btn-primary {
+    background-color: #839869;
+    border-color: #839869;
+    margin: 10px;
+}
+section a.btn.btn-primary:hover {
+  color: #839869;
+  background-color: white;
+  border-color: #839869;
+}
+
+
 /* ========================
 
 Footer

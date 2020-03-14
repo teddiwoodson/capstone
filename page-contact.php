@@ -12,7 +12,7 @@
   <section>
     <h2>Contact Us</h2>
   </section>
-
+<!-- ======================= contact form and photo area ==================-->
   <section class="row">
     <div class="col-md-6 d-flex justify-content-center">
       <?php dynamic_sidebar('contact-form'); ?>
@@ -21,13 +21,30 @@
       <?php dynamic_sidebar('contact-image'); ?>
     </div>
   </section>
+</main>
 
-  <section class="row">
-    <div class="col-md-4">
-      <h3>FAQ Area</h3>
+<!-- ======================= FAQ Area  ==================-->
+
+  <section class="container-fluid" id="FAQ">
+    <div class="row justify-content-center">
+      <h2>Company Values</h2>
+    </div>
+    <div class="row ">
+      <div class="col-md-4 d-flex justify-content-center">
+        <p>Text</p>
+      </div>
+      <div class="col-md-4 d-flex justify-content-center">
+        <p>Text</p>
+      </div>
+      <div class="col-md-4 d-flex justify-content-center">
+        <p>Text</p>
+      </div>
     </div>
   </section>
 
+<!-- ======================= Map and Contact Info  ==================-->
+
+<section class="container">
   <section class="row">
     <div class="col-md-6 d-flex justify-content-center">
       <?php dynamic_sidebar('map'); ?>
@@ -36,8 +53,10 @@
       <?php dynamic_sidebar('contact-info'); ?>
     </div>
   </section>
+</section>
 
-</main>
+
+
 
 
 
