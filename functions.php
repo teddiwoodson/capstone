@@ -140,6 +140,42 @@ function blank_widgets_init() {
     'before_title'  => '<h3 class="instagram-title-2">',
     'after_title'   => '</h3>'
   ));
+  register_sidebar(array(
+    'name'          => ('Contact Form'),
+    'id'            => 'contact-form',
+    'description'   => 'Contact Form',
+    'before_widget' => '<div class="widget-contact-form"',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="contact-form-title">',
+    'after_title'   => '</h3>'
+  ));
+  register_sidebar(array(
+    'name'          => ('Contact Image'),
+    'id'            => 'contact-image',
+    'description'   => 'Contact Image',
+    'before_widget' => '<div class="widget-contact-image"',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="contact-image-title">',
+    'after_title'   => '</h3>'
+  ));
+  register_sidebar(array(
+    'name'          => ('Contact Info'),
+    'id'            => 'contact-info',
+    'description'   => 'Contact Info',
+    'before_widget' => '<div class="widget-contact-info"',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="contact-info-title">',
+    'after_title'   => '</h3>'
+  ));
+  register_sidebar(array(
+    'name'          => ('Map'),
+    'id'            => 'map',
+    'description'   => 'Map',
+    'before_widget' => '<div class="widget-map"',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="contact-map">',
+    'after_title'   => '</h3>'
+  ));
 }
 
 add_action('widgets_init', 'blank_widgets_init');
