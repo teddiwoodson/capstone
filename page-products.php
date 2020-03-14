@@ -6,13 +6,15 @@
  ?>
 
 <?php get_header(); ?>
-
+<!-- ======================= Hero Image ==================-->
 <main class="container">
   <section class="row">
     <div class="col-md-12">
     <?php dynamic_sidebar('hero-image-products'); ?>
   </div>
   </section>
+
+<!-- ======================= Image Grid ==================-->
   <section class="row justify-content-center">
     <div class="content">
       <div class="grid">
@@ -68,12 +70,15 @@
     </div>
   </section>
 
+<!-- ======================= Instagram Feed ==================-->
   <section class="row">
     <div class="col-md-12">
       <h2>Need Some Inspiration?</h2>
       <?php dynamic_sidebar('instagram');?>
     </div>
   </section>
+
+<!-- ======================= Instagram Buttons ==================-->
 
   <section class="row justify-content-center">
     <a href="#" type="button" class="btn btn-primary btn-lg">More Inspiration Here</a>
