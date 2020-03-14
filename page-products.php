@@ -86,6 +86,27 @@
 
 </main>
 
+  <!-- ======================= Our Impact  ==================-->
+
+    <section class="container-fluid" id="impact">
+      <div class="row justify-content-center">
+        <h2>Our Impact</h2>
+      </div>
+      <div class="row ">
+        <div class="col-md-4 d-flex justify-content-center">
+          <p>Text</p>
+        </div>
+        <div class="col-md-4 d-flex justify-content-center">
+          <p>Text</p>
+        </div>
+        <div class="col-md-4 d-flex justify-content-center">
+          <p>Text</p>
+        </div>
+      </div>
+    </section>
+
+
+
 
 
 
