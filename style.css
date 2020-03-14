@@ -187,7 +187,7 @@ Testimonials
 
 /* Individual effects */
 /*---------------*/
-/***** Chico *****/
+/***** Start Chico *****/
 /*---------------*/
 
 figure.effect-chico img {
@@ -243,6 +243,9 @@ figure.effect-chico:hover p {
 	-webkit-transform: scale(1);
 	transform: scale(1);
 }
+/*---------------*/
+/***** End Chico *****/
+/*---------------*/
 
 @media screen and (max-width: 50em) {
 	.content {

@@ -19,7 +19,7 @@
     <?php echo do_shortcode('[sp_wpcarousel id="49"]'); ?>
   </section>
 
-<!-- ======================= First Slider ==================-->
+<!-- ======================= First Slider Plugin ==================-->
   <section class="row">
     <div class="col-md-12">
       <?php dynamic_sidebar('home-slider-1'); ?>
@@ -47,7 +47,6 @@
       <div class="col-md-2 d-flex justify-content-center">
         <p>Text</p>
       </div>
-
     </div>
   </section>
 <!-- ======================= Second Slider ==================-->

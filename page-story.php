@@ -6,7 +6,7 @@
  ?>
 
 <?php get_header(); ?>
-
+<!-- ======================= Hero Image ==================-->
 <main class="container">
   <section class="row">
     <div class="col-md-12 justify-content-center">
@@ -14,7 +14,7 @@
     </div>
   </section>
 </main>
-
+<!-- ======================= Company Values ==================-->
   <section class="container-fluid" id="company-values">
     <div class="row justify-content-center">
       <h2>Company Values</h2>
@@ -32,6 +32,7 @@
     </div>
   </section>
 
+<!-- ======================= A Family Affair ==================-->
 <section class="container">
   <section class="row">
     <div class="col-md-6 d-flex justify-content-center">
@@ -42,6 +43,7 @@
     </div>
   </section>
 
+<!-- ======================= Meet the Team ==================-->
   <section>
       <h2>Meet The Team</h2>
       <?php echo do_shortcode('[sp_wpcarousel id="59"]'); ?>
