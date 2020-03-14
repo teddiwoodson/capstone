@@ -30,7 +30,6 @@
         <p>Text</p>
       </div>
     </div>
-
   </section>
 
 <section class="container">
