@@ -15,7 +15,7 @@
 
   <section>
     <h2>paint</h2>
-    <?php echo do_shortcode('[sp_wpcarousel id="90"]'); ?>
+    <?php echo do_shortcode('[sp_wpcarousel id="49"]'); ?>
   </section>
 
   <section class="row">
