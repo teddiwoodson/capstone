@@ -10,7 +10,7 @@
 <main class="container">
   <section class="row">
     <div class="col-md-12">
-    <?php dynamic_sidebar('hero-image'); ?>
+    <?php dynamic_sidebar('hero-image-inspo'); ?>
   </div>
   </section>
   <section class="row justify-content-center">

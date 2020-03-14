@@ -60,12 +60,39 @@ adds widget areas to theme
 
 function blank_widgets_init() {
   register_sidebar(array(
-    'name'          => ('Hero Image'),
-    'id'            => 'hero-image',
-    'description'   => 'Hero image',
-    'before_widget' => '<div class="widget-hero-image>"',
+    'name'          => ('Hero Image Home'),
+    'id'            => 'hero-image-home',
+    'description'   => 'Hero image Home Page',
+    'before_widget' => '<div class="widget-hero-image-home>"',
     'after_widget'  => '</div>',
-    'before_title'  => '<h3 class="hero-image-widget-title">',
+    'before_title'  => '<h3 class="hero-image-home-title">',
+    'after_title'   => '</h3>'
+  ));
+  register_sidebar(array(
+    'name'          => ('Hero Image Products'),
+    'id'            => 'hero-image-products',
+    'description'   => 'Hero image Products Page',
+    'before_widget' => '<div class="widget-hero-image-products>"',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="hero-image-products-title">',
+    'after_title'   => '</h3>'
+  ));
+  register_sidebar(array(
+    'name'          => ('Hero Image Inspiration'),
+    'id'            => 'hero-image-inspo',
+    'description'   => 'Hero image Inspiration Page',
+    'before_widget' => '<div class="widget-hero-image-inspo>"',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="hero-image-inspo-title">',
+    'after_title'   => '</h3>'
+  ));
+  register_sidebar(array(
+    'name'          => ('Hero Image Our Story'),
+    'id'            => 'hero-image-story',
+    'description'   => 'Hero image Our Story Page',
+    'before_widget' => '<div class="widget-hero-image-story>"',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="hero-image-story-title">',
     'after_title'   => '</h3>'
   ));
   register_sidebar(array(
