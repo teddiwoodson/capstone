@@ -13,11 +13,27 @@
       <?php dynamic_sidebar('hero-image-story'); ?>
     </div>
   </section>
+</main>
 
-  <section>
-    <h2>Company Values</h2>
+  <section class="container-fluid" id="company-values">
+    <div class="row justify-content-center">
+      <h2>Company Values</h2>
+    </div>
+    <div class="row ">
+      <div class="col-md-4 d-flex justify-content-center">
+        <p>Text</p>
+      </div>
+      <div class="col-md-4 d-flex justify-content-center">
+        <p>Text</p>
+      </div>
+      <div class="col-md-4 d-flex justify-content-center">
+        <p>Text</p>
+      </div>
+    </div>
+
   </section>
 
+<section class="container">
   <section class="row">
     <div class="col-md-6 d-flex justify-content-center">
       <?php dynamic_sidebar('story-left-widget'); ?>
@@ -27,14 +43,11 @@
     </div>
   </section>
 
-  <section class="row">
-    <div class="col-md-12 d-flex justify-content-center">
+  <section>
       <h2>Meet The Team</h2>
-      <?php dynamic_sidebar('meet-the-team'); ?>
-    </div>
+      <?php echo do_shortcode('[sp_wpcarousel id="59"]'); ?>
   </section>
-
-</main>
+</section>
 
 
 
