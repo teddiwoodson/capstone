@@ -132,6 +132,15 @@ function blank_widgets_init() {
     'after_title'   => '</h3>'
   ));
   register_sidebar(array(
+    'name'          => ('Instagram 2'),
+    'id'            => 'instagram-2',
+    'description'   => 'Instagram Feed',
+    'before_widget' => '<div class="widget-instagram-2>"',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="instagram-2-title">',
+    'after_title'   => '</h3>'
+  ));
+  register_sidebar(array(
     'name'          => ('Left Sidebar'),
     'id'            => 'story-left-widget',
     'description'   => 'Left Widget',

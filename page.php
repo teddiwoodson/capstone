@@ -1,12 +1,5 @@
 <?php get_header(); ?>
 
-<?php
-/*
-    Template Name: Inspiration
-    Template Type: Page
-*/
- ?>
-
 <?php get_header(); ?>
 
 <main class="container">
@@ -47,9 +40,6 @@
 <section class="row justify-content-center">
   <a href="#" type="button" class="btn btn-primary btn-lg">More Inspiration Here</a>
 </section>
-
-
-<?php get_footer(); ?>
 
 
 <?php get_footer(); ?>

@@ -1,14 +1,13 @@
 <?php get_header(); ?>
-
-<div class="container">
+<!-- ======================= Header ==================-->
+<main class="container">
   <div class="row">
     <div class="col-md-12">
     <?php dynamic_sidebar('hero-image'); ?>
   </div>
-</div>
-
-<div class="container">
-    <div class="row justify-content-center">
+  </div>
+<!-- ======================= Blog Posts ==================-->
+    <section class="row justify-content-center">
       <?php if(have_posts()){
         while(have_posts()){
           the_post(); ?>
@@ -28,7 +27,18 @@
         <?php } // ends while loop
       } // ends if statement
       ?>
+  </section>
+<!-- ======================= Instagram ==================-->
+  <section class="row">
+    <div class="col-md-12">
+      <h2>Need Some Inspiration?</h2>
+      <?php dynamic_sidebar('instagram-2');?>
     </div>
-  </div>
+  </section>
+
+<!-- ======================= Instagram Button ==================-->
+  <section class="row justify-content-center">
+    <a href="#" type="button" class="btn btn-primary btn-lg">More Inspiration Here</a>
+  </section>
 
 <?php get_footer(); ?>
