@@ -16,7 +16,7 @@
 <!-- ======================= Paint Carousel ==================-->
   <section>
     <h2>Paint</h2>
-    <?php echo do_shortcode('[sp_wpcarousel id="49"]'); ?>
+    <?php dynamic_sidebar('paint-carousel'); ?>
   </section>
 
 <!-- ======================= First Slider Plugin ==================-->

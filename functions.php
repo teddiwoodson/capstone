@@ -212,6 +212,15 @@ function blank_widgets_init() {
     'before_title'  => '<h3 class="contact-map">',
     'after_title'   => '</h3>'
   ));
+  register_sidebar(array(
+    'name'          => ('Paint Carousel'),
+    'id'            => 'paint-carousel',
+    'description'   => 'Paint Carousel',
+    'before_widget' => '<div class="widget-paint-carousel"',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="paint-carousel-title">',
+    'after_title'   => '</h3>'
+  ));
 }
 
 add_action('widgets_init', 'blank_widgets_init');
