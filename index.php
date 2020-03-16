@@ -3,7 +3,7 @@
 <main class="container">
   <div class="row">
     <div class="col-md-12">
-    <?php dynamic_sidebar('hero-image'); ?>
+    <?php dynamic_sidebar('hero-image-inspo'); ?>
   </div>
   </div>
 <!-- ======================= Blog Posts ==================-->
