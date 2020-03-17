@@ -379,3 +379,6 @@ footer ul li {
 footer ul li a {
   color: white;
 }
+.sfsiplus_footerLnk {
+    display: none;
+}
