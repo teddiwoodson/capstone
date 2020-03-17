@@ -14,7 +14,7 @@
   </section>
 
 <!-- ======================= Paint Carousel ==================-->
-  <section>
+  <section class="paint">
     <h2>Paint</h2>
     <?php dynamic_sidebar('paint-carousel'); ?>
   </section>
@@ -31,20 +31,30 @@
     <div class="row justify-content-center">
       <h2>Products</h2>
     </div>
-    <div class="row ">
-      <div class="col-md-2 d-flex justify-content-center">
+    <div class="row justify-content-center">
+      <div class="col-md-2 justify-content-center">
+        <p>Text</p>
+        <p>Text</p>
         <p>Text</p>
       </div>
-      <div class="col-md-2 d-flex justify-content-center">
+      <div class="col-md-2 justify-content-center">
+        <p>Text</p>
+        <p>Text</p>
         <p>Text</p>
       </div>
-      <div class="col-md-2 d-flex justify-content-center">
+      <div class="col-md-2 justify-content-center">
+        <p>Text</p>
+        <p>Text</p>
         <p>Text</p>
       </div>
-      <div class="col-md-2 d-flex justify-content-center">
+      <div class="col-md-2 justify-content-center">
+        <p>Text</p>
+        <p>Text</p>
         <p>Text</p>
       </div>
-      <div class="col-md-2 d-flex justify-content-center">
+      <div class="col-md-2 justify-content-center">
+        <p>Text</p>
+        <p>Text</p>
         <p>Text</p>
       </div>
     </div>

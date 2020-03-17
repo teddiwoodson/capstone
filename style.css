@@ -25,35 +25,43 @@ body {
 h2 {
   text-align: center;
 }
-/* =================
+/* ======================================
 
-    Header Styles
+                                Header Styles
 
-===================*/
+=========================================*/
 header {
     background: #2F3E4D;
 }
-.desktop-nav img {
-  max-width: 150px;
-  object-fit: contain;
-}
+/* =================
+
+    Mobile
+
+===================*/
 .mobile-nav img {
   max-width: 225px;
   object-fit: contain;
   margin-top: 10px;
   margin-bottom: 5px;
 }
-header ul {
-    margin-top: 0;
-    margin-bottom: 1rem;
-    list-style-type: none;
+@media (min-width: 768px) {
+  .mobile-nav{
+    display: none;
+  }
 }
-header ul li {
-    display: inline;
-    padding: 5px;
+/* =================
+
+    Desktop
+
+===================*/
+.desktop-nav img {
+  max-width: 150px;
+  object-fit: contain;
 }
-header ul li a {
-  color: white;
+@media (max-width: 769px) {
+  .desktop-nav{
+    display: none;
+  }
 }
 /* ======================================
 
@@ -65,6 +73,25 @@ header ul li a {
   background-color: #DDC4C1;
   color: white;
 }
+/* ========================
+
+Paint
+
+============================*/
+.paint {
+  margin: 20px;
+}
+
+/* ========================
+
+products
+
+============================*/
+#products {
+  padding: 10px;
+  text-align: center;
+}
+
 /* ========================
 
 Testimonials
@@ -387,14 +414,4 @@ footer ul li a {
 }
 .sfsiplus_footerLnk {
     display: none;
-}
-@media (max-width: 769px) {
-  .desktop-nav{
-    display: none;
-  }
-}
-@media (min-width: 768px) {
-  .mobile-nav{
-    display: none;
-  }
 }
