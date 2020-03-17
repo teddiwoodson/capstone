@@ -230,6 +230,15 @@ function blank_widgets_init() {
     'before_title'  => '<h3 class="right-post-sidebar-title">',
     'after_title'   => '</h3>'
   ));
+  register_sidebar(array(
+    'name'          => ('Footer Social Icons'),
+    'id'            => 'footer-social',
+    'description'   => 'Social Icons for Footer',
+    'before_widget' => '<div class="widget-footer-social"',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="footer-social-title">',
+    'after_title'   => '</h3>'
+  ));
 }
 
 add_action('widgets_init', 'blank_widgets_init');
