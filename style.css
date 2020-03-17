@@ -163,16 +163,19 @@ Testimonials
 	display: block;
 	min-height: 100%;
 	max-width: 100%;
-	opacity: 0.6;
+	opacity: 0.5;
 }
 
 .grid figure figcaption {
 	padding: 2em;
 	color: #2F3E4D;
-  font-weight: bold;
+  font-weight: 400;
 	font-size: 1.25em;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
+}
+.grid figure figcaption h3 {
+  font-weight: 600;
 }
 
 .grid figure figcaption::before,
@@ -327,6 +330,16 @@ figure.effect-chico:hover p {
                                 Inspiration Page
 
 =========================================*/
+#follow-insta a {
+  color: #DDC4C1;
+}
+#follow-insta a:hover {
+  color: #2F3E4D;
+}
+#inspiration-instagram {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
 /* ======================================
 

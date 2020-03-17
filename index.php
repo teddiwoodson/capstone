@@ -29,16 +29,11 @@
       ?>
   </section>
 <!-- ======================= Instagram ==================-->
-  <section class="row">
+  <section class="row" id="inspiration-instagram">
     <div class="col-md-12">
-      <h2>Need Some Inspiration?</h2>
+      <h2 id="follow-insta">Follow <a href="https://www.instagram.com/countrychicpaint/" target="blank">@CountryChicPaint</a> on Instagram for more inspiration!</h2>
       <?php dynamic_sidebar('instagram-2');?>
     </div>
-  </section>
-
-<!-- ======================= Instagram Button ==================-->
-  <section class="row justify-content-center">
-    <a href="#" type="button" class="btn btn-primary btn-lg">More Inspiration Here</a>
   </section>
 
 </main>
