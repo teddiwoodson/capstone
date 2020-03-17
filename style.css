@@ -332,6 +332,17 @@ section a.btn.btn-primary:hover {
   background-color: white;
   border-color: #839869;
 }
+/* ======================================
+
+                                Individual Posts
+
+=========================================*/
+div#posts {
+    margin: 20px;
+}
+#posts h2 {
+  text-align: left;
+}
 
 
 /* ========================
