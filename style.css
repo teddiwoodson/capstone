@@ -33,9 +33,15 @@ h2 {
 header {
     background: #2F3E4D;
 }
-header img {
+.desktop-nav img {
   max-width: 150px;
   object-fit: contain;
+}
+.mobile-nav img {
+  max-width: 225px;
+  object-fit: contain;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 header ul {
     margin-top: 0;
@@ -381,4 +387,14 @@ footer ul li a {
 }
 .sfsiplus_footerLnk {
     display: none;
+}
+@media (max-width: 769px) {
+  .desktop-nav{
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .mobile-nav{
+    display: none;
+  }
 }
