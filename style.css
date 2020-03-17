@@ -37,16 +37,16 @@ header img {
   max-width: 150px;
   object-fit: contain;
 }
-ul {
+header ul {
     margin-top: 0;
     margin-bottom: 1rem;
     list-style-type: none;
 }
-ul li {
+header ul li {
     display: inline;
     padding: 5px;
 }
-ul li a {
+header ul li a {
   color: white;
 }
 /* ======================================
@@ -343,6 +343,15 @@ div#posts {
 #posts h2 {
   text-align: left;
 }
+ul {
+    list-style-type: none;
+}
+ul li {
+    padding: 5px;
+}
+footer ul li a {
+  color: #2F3E4D;
+}
 
 
 /* ========================
@@ -357,4 +366,16 @@ footer {
 footer img {
   max-width: 150px;
   object-fit: contain;
+}
+footer ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    list-style-type: none;
+}
+footer ul li {
+    display: inline;
+    padding: 5px;
+}
+footer ul li a {
+  color: white;
 }

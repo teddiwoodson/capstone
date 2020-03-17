@@ -13,8 +13,7 @@
           <?php  } //this ends while loop
           }// this ends if statement
         ?>
-
-        <a class="btn btn-secondary btn-sm" href="<?php echo get_home_url(); ?>">Return to Home Page</a>
+        
       </main>
 
       <aside class="col-md-3">

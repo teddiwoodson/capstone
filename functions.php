@@ -221,6 +221,15 @@ function blank_widgets_init() {
     'before_title'  => '<h3 class="paint-carousel-title">',
     'after_title'   => '</h3>'
   ));
+  register_sidebar(array(
+    'name'          => ('Right Post Sidebar'),
+    'id'            => 'right-post-sidebar',
+    'description'   => 'Right Post Sidebar',
+    'before_widget' => '<div class="widget-right-post-sidebar"',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="right-post-sidebar-title">',
+    'after_title'   => '</h3>'
+  ));
 }
 
 add_action('widgets_init', 'blank_widgets_init');
