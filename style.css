@@ -163,12 +163,12 @@ Testimonials
 	display: block;
 	min-height: 100%;
 	max-width: 100%;
-	opacity: 0.8;
+	opacity: 0.6;
 }
 
 .grid figure figcaption {
 	padding: 2em;
-	color: #2f3e4d;
+	color: #2F3E4D;
   font-weight: bold;
 	font-size: 1.25em;
 	-webkit-backface-visibility: hidden;
@@ -231,7 +231,7 @@ figure.effect-chico img {
 }
 
 figure.effect-chico:hover img {
-	opacity: 0.5;
+	opacity: 0.2;
 	-webkit-transform: scale(1);
 	transform: scale(1);
 }
@@ -246,7 +246,7 @@ figure.effect-chico figcaption::before {
 	right: 30px;
 	bottom: 30px;
 	left: 30px;
-	border: 1px solid #fff;
+	border: 1px solid #2F3E4D;
 	content: '';
 	-webkit-transform: scale(1.1);
 	transform: scale(1.1);
