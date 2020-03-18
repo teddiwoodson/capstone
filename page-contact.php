@@ -28,22 +28,22 @@
   <section class="container-fluid" id="FAQ">
     <div class="row justify-content-center p-4" id="valuespace">
       <div class="col-md-4 text-center">
-        <img class="p-2" src="images/retailer.png" alt="retailer" title="retailer"/>
+        <img class="faq" src="<?php echo get_template_directory_uri(); ?>/images/retailer.png" alt="retailer" title="retailer"/>
         <p>Become a Retailer</p>
         <!----BUTTON FOR FAKE LINK-->
-        <button type="button" class="btn btn-success">Button</button>
+        <a href="http://unbouncepages.com/ccp-wholesale/" class="btn btn-primary" target="blank" role="button">Click Here</a>
       </div>
       <div class="col-md-4 text-center">
-        <img class="p-2" src="images/faq.png" alt="faq" title="faq"/>
+        <img class="faq" src="<?php echo get_template_directory_uri(); ?>/images/faq.png" alt="faq" title="faq"/>
         <p>FAQ</p>
         <!----BUTTON FOR ACTUAL LINK-->
-        <a href="#" class="btn btn-success" role="button">Button</a>
+        <a href="https://www.countrychicpaint.com/apps/help-center" class="btn btn-primary" target="blank" role="button">Click Here</a>
       </div>
       <div class="col-md-4 text-center">
-        <img class="p-2" src="images/represent.png" alt="represent" title="represent"/>
-        <p>Represent Us</p>
+        <img class="faq" src="<?php echo get_template_directory_uri(); ?>/images/represent.png" alt="represent" title="represent"/>
+        <p>Live Chat</p>
         <!----BUTTON FOR ACTUAL LINK-->
-        <a href="#" class="btn btn-success" role="button">Button</a>
+        <a href="https://www.countrychicpaint.com/pages/contact-us" class="btn btn-primary" target="blank" role="button">Click Here</a>
     </div>
   </section>
 
@@ -56,8 +56,6 @@
     </div>
     <div class="col-md-6 justify-content-center">
       <?php dynamic_sidebar('contact-info'); ?>
-      <!----BUTTON FOR ACTUAL LINK-->
-      <a href="#" class="btn btn-success" role="button">Button</a>
     </div>
   </section>
 </section>

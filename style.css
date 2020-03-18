@@ -352,9 +352,8 @@ figure:hover h2 {
   color: white;
 }
 /*----Override Bootstrap----*/
-.btn-success {
-  background-color: #839969;
-  border-color: #839969;
+.faq {
+  max-width: 100px;
 }
 /* ========================
 
