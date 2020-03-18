@@ -73,6 +73,9 @@ header {
   background-color: #DDC4C1;
   color: white;
 }
+#products-content {
+  margin: 10px;
+}
 /* ========================
 
 Paint
