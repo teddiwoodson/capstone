@@ -48,10 +48,9 @@ header {
   margin-top: 10px;
   margin-bottom: 5px;
 }
-@media (max-width: 767px) {
+@media (min-width: 768px) {
   .mobile-nav{
     display: none;
-    display: flex;
   }
 }
 /* =================
@@ -59,12 +58,14 @@ header {
     Desktop
 
 ===================*/
-.desktop-nav {
-  display: none;
-}
 .desktop-nav img {
   max-width: 150px;
   object-fit: contain;
+}
+@media (max-width: 769px) {
+  .desktop-nav{
+    display: none;
+  }
 }
 /* ======================================
 
