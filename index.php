@@ -16,14 +16,12 @@
               <figure class="effect-steve">
                 <?php  the_post_thumbnail('medium'); ?>
                 <figcaption>
-                  <div class="caption-background">
-                    <h2><?php the_title(); ?></h2>
-                    <p><?php the_excerpt(); ?></p>
-                  </div>
+                  <h2><?php the_title(); ?></h2>
+                  <p><?php the_excerpt(); ?></p>
                 </figcaption>
               </figure>
             </a>
-          </div>
+          </div>  
         <?php } // ends while loop
       } // ends if statement
       ?>

@@ -33,10 +33,9 @@
     </div>
     <div class="row justify-content-center">
       <div class="col-md-2 justify-content-center">
-        <p>Text</p>
-        <p>Text</p>
-        <p>Text</p>
-      </div>
+          <img src="<?php echo get_template_directory_uri(); ?>/images/instagram.jpg">
+          <p>Text</p>
+        </div>
       <div class="col-md-2 justify-content-center">
         <p>Text</p>
         <p>Text</p>
