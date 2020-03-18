@@ -24,7 +24,6 @@
             <figcaption>
                 <h2>Title</h2>
                 <p>Take a look at our large selection of paint colors.</p>
-                <a href="Link">View more</a>
             </figcaption>
         </figure>
         </a>
@@ -34,7 +33,6 @@
             <figcaption>
                 <h2>Title</h2>
                 <p>Take a look at our large selection of paint colors.</p>
-                <a href="Link">View more</a>
             </figcaption>
         </figure>
         </a>
@@ -44,7 +42,6 @@
             <figcaption>
                 <h2>Title</h2>
                 <p>Take a look at our large selection of paint colors.</p>
-                <a href="Link">View more</a>
             </figcaption>
         </figure>
         </a>
@@ -54,7 +51,6 @@
             <figcaption>
                 <h2>Title</h2>
                 <p>Take a look at our large selection of paint colors.</p>
-                <a href="Link">View more</a>
             </figcaption>
         </figure>
         </a>
@@ -64,7 +60,6 @@
             <figcaption>
                 <h2>Title</h2>
                 <p>Take a look at our large selection of paint colors.</p>
-                <a href="Link">View more</a>
             </figcaption>
         </figure>
         </a>
@@ -74,7 +69,6 @@
             <figcaption>
                 <h2>Title</h2>
                 <p>Take a look at our large selection of paint colors.</p>
-                <a href="Link">View more</a>
             </figcaption>
         </figure>
         </a>
