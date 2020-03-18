@@ -141,21 +141,12 @@ function blank_widgets_init() {
     'after_title'   => '</h3>'
   ));
   register_sidebar(array(
-    'name'          => ('Left Sidebar'),
-    'id'            => 'story-left-widget',
-    'description'   => 'Left Widget',
-    'before_widget' => '<div class="widget-left-story>"',
+    'name'          => ('Our Story Widget'),
+    'id'            => 'story-widget',
+    'description'   => 'Story Widget',
+    'before_widget' => '<div class="widget-story>"',
     'after_widget'  => '</div>',
-    'before_title'  => '<h3 class="left-story-title">',
-    'after_title'   => '</h3>'
-  ));
-  register_sidebar(array(
-    'name'          => ('Right Sidebar'),
-    'id'            => 'story-right-widget',
-    'description'   => 'right Widget',
-    'before_widget' => '<div class="widget-right-story>"',
-    'after_widget'  => '</div>',
-    'before_title'  => '<h3 class="left-right-title">',
+    'before_title'  => '<h3 class="story-title">',
     'after_title'   => '</h3>'
   ));
   register_sidebar(array(

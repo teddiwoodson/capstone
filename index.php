@@ -6,8 +6,13 @@
     <?php dynamic_sidebar('hero-image-inspo'); ?>
   </div>
   </div>
+
+  <section class="paint">
+    <?php dynamic_sidebar('paint-carousel'); ?>
+  </section>
+
 <!-- ======================= Blog Posts ==================-->
-    <section class="row justify-content-center">
+    <section class="row justify-content-center" id="inspiration">
       <?php if(have_posts()){
         while(have_posts()){
           the_post(); ?>
@@ -21,7 +26,7 @@
                 </figcaption>
               </figure>
             </a>
-          </div>  
+          </div>
         <?php } // ends while loop
       } // ends if statement
       ?>

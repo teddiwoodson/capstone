@@ -19,26 +19,26 @@
     <div class="row justify-content-center">
       <h2>Company Values</h2>
     </div>
-    <div class="row" id="valuespace">
-      <div class="col-md-3 text-center">
-        <img class="p-2" src="images/environmental.png" alt="environmental impact" title="environmental impact"/>
-        <h3>Low environmental impact</h3>
-        <p>Our products have low to zero VOC levels and the pigments we use are also VOC-free. Our brochures and labels are printed on 100% recycled paper from sustainable sources. Our headquarters and warehouse use 98% renewable energy.</p>
+    <div class="row justify-content-around">
+      <div class="col-md-3 text-center" id="value">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/environmental.png" alt="environmental impact" title="environmental impact"/>
+        <h4>Low environmental impact</h4>
+        <p>We pride ourselves on using renewable energy to create VOC-free products.</p>
       </div>
-      <div class="col-md-3 text-center">
-        <img class="p-2" src="images/recycle.png" alt="recycle" title="recycle"/>
-        <h3>Participating in Recycling Programs</h3>
-        <p>Country Chic Paint is a proud member of paint recycling programs across North America to ensure that leftover paint is properly recycled and not dumped in a landfill.</p>
+      <div class="col-md-3 text-center" id="value">
+        <img class="value" src="<?php echo get_template_directory_uri(); ?>/images/recycle.png" alt="recycle" title="recycle"/>
+        <h4>Participating in Recycling Programs</h4>
+        <p>We are a proud member of paint recycling programs across North America to ensure unused paints are recycled.</p>
       </div>
-      <div class="col-md-3 text-center">
-        <img class="p-2" src="/images/house.png" alt="house" title="house"/>
-        <h3>Supporting the local economy</h3>
+      <div class="col-md-3 text-center" id="value">
+        <img class="value" src="<?php echo get_template_directory_uri(); ?>/images/house.png" alt="house" title="house"/>
+        <h4>Supporting the local economy</h4>
         <p>Our products and raw materials are sourced and manufactured in North America whenever possible.</p>
       </div>
-      <div class="col-md-3 text-center">
-        <img src="../images/heart.png" alt="heart" title="heart"/>
-        <h3>Helping those in need</h3>
-        <p>A portion of our profits are donated to help relieve hunger by providing meals to families in North America. (Food Banks Canada and Feeding America)</p>
+      <div class="col-md-3 text-center" id="value">
+        <img class="value"src="<?php echo get_template_directory_uri(); ?>/images/heart.png" alt="heart" title="heart"/>
+        <h4>Helping those in need</h4>
+        <p>A portion of our profits are donated to help provide meals to families in North America.</p>
       </div>
     </div>
   </section>
@@ -46,11 +46,8 @@
 <!-- ======================= A Family Affair ==================-->
 <section class="container">
   <section class="row">
-    <div class="col-md-6 d-flex justify-content-center">
-      <?php dynamic_sidebar('story-left-widget'); ?>
-    </div>
-    <div class="col-md-6 d-flex justify-content-center">
-      <?php dynamic_sidebar('story-right-widget'); ?>
+    <div class="col-md-12 justify-content-center">
+      <?php dynamic_sidebar('story-widget'); ?>
     </div>
   </section>
 
