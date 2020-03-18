@@ -14,7 +14,7 @@
   </section>
 
 <!-- ======================= Paint Carousel ==================-->
-  <section>
+  <section class="paint">
     <h2>Paint</h2>
     <?php dynamic_sidebar('paint-carousel'); ?>
   </section>
@@ -31,21 +31,26 @@
     <div class="row justify-content-center">
       <h2>Products</h2>
     </div>
-    <div class="row ">
-      <div class="col-md-2 d-flex justify-content-center">
-        <p>Text</p>
+    <div class="row justify-content-center">
+      <div class="col-lg-2 col-md-4 justify-content-center" id="products-content">
+        <a href="https://www.countrychicpaint.com/collections/chalk-style-all-in-one-paint" target="blank"><img src="<?php echo get_template_directory_uri(); ?>/images/paint-150x150.png"></a>
+        <p>Paint</p>
       </div>
-      <div class="col-md-2 d-flex justify-content-center">
-        <p>Text</p>
+      <div class="col-lg-2 col-md-4 justify-content-center">
+        <a href="https://www.countrychicpaint.com/collections/wax-top-coats-etc" target="blank"><img src="<?php echo get_template_directory_uri(); ?>/images/wax-150x150.png"></a>
+        <p>Waxes</p>
       </div>
-      <div class="col-md-2 d-flex justify-content-center">
-        <p>Text</p>
+      <div class="col-lg-2 col-md-4 justify-content-center">
+        <a href="https://www.countrychicpaint.com/collections/specialty-products" target="blank"><img src="<?php echo get_template_directory_uri(); ?>/images/finishes-150x150.png"></a>
+        <p>Finishes</p>
       </div>
-      <div class="col-md-2 d-flex justify-content-center">
-        <p>Text</p>
+      <div class="col-lg-2 col-md-4 justify-content-center">
+        <a href="https://www.countrychicpaint.com/collections/wax-and-paint-brushes" target="blank"><img src="<?php echo get_template_directory_uri(); ?>/images/brushes-150x150.png"></a>
+        <p>Brushes</p>
       </div>
-      <div class="col-md-2 d-flex justify-content-center">
-        <p>Text</p>
+      <div class="col-lg-2 col-md-4 justify-content-center">
+        <a href="https://www.countrychicpaint.com/collections/diy-kits" target="blank"><img src="<?php echo get_template_directory_uri(); ?>/images/kits-150x150.png"></a>
+        <p>Kits</p>
       </div>
     </div>
   </section>

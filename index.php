@@ -11,34 +11,27 @@
       <?php if(have_posts()){
         while(have_posts()){
           the_post(); ?>
-                <div class="content">
-                    <div class="grid">
-                        <figure class="effect-chico">
-                          <?php  the_post_thumbnail('medium'); ?>
-                          <figcaption>
-                            <h2><?php the_title(); ?></h2>
-                            <p><?php the_excerpt(); ?></p>
-                            <a href="<?php the_permalink(); ?>">View more</a>
-                          </figcaption>
-                        </figure>
-                    </div>
-                </div>
-
+          <div class="grid">
+            <a href="<?php the_permalink(); ?>">
+              <figure class="effect-steve">
+                <?php  the_post_thumbnail('medium'); ?>
+                <figcaption>
+                  <h2><?php the_title(); ?></h2>
+                  <p><?php the_excerpt(); ?></p>
+                </figcaption>
+              </figure>
+            </a>
+          </div>  
         <?php } // ends while loop
       } // ends if statement
       ?>
-  </section>
+      </section>
 <!-- ======================= Instagram ==================-->
-  <section class="row">
+  <section class="row" id="inspiration-instagram">
     <div class="col-md-12">
-      <h2>Need Some Inspiration?</h2>
+      <h2 id="follow-insta">Follow <a href="https://www.instagram.com/countrychicpaint/" target="blank">@CountryChicPaint</a> on Instagram for more inspiration!</h2>
       <?php dynamic_sidebar('instagram-2');?>
     </div>
-  </section>
-
-<!-- ======================= Instagram Button ==================-->
-  <section class="row justify-content-center">
-    <a href="#" type="button" class="btn btn-primary btn-lg">More Inspiration Here</a>
   </section>
 
 </main>
