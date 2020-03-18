@@ -15,11 +15,11 @@
   </section>
 </main>
 <!-- ======================= Company Values ==================-->
-  <section class="container-fluid" id="company-values">
+  <section class="container-fluid p-4" id="company-values">
     <div class="row justify-content-center">
       <h2>Company Values</h2>
     </div>
-    <div class="row ">
+    <div class="row" id="valuespace">
       <div class="col-md-3 text-center">
         <img src="images/environmental.png" alt="environmental impact" title="environmental impact"/>
         <h3>Low environmental impact</h3>

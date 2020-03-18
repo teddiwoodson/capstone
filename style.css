@@ -309,6 +309,10 @@ figure.effect-chico:hover p {
   background-color: #839969;
   color: white;
 }
+#valuespace {
+  max-width: 985px;
+  margin: auto;
+}
 
 /* ======================================
 
