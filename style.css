@@ -19,12 +19,16 @@ Reset Rule & Body
 	border: 0;
 }
 
-body {
+h1, h2, h3, h4, h5 {
+  font-family: 'Playfair Display', serif;
+}
+p {
   font-family: 'Montserrat', sans-serif;
 }
 h2 {
   text-align: center;
 }
+
 /* ======================================
 
                                 Header Styles
@@ -329,6 +333,11 @@ figure:hover h2 {
   background-color: #839969;
   color: white;
 }
+/*------NOT WORKING STILL ----*/
+#valuespace {
+  max-width: 985px;
+  margin: auto;
+}
 
 /* ======================================
 
@@ -340,7 +349,11 @@ figure:hover h2 {
   background-color: #264E83;
   color: white;
 }
-
+/*----Override Bootstrap----*/
+.btn-success {
+  background-color: #839969;
+  border-color: #839969;
+}
 /* ========================
 
 Button Styles
