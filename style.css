@@ -19,15 +19,16 @@ Reset Rule & Body
 	border: 0;
 }
 
-body {
+h1, h2, h3, h4, h5 {
+  font-family: 'Playfair Display', serif;
+}
+p {
   font-family: 'Montserrat', sans-serif;
 }
 h2 {
   text-align: center;
 }
-h2, h3 {
-  font-family: 'Roboto', serif;
-}
+
 /* =================
 
     Header Styles

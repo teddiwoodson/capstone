@@ -31,12 +31,12 @@
         <p>Country Chic Paint is a proud member of paint recycling programs across North America to ensure that leftover paint is properly recycled and not dumped in a landfill.</p>
       </div>
       <div class="col-md-3 text-center">
-        <img src="images/house.png" alt="house" title="house"/>
+        <img src="/images/house.png" alt="house" title="house"/>
         <h3>Supporting the local economy</h3>
         <p>Our products and raw materials are sourced and manufactured in North America whenever possible.</p>
       </div>
       <div class="col-md-3 text-center">
-        <img src="images/heart.png" alt="heart" title="heart"/>
+        <img src="../images/heart.png" alt="heart" title="heart"/>
         <h3>Helping those in need</h3>
         <p>A portion of our profits are donated to help relieve hunger by providing meals to families in North America. (Food Banks Canada and Feeding America)</p>
       </div>
