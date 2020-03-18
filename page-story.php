@@ -52,7 +52,7 @@
   </section>
 
 <!-- ======================= Meet the Team ==================-->
-  <section>
+  <section class="meet-team">
       <h2>Meet The Team</h2>
       <?php echo do_shortcode('[sp_wpcarousel id="59"]'); ?>
   </section>
