@@ -11,23 +11,21 @@
       <?php if(have_posts()){
         while(have_posts()){
           the_post(); ?>
-                <div class="content">
-                    <div class="grid">
-                        <figure class="effect-chico">
-                          <?php  the_post_thumbnail('medium'); ?>
-                          <figcaption>
-                            <h3><?php the_title(); ?></h3>
-                            <p><?php the_excerpt(); ?></p>
-                            <a href="<?php the_permalink(); ?>">View more</a>
-                          </figcaption>
-                        </figure>
-                    </div>
-                </div>
-
+          <div class="grid">
+            <a href="<?php the_permalink(); ?>">
+              <figure class="effect-steve">
+                <?php  the_post_thumbnail('medium'); ?>
+                <figcaption>
+                  <h2><?php the_title(); ?></h2>
+                  <p><?php the_excerpt(); ?></p>
+                </figcaption>
+              </figure>
+            </a>
+          </div>  
         <?php } // ends while loop
       } // ends if statement
       ?>
-  </section>
+      </section>
 <!-- ======================= Instagram ==================-->
   <section class="row" id="inspiration-instagram">
     <div class="col-md-12">
