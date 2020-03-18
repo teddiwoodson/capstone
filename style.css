@@ -309,6 +309,7 @@ figure.effect-chico:hover p {
   background-color: #839969;
   color: white;
 }
+/*------NOT WORKING STILL ----*/
 #valuespace {
   max-width: 985px;
   margin: auto;
@@ -324,7 +325,11 @@ figure.effect-chico:hover p {
   background-color: #264E83;
   color: white;
 }
-
+/*----Override Bootstrap----*/
+.btn-success {
+  background-color: #839969;
+  border-color: #839969;
+}
 /* ========================
 
 Button Styles

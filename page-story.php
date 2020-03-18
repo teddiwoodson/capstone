@@ -21,17 +21,17 @@
     </div>
     <div class="row" id="valuespace">
       <div class="col-md-3 text-center">
-        <img src="images/environmental.png" alt="environmental impact" title="environmental impact"/>
+        <img class="p-2" src="images/environmental.png" alt="environmental impact" title="environmental impact"/>
         <h3>Low environmental impact</h3>
         <p>Our products have low to zero VOC levels and the pigments we use are also VOC-free. Our brochures and labels are printed on 100% recycled paper from sustainable sources. Our headquarters and warehouse use 98% renewable energy.</p>
       </div>
       <div class="col-md-3 text-center">
-        <img src="images/recycle.png" alt="recycle" title="recycle"/>
+        <img class="p-2" src="images/recycle.png" alt="recycle" title="recycle"/>
         <h3>Participating in Recycling Programs</h3>
         <p>Country Chic Paint is a proud member of paint recycling programs across North America to ensure that leftover paint is properly recycled and not dumped in a landfill.</p>
       </div>
       <div class="col-md-3 text-center">
-        <img src="/images/house.png" alt="house" title="house"/>
+        <img class="p-2" src="/images/house.png" alt="house" title="house"/>
         <h3>Supporting the local economy</h3>
         <p>Our products and raw materials are sourced and manufactured in North America whenever possible.</p>
       </div>
