@@ -351,9 +351,14 @@ figure:hover h2 {
   background-color: #264E83;
   color: white;
 }
-/*----Override Bootstrap----*/
 .faq {
   max-width: 100px;
+}
+#map-and-contact {
+  margin-top: 10px;
+}
+.contact-img {
+  margin-bottom: 10px;
 }
 /* ========================
 
