@@ -18,48 +18,66 @@
   <section class="row justify-content-center">
     <div class="content">
       <div class="grid">
+        <a href="#" target="blank">
         <figure class="effect-steve">
             <img src="https://tympanus.net/Development/HoverEffectIdeas/img/15.jpg" alt="img15"/>
             <figcaption>
                 <h2>Title</h2>
+                <p>Take a look at our large selection of paint colors.</p>
                 <a href="Link">View more</a>
             </figcaption>
         </figure>
+        </a>
+        <a href="#" target="blank">
         <figure class="effect-steve">
             <img src="https://tympanus.net/Development/HoverEffectIdeas/img/15.jpg" alt="img15"/>
             <figcaption>
                 <h2>Title</h2>
+                <p>Take a look at our large selection of paint colors.</p>
                 <a href="Link">View more</a>
             </figcaption>
         </figure>
+        </a>
+        <a href="#" target="blank">
         <figure class="effect-steve">
             <img src="https://tympanus.net/Development/HoverEffectIdeas/img/15.jpg" alt="img15"/>
             <figcaption>
                 <h2>Title</h2>
+                <p>Take a look at our large selection of paint colors.</p>
                 <a href="Link">View more</a>
             </figcaption>
         </figure>
+        </a>
+        <a href="#" target="blank">
         <figure class="effect-steve">
             <img src="https://tympanus.net/Development/HoverEffectIdeas/img/15.jpg" alt="img15"/>
             <figcaption>
                 <h2>Title</h2>
+                <p>Take a look at our large selection of paint colors.</p>
                 <a href="Link">View more</a>
             </figcaption>
         </figure>
+        </a>
+        <a href="#" target="blank">
         <figure class="effect-steve">
             <img src="https://tympanus.net/Development/HoverEffectIdeas/img/15.jpg" alt="img15"/>
             <figcaption>
                 <h2>Title</h2>
+                <p>Take a look at our large selection of paint colors.</p>
                 <a href="Link">View more</a>
             </figcaption>
         </figure>
+        </a>
+        <a href="#" target="blank">
         <figure class="effect-steve">
             <img src="https://tympanus.net/Development/HoverEffectIdeas/img/15.jpg" alt="img15"/>
             <figcaption>
                 <h2>Title</h2>
+                <p>Take a look at our large selection of paint colors.</p>
                 <a href="Link">View more</a>
             </figcaption>
         </figure>
+        </a>
       </div>
     </div>
   </section>
