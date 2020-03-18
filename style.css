@@ -134,9 +134,6 @@ Testimonials
 /*---------------*/
 /***** Start Product Tile Grid *****/
 /*---------------*/
-img {
-  width: 100%;
-}
 
 .grid {
   position: relative;
@@ -176,7 +173,6 @@ img {
 }
 
 .grid figcaption h2 {
-  text-transform: uppercase;
   word-spacing: -0.15em;
   font-weight: 300;
   margin: 1em;
@@ -212,7 +208,7 @@ img {
 
 figure.effect-steve {
   z-index: auto;
-  background: #000;
+  background: white;
 }
 
 figure.effect-steve:before {
@@ -234,8 +230,8 @@ figure.effect-steve img {
 
 figure.effect-steve h2,
 figure.effect-steve p {
-  background: white;
   color: #2F3E4D;
+  background-color: rgba(255,255,255, 0.8);
 }
 
 figure.effect-steve h2 {
@@ -293,11 +289,8 @@ img {
   height: 25%;
 }
 
-figure:hover h2, figure:hover p {
-  background: white;
-  color: #2F3E4D;
-  transition: transform 0.35s;
-  transform: translateY(-2.5em);
+figure:hover h2 {
+  display: none;
 }
 /*---------------*/
 /***** End Product Grid *****/
