@@ -25,6 +25,9 @@ body {
 h2 {
   text-align: center;
 }
+h2, h3 {
+  font-family: 'Roboto', serif;
+}
 /* =================
 
     Header Styles
