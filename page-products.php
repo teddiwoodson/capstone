@@ -17,6 +17,7 @@
 <!-- ======================= Image Grid ==================-->
   <section class="row justify-content-center">
     <div class="content">
+      <div class="row justify-content-center">
       <div class="grid">
         <a href="#" target="blank">
         <figure class="effect-steve">
@@ -73,6 +74,7 @@
         </figure>
         </a>
       </div>
+    </div>
     </div>
   </section>
 
