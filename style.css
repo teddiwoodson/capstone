@@ -385,9 +385,30 @@ figure:hover h2 {
 #map-and-contact {
   margin-top: 10px;
 }
-.contact-img {
+.contact-img img {
   margin-bottom: 10px;
+  max-width: 300px;
 }
+.widget-contact-form {
+  font-family: 'Montserrat', sans-serif;
+}
+@media (min-width: 500px) {
+  .contact-img img {
+    max-width: 500px;
+  }
+}
+
+/* ======================================
+
+                                Thanks Page
+
+=========================================*/
+#thanks {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
 /* ========================
 
 Button Styles
@@ -402,6 +423,11 @@ section a.btn.btn-primary:hover {
   color: #839869;
   background-color: white;
   border-color: #839869;
+}
+#wpforms-submit-193 {
+  background-color: #839869;
+  border-color: #839869;
+  color: white;
 }
 /* ======================================
 

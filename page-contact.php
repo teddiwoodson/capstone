@@ -13,13 +13,13 @@
     <h2 class="p-4">Contact Us</h2>
   </section>
 <!-- ======================= contact form and photo area ==================-->
-  <section class="row justify-content around">
+  <section class="row justify-content-around">
     <div class="col-md-6 d-flex justify-content-center">
       <?php dynamic_sidebar('contact-form'); ?>
     </div>
     <div class="col-md-6 d-flex justify-content-center">
       <div class="contact-img">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/contact.jpg" alt="contact us" title="contact us"/>
+        <img src="<?php echo get_template_directory_uri(); ?>/images/team.jpg" alt="team" title="team"/>
       </div>
     </div>
   </section>
