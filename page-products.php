@@ -18,53 +18,52 @@
   <section class="row justify-content-center">
     <div class="content">
       <div class="grid">
-        <figure class="effect-chico">
-            <img src="http://www.teddiwoodson.com/capstone/wp-content/uploads/2020/03/CCP_Group_OpenJars_edit-scaled-e1584509565904.jpg" alt="img15"/>
+        <figure class="effect-steve">
+            <img  src="<?php echo get_template_directory_uri(); ?>/images/paint.jpg" alt="paint" title="paint"/>
             <figcaption>
                 <h2>All-In-One Paints</h2>
                 <!-- <p>Exerpt</p> -->
-                <a href="Link">View more</a>
+                <a href="https://www.countrychicpaint.com/collections/chalk-style-all-in-one-paint">View more</a>
             </figcaption>
         </figure>
-        <figure class="effect-chico">
-            <img src="http://www.teddiwoodson.com/capstone/wp-content/uploads/2020/03/CCP_OpenWaxJars_AllSizes-scaled.jpg" alt="img15"/>
+        <figure class="effect-steve">
+            <img  src="<?php echo get_template_directory_uri(); ?>/images/waxes.jpg" alt="waxes" title="waxes"/>
             <figcaption>
                 <h2>Waxes & Top Coats</h2>
                 <!-- <p>Exerpt</p> -->
-                <a href="Link">View more</a>
+                <a href="https://www.countrychicpaint.com/collections/wax-top-coats-etc">View more</a>
             </figcaption>
         </figure>
-        <figure class="effect-chico">
-            <img src="http://www.teddiwoodson.com/capstone/wp-content/uploads/2020/03/CCP_HempOil_Poured-scaled.jpg" alt="img15"/>
+        <figure class="effect-steve">
+            <img  src="<?php echo get_template_directory_uri(); ?>/images/finishes.jpg" alt="finishes" title="finishes"/>
             <figcaption>
                 <h2>Finishes</h2>
                 <!-- <p>Exerpt</p> -->
-                <a href="Link">View more</a>
+                <a href="https://www.countrychicpaint.com/collections/specialty-products">View more</a>
             </figcaption>
         </figure>
-        <figure class="effect-chico">
-            <img src="http://www.teddiwoodson.com/capstone/wp-content/uploads/2020/03/CCP_Brushes_Group_Flatlay-scaled.jpg" alt="img15"/>
+        <figure class="effect-steve">
+            <img  src="<?php echo get_template_directory_uri(); ?>/images/brushes.jpg" alt="brushes" title="brushes"/>
             <figcaption>
                 <h2>Brushes & Sponges</h2>
                 <!-- <p>Exerpt</p> -->
-                <a href="Link">View more</a>
+                <a href="https://www.countrychicpaint.com/collections/wax-and-paint-brushes">View more</a>
             </figcaption>
         </figure>
-        <figure class="effect-chico">
-            <img src="http://www.teddiwoodson.com/capstone/wp-content/uploads/2020/03/CCPgiveawayphoto-1-1-scaled.jpg" alt="img15"/>
+        <figure class="effect-steve">
+            <img  src="<?php echo get_template_directory_uri(); ?>/images/kits.jpg" alt="kits" title="kits"/>
             <figcaption>
-                <h2>DIY Projects</h2>
+                <h2>DIY Kits</h2>
                 <!-- <p>Exerpt</p> -->
-                <a href="Link">View more</a>
+                <a href="https://www.countrychicpaint.com/collections/diy-kits">View more</a>
             </figcaption>
         </figure>
-        <figure class="effect-chico">
-            <img src="http://www.teddiwoodson.com/capstone/wp-content/uploads/2020/03/CCP_TigersEye_Dipped-scaled.jpg" alt="img15"/>
-
+        <figure class="effect-steve">
+            <img  src="<?php echo get_template_directory_uri(); ?>/images/special-offers.jpg" alt="special-offers" title="special offers"/>
             <figcaption>
-                <h2>Special Projects</h2>
+                <h2>Special Offers</h2>
                 <!-- <p>Exerpt</p> -->
-                <a href="Link">View more</a>
+                <a href="https://www.countrychicpaint.com/collections/special-offers">View more</a>
             </figcaption>
         </figure>
       </div>
