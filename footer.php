@@ -1,4 +1,5 @@
 <footer>
+  <main>
       <div class="footer-desktop-nav">
         <div class="container">
           <div class="row d-flex justify-content-around align-items-baseline">
@@ -47,6 +48,11 @@
               ?>
             </nav>
           </div>
+        </div>
+    </main>
+
+        <div class="copyright">
+          <p>&copy; 2020 Country Chic Paint</p>
         </div>
 
 </footer>

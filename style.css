@@ -461,7 +461,6 @@ footer ul li a {
 Footer
 
 ============================*/
-
 footer {
     background: #2F3E4D;
     padding: 10px;
@@ -510,4 +509,9 @@ footer {
 
 .sfsiplus_footerLnk {
     display: none;
+}
+.copyright {
+  color: white;
+  font-size: 1rem;
+  text-align: center;
 }
