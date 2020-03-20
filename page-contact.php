@@ -28,18 +28,18 @@
 <!-- ======================= FAQ Area  ==================-->
 
   <section class="container-fluid" id="FAQ">
-    <div class="row justify-content-center p-4">
+    <div class="row justify-content-around p-4">
       <div class="col-md-4 text-center faq">
         <a href="http://unbouncepages.com/ccp-wholesale/" target="blank"><img src="<?php echo get_template_directory_uri(); ?>/images/retailer.png" alt="retailer" title="retailer"/></a>
-        <a href="http://unbouncepages.com/ccp-wholesale/" class="btn btn-primary m-3" target="blank" role="button">Become a Retailer</a>
+        <a href="http://unbouncepages.com/ccp-wholesale/" class="btn btn-primary m-3 faq-button" target="blank" role="button">Become a Retailer</a>
       </div>
       <div class="col-md-4 text-center faq">
         <a href="https://www.countrychicpaint.com/apps/help-center" target="blank"><img src="<?php echo get_template_directory_uri(); ?>/images/faq.png" alt="faq" title="faq"/></a>
-        <a href="https://www.countrychicpaint.com/apps/help-center" class="btn btn-primary m-3" target="blank" role="button">FAQ</a>
+        <a href="https://www.countrychicpaint.com/apps/help-center" class="btn btn-primary m-3 faq-button" target="blank" role="button">FAQ</a>
       </div>
       <div class="col-md-4 text-center faq">
         <a href="https://www.countrychicpaint.com/pages/contact-us" target="blank"><img  src="<?php echo get_template_directory_uri(); ?>/images/represent.png" alt="represent" title="represent"/></a>
-        <a href="https://www.countrychicpaint.com/pages/contact-us" class="btn btn-primary m-3" target="blank" role="button">Live Chat</a>
+        <a href="https://www.countrychicpaint.com/pages/contact-us" class="btn btn-primary m-3 faq-button" target="blank" role="button">Live Chat</a>
     </div>
   </section>
 

@@ -381,8 +381,11 @@ figure:hover h2 {
   color: white;
 }
 .faq {
-  max-width: 200px;
-  margin: 0 3%;
+  max-width: 150px;
+  margin: 10px;
+}
+.faq-button {
+  width: 150px;
 }
 
 
