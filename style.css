@@ -134,35 +134,8 @@ Testimonials
 /* ======================================
 
                                 Products Page
-        line 317: padding: 20px 0 20px 0;
-        line 225: figure.effect-chico h2 {
-        	padding: 50% 0 20px 0;
-          font-size: 0.9em;
-        }
 
 =========================================*/
-
-/*caption font size*/
-figcaption h2{
-  font-size: 0.2em;
-}
-
-/*impact section*/
-.impact{
-  width: 50%;
-  padding-top: 10px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/*impact symbols*/
-.impact img{
-  width: 40%;
-  height: auto;
-  margin-left: 22%;
-  margin-right: 50%;
-}
-
 
 /*---------------*/
 /***** Start Product Tile Grid *****/
@@ -330,6 +303,16 @@ figure:hover h2 {
 #impact {
   background-color: #264E83;
   color: white;
+  padding-top: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.impact {
+  margin: 10px;
+}
+.impact img {
+  max-width: 100px;
+  margin: 10px;
 }
 
 /* ======================================

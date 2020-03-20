@@ -92,35 +92,30 @@
       <div class="row justify-content-center">
         <h2>Our Impact</h2>
       </div>
-      <div class="row ">
-        <div class="col-md-4 d-flex justify-content-center">
+      <div class="row justify-content-around align-items-baseline">
+        <div class="col-md-4">
           <div class="impact">
-            <img src="http://localhost:8888/wordpress/wp-content/uploads/2020/03/environmental.png" />
+            <img  src="<?php echo get_template_directory_uri(); ?>/images/leaves.png" alt="leaves" title="leaves"/>
             <p>Our products have zero to low VOC levels.</p>
           </div>
 
         </div>
-        <div class="col-md-4 d-flex justify-content-center">
+        <div class="col-md-4">
           <div class="impact">
-            <img src="http://localhost:8888/wordpress/wp-content/uploads/2020/03/recycle.png" />
+            <img  src="<?php echo get_template_directory_uri(); ?>/images/recycle.png" alt="recycle" title="recycle"/>
             <p>Our brochures and labels are printed on 100% recycled paper.</p>
           </div>
 
 
         </div>
-        <div class="col-md-4 d-flex justify-content-center">
+        <div class="col-md-4">
           <div class="impact">
-            <img src="http://localhost:8888/wordpress/wp-content/uploads/2020/03/recycle.png" />
+            <img  src="<?php echo get_template_directory_uri(); ?>/images/renewable.png" alt="renewable" title="renewable"/>
             <p>Our headquarters and warehouse use 98% renewable energy.</p>
         </div>
       </div>
+    </div>
     </section>
-
-
-
-
-
-
 
 
 
