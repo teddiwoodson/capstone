@@ -338,6 +338,7 @@ figure:hover h2 {
   max-width: 250px;
   margin: 10px;
 }
+
 .meet-team {
   margin: 20px;
 }
@@ -353,8 +354,11 @@ figure:hover h2 {
   color: white;
 }
 .faq {
-  max-width: 100px;
+  max-width: 200px;
+  margin: 0 3%;
 }
+
+
 #map-and-contact {
   margin-top: 10px;
 }
