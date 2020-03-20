@@ -515,3 +515,17 @@ footer {
   font-size: 1rem;
   text-align: center;
 }
+/* ========================
+
+404
+
+============================*/
+#oops {
+  margin-top: 20px;
+}
+#oops p {
+  margin: 10px;
+}
+.oops {
+  text-align: center;
+}
