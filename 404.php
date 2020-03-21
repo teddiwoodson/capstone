@@ -5,7 +5,7 @@
       <main class="col-md-12 oops">
         <h2>Oops. Page not found.</h2>
         <p>I'm sorry, this never really happens. It looks like nothing was found at this location.</p>
-        <img  src="<?php echo get_template_directory_uri(); ?>/images/oops.gif" alt="special-offers" title="special offers"/>
+        <img  src="<?php echo get_template_directory_uri(); ?>/images/oops.gif" alt="404 gif" title="404 gif"/>
         <p>Let's start over.</p>
       </main>
       </div>
