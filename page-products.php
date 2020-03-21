@@ -15,56 +15,56 @@
   </section>
 
 <!-- ======================= Image Grid ==================-->
-  <section class="row justify-content-center" id="product-grid">
+<section class="row justify-content-center" id="inspiration">
       <div class="grid">
-        <figure class="effect-steve">
+        <a href="https://www.countrychicpaint.com/collections/chalk-style-all-in-one-paint">
+          <figure class="effect-steve">
             <img  src="<?php echo get_template_directory_uri(); ?>/images/paint.jpg" alt="paint" title="paint"/>
             <figcaption>
-                <h2>All-In-One Paints</h2>
-                <!-- <p>Exerpt</p> -->
-                <a href="https://www.countrychicpaint.com/collections/chalk-style-all-in-one-paint">View more</a>
+              <h2>All-In-One Paints</h2>
             </figcaption>
-        </figure>
-        <figure class="effect-steve">
-            <img  src="<?php echo get_template_directory_uri(); ?>/images/waxes.jpg" alt="waxes" title="waxes"/>
-            <figcaption>
-                <h2>Waxes & Top Coats</h2>
-                <!-- <p>Exerpt</p> -->
-                <a href="https://www.countrychicpaint.com/collections/wax-top-coats-etc">View more</a>
-            </figcaption>
-        </figure>
-        <figure class="effect-steve">
-            <img  src="<?php echo get_template_directory_uri(); ?>/images/finishes.jpg" alt="finishes" title="finishes"/>
-            <figcaption>
-                <h2>Finishes</h2>
-                <!-- <p>Exerpt</p> -->
-                <a href="https://www.countrychicpaint.com/collections/specialty-products">View more</a>
-            </figcaption>
-        </figure>
-        <figure class="effect-steve">
-            <img  src="<?php echo get_template_directory_uri(); ?>/images/brushes.jpg" alt="brushes" title="brushes"/>
-            <figcaption>
-                <h2>Brushes & Sponges</h2>
-                <!-- <p>Exerpt</p> -->
-                <a href="https://www.countrychicpaint.com/collections/wax-and-paint-brushes">View more</a>
-            </figcaption>
-        </figure>
-        <figure class="effect-steve">
-            <img  src="<?php echo get_template_directory_uri(); ?>/images/kits.jpg" alt="kits" title="kits"/>
-            <figcaption>
-                <h2>DIY Kits</h2>
-                <!-- <p>Exerpt</p> -->
-                <a href="https://www.countrychicpaint.com/collections/diy-kits">View more</a>
-            </figcaption>
-        </figure>
-        <figure class="effect-steve">
-            <img  src="<?php echo get_template_directory_uri(); ?>/images/special-offers.jpg" alt="special-offers" title="special offers"/>
-            <figcaption>
-                <h2>Special Offers</h2>
-                <!-- <p>Exerpt</p> -->
-                <a href="https://www.countrychicpaint.com/collections/special-offers">View more</a>
-            </figcaption>
-        </figure>
+          </figure>
+        </a>
+        <a href="https://www.countrychicpaint.com/collections/wax-top-coats-etc">
+          <figure class="effect-steve">
+              <img  src="<?php echo get_template_directory_uri(); ?>/images/waxes.jpg" alt="waxes" title="waxes"/>
+              <figcaption>
+                  <h2>Waxes & Top Coats</h2>
+              </figcaption>
+          </figure>
+        </a>
+        <a href="https://www.countrychicpaint.com/collections/specialty-products">
+          <figure class="effect-steve">
+              <img  src="<?php echo get_template_directory_uri(); ?>/images/finishes.jpg" alt="finishes" title="finishes"/>
+              <figcaption>
+                  <h2>Finishes</h2>
+              </figcaption>
+          </figure>
+        </a>
+        <a href="https://www.countrychicpaint.com/collections/wax-and-paint-brushes">
+          <figure class="effect-steve">
+              <img  src="<?php echo get_template_directory_uri(); ?>/images/brushes.jpg" alt="brushes" title="brushes"/>
+              <figcaption>
+                  <h2>Brushes & Sponges</h2>
+              </figcaption>
+          </figure>
+        </a>
+        <a href="https://www.countrychicpaint.com/collections/diy-kits">
+          <figure class="effect-steve">
+              <img  src="<?php echo get_template_directory_uri(); ?>/images/kits.jpg" alt="kits" title="kits"/>
+              <figcaption>
+                  <h2>DIY Kits</h2>
+              </figcaption>
+          </figure>
+        </a>
+        <a href="https://www.countrychicpaint.com/collections/special-offers">
+          <figure class="effect-steve">
+              <img  src="<?php echo get_template_directory_uri(); ?>/images/special-offers.jpg" alt="special-offers" title="special offers"/>
+              <figcaption>
+                  <h2>Special Offers</h2>
+              </figcaption>
+          </figure>
+        </a>
       </div>
   </section>
 
