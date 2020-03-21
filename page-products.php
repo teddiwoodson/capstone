@@ -15,8 +15,7 @@
   </section>
 
 <!-- ======================= Image Grid ==================-->
-  <section class="row justify-content-center">
-    <div class="content">
+  <section class="row justify-content-center" id="product-grid">
       <div class="grid">
         <figure class="effect-steve">
             <img  src="<?php echo get_template_directory_uri(); ?>/images/paint.jpg" alt="paint" title="paint"/>
@@ -67,7 +66,6 @@
             </figcaption>
         </figure>
       </div>
-    </div>
   </section>
 
 <!-- ======================= Instagram Feed ==================-->

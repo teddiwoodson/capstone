@@ -299,7 +299,10 @@ figure:hover h2 {
 /*---------------*/
 /***** End Product Grid *****/
 /*---------------*/
-
+#product-grid {
+  margin: 0;
+  text-align: center;
+}
 #impact {
   background-color: #264E83;
   color: white;
