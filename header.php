@@ -12,6 +12,7 @@
 
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap" rel="stylesheet">
 
+  <link rel="shortcut icon" width="16px" height="16px" href="<?php echo get_template_directory_uri(); ?>/images/favicon.png" type="image/png" /> 
 
   <?php wp_head(); ?>
 </head>
