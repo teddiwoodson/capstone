@@ -363,10 +363,11 @@ figure:hover h2 {
 #FAQ {
   background-color: #264E83;
   color: white;
+  padding: 0;
+  margin: 0;
 }
-.faq {
-  max-width: 150px;
-  margin: 10px;
+#faq-width {
+  max-width: 200px;
 }
 .faq-button {
   width: 150px;
