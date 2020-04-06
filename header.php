@@ -12,7 +12,7 @@
 
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap" rel="stylesheet">
 
-  <link rel="shortcut icon" width="16px" height="16px" href="<?php echo get_template_directory_uri(); ?>/images/favicon.png" type="image/png" /> 
+  <link rel="shortcut icon" width="16px" height="16px" href="<?php echo get_template_directory_uri(); ?>/images/favicon.png" type="image/png" />
 
   <?php wp_head(); ?>
 </head>
@@ -26,7 +26,7 @@
             <?php if(get_header_image() == '') {?>
                 <h1><a href="<?php echo home_url('/') ?>"><?php bloginfo('name');?></a></h1><?php
               }else {?>
-                <a href="<?php echo home_url('/') ?>"><img src="<?php header_image();?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" atl="logo" /></a>
+                <a href="<?php echo home_url('/') ?>"><img src="<?php header_image();?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="logo" /></a>
 
               <?php } ?>
           </div>
@@ -51,7 +51,7 @@
           <?php if(get_header_image() == '') {?>
               <h1><a href="<?php get_home_url();?>"><?php bloginfo('name');?></a></h1><?php
             }else {?>
-              <a href="<?php get_home_url();?>"><img src="<?php header_image();?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" atl="logo" /></a>
+              <a href="<?php get_home_url();?>"><img src="<?php header_image();?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="logo" /></a>
 
             <?php } ?>
         </div>
