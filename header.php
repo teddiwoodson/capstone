@@ -14,57 +14,36 @@
 
   <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.png" type="image/png" />
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
   <?php wp_head(); ?>
 </head>
 
 <body>
-<header>
-  <div class="desktop-nav">
-    <div class="container">
-      <div class="row d-flex justify-content-around align-items-baseline">
-          <div class="col-3">
-            <?php if(get_header_image() == '') {?>
-                <h1><a href="<?php echo home_url('/') ?>"><?php bloginfo('name');?></a></h1><?php
-              }else {?>
-                <a href="<?php echo home_url('/') ?>"><img src="<?php header_image();?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="logo" /></a>
-
-              <?php } ?>
-          </div>
-            <div class="col-9 justify-content-end">
-              <nav>
-                <?php
-                  if(has_nav_menu('top-menu')) {
-                    wp_nav_menu(array('theme_location' => 'top-menu', 'container_class' => 'top-menu-class'));
-                  } else{
-                    echo "Please select a top menu through the dashboard";
-                  }
-                ?>
-              </nav>
-            </div>
-          </div>
-      </div>
-    </div>
-
-    <div class="mobile-nav">
-      <div class="container">
-        <div class="row justify-content-center">
+  <header class="header container-fluid">
+    <div class="row">
+      <div class="col-lg-3 col-md-12 col-sm-12 header-logo">
+        <div href="<?php echo home_url('/') ?>" class="logo">
           <?php if(get_header_image() == '') {?>
-              <h1><a href="<?php get_home_url();?>"><?php bloginfo('name');?></a></h1><?php
+              <h1><a href="<?php echo home_url('/') ?>"><?php bloginfo('name');?></a></h1><?php
             }else {?>
-              <a href="<?php get_home_url();?>"><img src="<?php header_image();?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="logo" /></a>
-
-            <?php } ?>
-        </div>
-        <nav>
-          <?php
-            if(has_nav_menu('top-menu')) {
-              wp_nav_menu(array('theme_location' => 'top-menu', 'container_class' => 'top-menu-class'));
-            } else{
-              echo "Please select a top menu through the dashboard";
-            }
-          ?>
-        </nav>
+          <a href="<?php echo home_url('/') ?>"><img src="<?php header_image();?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="logo" /></a>
+        <?php } ?></div>
       </div>
+      <div class="col-lg-9 col-md-12 col-sm-12 links">
+      <!--  <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>-->
+        <ul class="menu">
+          <li><a href="#work">Home</a></li>
+          <li><a href="#about">Products</a></li>
+          <li><a href="#careers">Inspiration</a></li>
+          <li><a href="#contact">Our Story</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+
     </div>
+
+
 
   </header>
