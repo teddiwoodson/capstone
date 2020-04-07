@@ -93,7 +93,7 @@ Test nav bar
   padding: 0;
   list-style: none;
   overflow: hidden;
-  background-color: #2f3d4d;
+  background-color: #2F3E4D;
 }
 
 .header li a {
@@ -242,13 +242,14 @@ Test nav bar
                                 Mobile Menu Test
 
 =========================================*/
-
+.toggle {
+  margin-right: 8px;
+}
 #menuToggle
 {
   display: block;
   position: relative;
-  top: 50px;
-  left: 50px;
+  top: 40.5px;
 
   z-index: 1;
 
@@ -259,7 +260,7 @@ Test nav bar
 #menuToggle a
 {
   text-decoration: none;
-  color: #232323;
+  color: white;
 
   transition: color 0.3s ease;
 }
@@ -298,7 +299,7 @@ Test nav bar
   margin-bottom: 5px;
   position: relative;
 
-  background: #cdcdcd;
+  background: white;
   border-radius: 3px;
 
   z-index: 1;
@@ -328,7 +329,7 @@ Test nav bar
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #232323;
+  background: white;
 }
 
 /*
@@ -356,11 +357,9 @@ Test nav bar
 {
   position: absolute;
   width: 300px;
-  margin: -100px 0 0 -50px;
-  padding: 50px;
-  padding-top: 125px;
+  margin: 20px 0 0 -20px;
 
-  background: #ededed;
+  background: #2F3E4D;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
@@ -373,7 +372,6 @@ Test nav bar
 
 #mobile-menu li
 {
-  padding: 10px 0;
   font-size: 22px;
 }
 
@@ -688,7 +686,7 @@ figure:hover h2 {
   padding: 0;
   margin: 0;
 }
-#faq-width {
+.faq-width {
   max-width: 200px;
 }
 .faq-button {
