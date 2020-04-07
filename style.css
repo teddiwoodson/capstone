@@ -37,36 +37,6 @@ h2 {
 header {
     background: #2F3E4D;
 }
-/* =================
-
-    Mobile
-
-===================*/
-.mobile-nav img {
-  max-width: 225px;
-  object-fit: contain;
-  margin-top: 10px;
-  margin-bottom: 5px;
-}
-@media (min-width: 768px) {
-  .mobile-nav{
-    display: none;
-  }
-}
-/* =================
-
-    Desktop
-
-===================*/
-.desktop-nav img {
-  max-width: 150px;
-  object-fit: contain;
-}
-@media (max-width: 769px) {
-  .desktop-nav{
-    display: none;
-  }
-}
 /* ===============================
 
 
@@ -123,72 +93,6 @@ Test nav bar
   clear: both;
   max-height: 0;
   transition: max-height .2s ease-out;
-}
-
-/* menu icon
-
-.header .menu-icon {
-  cursor: pointer;
-  display: inline-block;
-  float: right;
-  padding: 28px 20px;
-  position: relative;
-  user-select: none;
-}
-
-.header .menu-icon .navicon {
-  background: white;
-  display: block;
-  height: 2px;
-  position: relative;
-  transition: background .2s ease-out;
-  width: 18px;
-}
-
-.header .menu-icon .navicon:before,
-.header .menu-icon .navicon:after {
-  background: white;
-  content: '';
-  display: block;
-  height: 100%;
-  position: absolute;
-  transition: all .2s ease-out;
-  width: 100%;
-}
-
-.header .menu-icon .navicon:before {
-  top: 5px;
-}
-
-.header .menu-icon .navicon:after {
-  top: -5px;
-}
-
-/* menu btn
-
-.header .menu-btn {
-  display: none;
-}
-
-.header .menu-btn:checked ~ .menu {
-  max-height: 339px;
-}
-
-.header .menu-btn:checked ~ .menu-icon .navicon {
-  background: transparent;
-}
-
-.header .menu-btn:checked ~ .menu-icon .navicon:before {
-  transform: rotate(-45deg);
-}
-
-.header .menu-btn:checked ~ .menu-icon .navicon:after {
-  transform: rotate(45deg);
-}
-
-.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
-.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
-  top: 0;
 }
 
 /* 48em = 768px */
@@ -267,7 +171,7 @@ Test nav bar
 
 #menuToggle a:hover
 {
-  color: tomato;
+  color: #DDC4C1;
 }
 
 
@@ -382,7 +286,6 @@ Test nav bar
 {
   transform: none;
 }
-
 
 /* ======================================
 
