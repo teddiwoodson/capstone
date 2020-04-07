@@ -24,23 +24,22 @@
     <div class="row">
       <div class="col-lg-3 col-md-12 col-sm-12 header-logo">
         <div class="logo">
-          <a href="<?php echo home_url('/') ?>">
             <?php if(get_header_image() == '') {?>
                 <h1><a href="<?php echo home_url('/') ?>"><?php bloginfo('name');?></a></h1><?php
               }else {?>
             <a href="<?php echo home_url('/') ?>"><img src="<?php header_image();?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="logo" /></a>
-          <?php } ?></a>
+          <?php } ?>
         </div>
       </div>
       <div class="col-lg-9 col-md-12 col-sm-12 links">
       <!--  <input class="menu-btn" type="checkbox" id="menu-btn" />
         <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>-->
         <ul class="menu">
-          <li><a href="#work">Home</a></li>
-          <li><a href="#about">Products</a></li>
-          <li><a href="#careers">Inspiration</a></li>
-          <li><a href="#contact">Our Story</a></li>
-          <li><a href="#contact">Contact Us</a></li>
+          <li><a href="http://www.teddiwoodson.com/capstone/">Home</a></li>
+          <li><a href="http://www.teddiwoodson.com/capstone/products/">Products</a></li>
+          <li><a href="http://www.teddiwoodson.com/capstone/inspiration/">Inspiration</a></li>
+          <li><a href="http://www.teddiwoodson.com/capstone/our-story/">Our Story</a></li>
+          <li><a href="http://www.teddiwoodson.com/capstone/contact-us/">Contact Us</a></li>
         </ul>
       </div>
 
