@@ -43,7 +43,7 @@
 </section>
 
 <section class="row justify-content-center">
-  <a href="#" type="button" class="btn btn-primary btn-lg">More Inspiration Here</a>
+  <a href="#" role="button" class="btn btn-primary btn-lg">More Inspiration Here</a>
 </section>
 
 

@@ -20,20 +20,20 @@
       <h2>Company Values</h2>
     </div>
     <div class="row justify-content-around">
-      <div class="col-md-3 text-center" id="value">
+      <div class="col-md-3 text-center" class="value">
         <a href="https://www.countrychicpaint.com/pages/our-story" target="blank"><img src="<?php echo get_template_directory_uri(); ?>/images/environmental.png" alt="environmental impact" title="environmental impact"/></a>
         <a href="https://www.countrychicpaint.com/pages/our-story" class="text-decoration-none text-reset" target="blank"><h4>Low environmental impact</h4></a>
       </div>
-      <div class="col-md-3 text-center" id="value">
-        <a href="https://www.countrychicpaint.com/pages/our-story" target="blank"><img class="value" src="<?php echo get_template_directory_uri(); ?>/images/recycle.png" alt="recycle" title="recycle"/></a>
+      <div class="col-md-3 text-center" class="value">
+        <a href="https://www.countrychicpaint.com/pages/our-story" target="blank"><img src="<?php echo get_template_directory_uri(); ?>/images/recycle.png" alt="recycle" title="recycle"/></a>
         <a href="https://www.countrychicpaint.com/pages/our-story" class="text-decoration-none text-reset" target="blank"><h4>Participating in Recycling Programs</h4></a>
       </div>
-      <div class="col-md-3 text-center" id="value">
-        <a href="https://www.countrychicpaint.com/pages/our-story" target="blank"><img class="value" src="<?php echo get_template_directory_uri(); ?>/images/house.png" alt="house" title="house"/></a>
+      <div class="col-md-3 text-center" class="value">
+        <a href="https://www.countrychicpaint.com/pages/our-story" target="blank"><img src="<?php echo get_template_directory_uri(); ?>/images/house.png" alt="house" title="house"/></a>
         <a href="https://www.countrychicpaint.com/pages/our-story" class="text-decoration-none text-reset" target="blank"><h4>Supporting the local economy</h4></a>
       </div>
-      <div class="col-md-3 text-center" id="value">
-        <a href="https://www.countrychicpaint.com/pages/our-story" target="blank"><img class="value"src="<?php echo get_template_directory_uri(); ?>/images/heart.png" alt="heart" title="heart"/></a>
+      <div class="col-md-3 text-center" class="value">
+        <a href="https://www.countrychicpaint.com/pages/our-story" target="blank"><img src="<?php echo get_template_directory_uri(); ?>/images/heart.png" alt="heart" title="heart"/></a>
         <a href="https://www.countrychicpaint.com/pages/our-story" class="text-decoration-none text-reset" target="blank"><h4>Helping those in need</h4></a>
       </div>
     </div>
