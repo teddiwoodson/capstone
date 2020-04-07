@@ -23,12 +23,14 @@
   <header class="header container-fluid">
     <div class="row">
       <div class="col-lg-3 col-md-12 col-sm-12 header-logo">
-        <div href="<?php echo home_url('/') ?>" class="logo">
-          <?php if(get_header_image() == '') {?>
-              <h1><a href="<?php echo home_url('/') ?>"><?php bloginfo('name');?></a></h1><?php
-            }else {?>
-          <a href="<?php echo home_url('/') ?>"><img src="<?php header_image();?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="logo" /></a>
-        <?php } ?></div>
+        <div class="logo">
+          <a href="<?php echo home_url('/') ?>">
+            <?php if(get_header_image() == '') {?>
+                <h1><a href="<?php echo home_url('/') ?>"><?php bloginfo('name');?></a></h1><?php
+              }else {?>
+            <a href="<?php echo home_url('/') ?>"><img src="<?php header_image();?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="logo" /></a>
+          <?php } ?></a>
+        </div>
       </div>
       <div class="col-lg-9 col-md-12 col-sm-12 links">
       <!--  <input class="menu-btn" type="checkbox" id="menu-btn" />
