@@ -196,7 +196,7 @@ Test nav bar
     float: left;
   }
   .header li a {
-    padding: 20px 30px;
+    padding: 20px;
   }
   .header .menu {
     clear: none;
