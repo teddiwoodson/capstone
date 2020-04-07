@@ -21,7 +21,7 @@
 
 <body>
   <header class="header container-fluid">
-    <div class="row">
+    <div class="row desktop">
       <div class="col-lg-3 col-md-12 col-sm-12 header-logo">
         <div class="logo">
             <?php if(get_header_image() == '') {?>
@@ -44,6 +44,54 @@
       </div>
 
     </div>
+
+    <!--    Made by Erik Terwan    -->
+<!--   24th of November 2015   -->
+<!--        MIT License        -->
+<nav role="navigation">
+  <div class="row">
+    <div class="col-lg-3 col-md-12 col-sm-12 header-logo">
+      <div class="logo">
+          <?php if(get_header_image() == '') {?>
+              <h1><a href="<?php echo home_url('/') ?>"><?php bloginfo('name');?></a></h1><?php
+            }else {?>
+          <a href="<?php echo home_url('/') ?>"><img src="<?php header_image();?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="logo" /></a>
+        <?php } ?>
+      </div>
+    </div>
+    <div id="menuToggle">
+      <!--
+      A fake / hidden checkbox is used as click reciever,
+      so you can use the :checked selector on it.
+      -->
+      <input type="checkbox" />
+
+      <!--
+      Some spans to act as a hamburger.
+
+      They are acting like a real hamburger,
+      not that McDonalds stuff.
+      -->
+      <span></span>
+      <span></span>
+      <span></span>
+
+      <!--
+      Too bad the menu has to be inside of the button
+      but hey, it's pure CSS magic.
+      -->
+      <ul id="mobile-menu">
+        <li><a href="http://www.teddiwoodson.com/capstone/">Home</a></li>
+        <li><a href="http://www.teddiwoodson.com/capstone/products/">Products</a></li>
+        <li><a href="http://www.teddiwoodson.com/capstone/inspiration/">Inspiration</a></li>
+        <li><a href="http://www.teddiwoodson.com/capstone/our-story/">Our Story</a></li>
+        <li><a href="http://www.teddiwoodson.com/capstone/contact-us/">Contact Us</a></li>
+      </ul>
+    </div>
+
+  </div>
+  </nav>
+
 
 
 
