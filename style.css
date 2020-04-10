@@ -309,6 +309,7 @@ Paint
 ============================*/
 .paint {
   margin: 20px;
+  color: #2F3E4D;
 }
 
 /* ========================
@@ -319,6 +320,12 @@ products
 #products {
   padding: 10px;
   text-align: center;
+}
+.product-img img {
+  max-width: 125px;
+}
+.product-img p {
+  font-weight: 600;
 }
 
 /* ========================
@@ -632,14 +639,15 @@ Button Styles
 
 ============================*/
 a.btn.btn-primary {
+  border-radius:0;
     background-color: #839869;
-    border-color: #839869;
+    border: none;
     margin: 10px;
+    box-shadow: none;
 }
 section a.btn.btn-primary:hover {
-  color: #839869;
-  background-color: white;
-  border-color: #839869;
+  color: white;
+  background-color: #2F3E4D;
 }
 button#wpforms-submit-97 {
   background-color: #839869;

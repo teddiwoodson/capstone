@@ -28,28 +28,29 @@
 </main>
 <!-- ======================= Products ==================-->
   <section class="container-fluid" id="products">
-    <div class="row justify-content-center">
-      <h2>Products</h2>
+    <div class="justify-content-center">
+      <h2>Our Products</h2>
+      <p>Click below to browse our high-quality, eco-friendly furniture paint and supplies</p>
     </div>
     <div class="row justify-content-center">
-      <div class="col-lg-2 col-md-4 justify-content-center">
+      <div class="col-lg-2 col-md-4 col-sm-4 col-6 justify-content-center product-img">
         <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/Paint-Icon.png" alt="paint jar icon" title="paint"></a>
         <p>Paint</p>
       </div>
-      <div class="col-lg-2 col-md-4 justify-content-center">
+      <div class="col-lg-2 col-md-4 col-sm-4 col-6 justify-content-center product-img">
         <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/Wax-Icon.png" alt="wax icon" title="wax icon"></a>
         <p>Waxes</p>
       </div>
-      <div class="col-lg-2 col-md-4 justify-content-center">
+      <div class="col-lg-2 col-md-4 col-sm-4 col-6 justify-content-center product-img">
         <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/Finish-Icon.png" alt="finishes icon" title="finishes"></a>
         <p>Finishes</p>
       </div>
-      <div class="col-lg-2 col-md-4 justify-content-center">
+      <div class="col-lg-2 col-md-4 col-sm-4 col-6 justify-content-center product-img">
         <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/Brush-Icon.png" alt="brushe icon" title="brushes icon"></a>
         <p>Brushes</p>
       </div>
-      <div class="col-lg-2 col-md-4 justify-content-center">
-        <a href="#" target="blank"><img src="<?php echo get_template_directory_uri(); ?>/images/Kits-Icon.png" alt="kits icon" title="kits icon"></a>
+      <div class="col-lg-2 col-md-6 col-sm-4 col-6 justify-content-center product-img">
+        <a href="#" target="blank"><img src="<?php echo get_template_directory_uri(); ?>/images/Kit-Icon.png" alt="kits icon" title="kits icon"></a>
         <p>Kits</p>
       </div>
     </div>
