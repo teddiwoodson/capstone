@@ -21,6 +21,8 @@ Reset Rule & Body
 
 h1, h2, h3, h4, h5 {
   font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 p {
   font-family: 'Montserrat', sans-serif;
