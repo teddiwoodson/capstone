@@ -15,7 +15,8 @@
 
 <!-- ======================= Paint Carousel ==================-->
   <section class="paint">
-    <h2>Paint</h2>
+    <h2>Paint Colors</h2>
+    <p>We offer over 60 original non-toxic, eco-friendly paint colors.</p>
     <?php dynamic_sidebar('paint-carousel'); ?>
   </section>
 
