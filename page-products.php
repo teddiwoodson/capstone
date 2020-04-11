@@ -69,7 +69,7 @@
 <!-- ======================= Image Grid ==================-->
 <div class="heading">
   <h2>Our Products</h2>
-  <p>Our products are manufactured in North America without the use of harsh chemical additives, and our paints are independently tested and certified safe for children’s furniture.</p>
+  <p>Our products are manufactured in North America without the use of harsh chemical additives. Our paints are also independently tested and certified safe for children’s furniture.</p>
 </div>
 <section class="row justify-content-center" id="inspiration">
       <div class="grid">
