@@ -15,6 +15,8 @@
   </section>
 <!-- ======================= Paint Carousel ==================-->
   <section class="paint">
+    <h2>Eco-friendly Products</h2>
+    <p>Manufactured in North America, our products meet the highest quality standards and are easy-to-use, VOC-free, non-toxic, and safe for the entire family.</p>
     <?php dynamic_sidebar('paint-carousel'); ?>
   </section>
 
