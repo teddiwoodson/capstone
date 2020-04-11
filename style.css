@@ -33,6 +33,10 @@ p {
 h2 {
   text-align: center;
 }
+.heading {
+  text-align: center;
+  color: #2F3E4D;
+}
 
 /* ======================================
 
@@ -380,9 +384,6 @@ Testimonials
                                 Products Page
 
 =========================================*/
-.inspiration p {
-  text-align: center
-}
 /*---------------*/
 /***** Start Product Tile Grid *****/
 /*---------------*/
@@ -592,9 +593,6 @@ figure:hover h2 {
   margin: 2%;
   text-align: center;
   color: #2F3E4D;
-}
-.insta-inspo {
-  text-align: center;
 }
 
 /* ======================================

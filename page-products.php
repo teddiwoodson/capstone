@@ -21,6 +21,10 @@
   </section>
 
 <!-- ======================= Image Grid ==================-->
+<div class="heading">
+  <h2>Our Products</h2>
+  <p>Our products are manufactured in North America without the use of harsh chemical additives, and our paints are independently tested and certified safe for children’s furniture.</p>
+</div>
 <section class="row justify-content-center" id="inspiration">
       <div class="grid">
         <a href="https://www.countrychicpaint.com/collections/chalk-style-all-in-one-paint">
@@ -92,7 +96,7 @@
 
 <!-- ======================= Instagram Feed ==================-->
   <section class="row">
-    <div class="col-md-12 inspiration">
+    <div class="col-md-12 heading">
       <h2>Need Some Inspiration?</h2>
       <p>These DIY projects were created using Country Chic Paint products!</p>
       <?php dynamic_sidebar('instagram');?>
