@@ -168,21 +168,12 @@ function blank_widgets_init() {
     'after_title'   => '</h3>'
   ));
   register_sidebar(array(
-    'name'          => ('Contact Left'),
-    'id'            => 'contact-left',
+    'name'          => ('Contact Form'),
+    'id'            => 'contact-form',
     'description'   => 'Contact Form',
-    'before_widget' => '<div class="widget-contact-left">',
+    'before_widget' => '<div class="widget-contact-form">',
     'after_widget'  => '</div>',
-    'before_title'  => '<h3 class="contact-left-title">',
-    'after_title'   => '</h3>'
-  ));
-  register_sidebar(array(
-    'name'          => ('Contact Right'),
-    'id'            => 'contact-right',
-    'description'   => 'Contact Right',
-    'before_widget' => '<div class="widget-contact-right">',
-    'after_widget'  => '</div>',
-    'before_title'  => '<h3 class="contact-right-title">',
+    'before_title'  => '<h3 class="contact-form-title">',
     'after_title'   => '</h3>'
   ));
   register_sidebar(array(

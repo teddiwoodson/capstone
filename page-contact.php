@@ -15,10 +15,7 @@
 <!-- ======================= contact form and photo area ==================-->
   <section class="row justify-content-around">
     <div class="col-md-6 justify-content-center">
-      <?php dynamic_sidebar('contact-left'); ?>
-    </div>
-    <div class="col-md-6 justify-content-center">
-      <?php dynamic_sidebar('contact-right'); ?>
+      <?php dynamic_sidebar('contact-form'); ?>
     </div>
   </section>
 </main>
