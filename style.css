@@ -380,7 +380,9 @@ Testimonials
                                 Products Page
 
 =========================================*/
-
+.inspiration p {
+  text-align: center
+}
 /*---------------*/
 /***** Start Product Tile Grid *****/
 /*---------------*/
@@ -526,6 +528,8 @@ img {
 
 .grid figure figcaption h2 {
   font-size: 24px;
+  font-weight: 400;
+  text-transform: capitalize;
   margin-bottom: 0;
   margin-left: 0;
   margin-right: 0;
@@ -533,7 +537,7 @@ img {
 
 .grid figcaption p {
   font-size: 16px;
-  font-weight: 200;
+  font-weight: 400;
   position: absolute;
   bottom: 0;
   margin: 0;

@@ -55,7 +55,7 @@
               <img  src="<?php echo get_template_directory_uri(); ?>/images/brushes.jpg" alt="brushes" title="brushes"/>
               <figcaption>
                   <h2>Brushes & Sponges</h2>
-                  <p>Each brush is designed to work seemlessly with each of our products.</p>
+                  <p>Our brushes are uniquely designed to enhance our products.</p>
               </figcaption>
           </figure>
         </a>
@@ -86,8 +86,9 @@
 
 <!-- ======================= Instagram Feed ==================-->
   <section class="row">
-    <div class="col-md-12">
+    <div class="col-md-12 inspiration">
       <h2>Need Some Inspiration?</h2>
+      <p>These DIY projects were created using Country Chic Paint products!</p>
       <?php dynamic_sidebar('instagram');?>
     </div>
   </section>
@@ -96,6 +97,7 @@
 
   <section class="row justify-content-center">
     <a href="http://www.teddiwoodson.com/capstone/inspiration/" role="button" class="btn btn-primary btn-lg">More Inspiration Here</a>
+    <a href="https://www.instagram.com/countrychicpaint/" role="button" class="btn btn-primary btn-lg">Follow Us on Instagram</a>
   </section>
 
 </main>
