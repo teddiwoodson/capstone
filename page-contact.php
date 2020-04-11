@@ -12,9 +12,10 @@
     <div class="col-md-12">
     <?php dynamic_sidebar('hero-image-contact'); ?>
   </div>
+</section>
 <!-- ======================= contact form and photo area ==================-->
   <section class="row justify-content-around">
-    <div class="col-md-6 justify-content-center">
+    <div class="col-12 d-flex justify-content-center">
       <?php dynamic_sidebar('contact-form'); ?>
     </div>
   </section>

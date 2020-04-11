@@ -645,6 +645,14 @@ figure:hover h2 {
 }
 .widget-contact-form {
   font-family: 'Montserrat', sans-serif;
+  max-width: 300px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.contact-form-title {
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 .map iframe{
   width: 300px;
@@ -654,6 +662,9 @@ figure:hover h2 {
   .map iframe{
     width: 450px;
     height: 300px;
+  }
+  .widget-contact-form {
+    max-width: 480px;
   }
 }
 
