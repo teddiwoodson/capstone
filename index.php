@@ -7,6 +7,14 @@
   </div>
   </div>
 
+  <!-- ======================= Paint Carousel ==================-->
+  <div class="container">
+    <section class="paint">
+      <h2>Paint Colors</h2>
+      <p>We offer over 60 original non-toxic, eco-friendly paint colors that are independently tested and certified safe.</p>
+      <?php dynamic_sidebar('paint-carousel'); ?>
+    </section>
+
 <!-- ======================= Blog Posts ==================-->
 <div class="blog-title">
   <h2>Tutorials</h2>

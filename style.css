@@ -29,6 +29,7 @@ h1, h2, h3, h4, h5 {
 }
 p {
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
 h2 {
   text-align: center;
@@ -852,9 +853,8 @@ Learn More Styles
 
 ============================*/
 #learn-more {
-  margin-top: 2%;
   margin-bottom: 2%;
-  background-color: #264E83;
+  background-color: #DDC4C1;
   color: white;
   padding-top: 20px;
 }
@@ -874,7 +874,7 @@ Learn More Styles
     padding: 5px;
 }
 .card {
-    background-color: #264E83;
+    background-color: #DDC4C1;
     border: none;
     color: white;
     text-align: center;
