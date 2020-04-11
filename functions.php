@@ -168,12 +168,21 @@ function blank_widgets_init() {
     'after_title'   => '</h3>'
   ));
   register_sidebar(array(
-    'name'          => ('Contact Form'),
-    'id'            => 'contact-form',
+    'name'          => ('Contact Left'),
+    'id'            => 'contact-left',
     'description'   => 'Contact Form',
-    'before_widget' => '<div class="widget-contact-form">',
+    'before_widget' => '<div class="widget-contact-left">',
     'after_widget'  => '</div>',
-    'before_title'  => '<h3 class="contact-form-title">',
+    'before_title'  => '<h3 class="contact-left-title">',
+    'after_title'   => '</h3>'
+  ));
+  register_sidebar(array(
+    'name'          => ('Contact Right'),
+    'id'            => 'contact-right',
+    'description'   => 'Contact Right',
+    'before_widget' => '<div class="widget-contact-right">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="contact-right-title">',
     'after_title'   => '</h3>'
   ));
   register_sidebar(array(
@@ -228,6 +237,15 @@ function blank_widgets_init() {
     'before_widget' => '<div class="widget-footer-social">',
     'after_widget'  => '</div>',
     'before_title'  => '<h3 class="footer-social-title">',
+    'after_title'   => '</h3>'
+  ));
+  register_sidebar(array(
+    'name'          => ('Hero Image Contact'),
+    'id'            => 'hero-image-contact',
+    'description'   => 'Hero image Contact Page',
+    'before_widget' => '<div class="widget-hero-image-contact">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="hero-image-contact-title">',
     'after_title'   => '</h3>'
   ));
 }

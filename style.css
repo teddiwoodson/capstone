@@ -631,18 +631,32 @@ figure:hover h2 {
 #map-and-contact {
   margin-top: 10px;
 }
-.contact-img img {
-  margin-bottom: 10px;
-  max-width: 300px;
+.map {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
-.widget-contact-form {
+.contact-text {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.widget-contact-left {
   font-family: 'Montserrat', sans-serif;
 }
+.map iframe{
+  width: 300px;
+  height: 150px;
+}
 @media (min-width: 500px) {
-  .contact-img img {
-    max-width: 500px;
+  .map iframe{
+    width: 450px;
+    height: 300px;
   }
 }
+
 
 /* ======================================
 
@@ -672,9 +686,15 @@ section a.btn.btn-primary:hover {
   background-color: #2F3E4D;
 }
 button#wpforms-submit-97 {
-  background-color: #839869;
-  border-color: #839869;
+  border-radius:0;
   color: white;
+  background-color: #839869;
+  border: none;
+  box-shadow: none;
+}
+button:hover#wpforms-submit-97 {
+  color: white;
+  background-color: #2F3E4D;
 }
 a.btn.btn-secondary {
   border-radius:0;

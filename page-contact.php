@@ -8,19 +8,17 @@
 <?php get_header(); ?>
 
 <main class="container">
-
-  <section>
-    <h2 class="p-4">Contact Us</h2>
-  </section>
+  <section class="row">
+    <div class="col-md-12">
+    <?php dynamic_sidebar('hero-image-contact'); ?>
+  </div>
 <!-- ======================= contact form and photo area ==================-->
   <section class="row justify-content-around">
-    <div class="col-md-6 d-flex justify-content-center">
-      <?php dynamic_sidebar('contact-form'); ?>
+    <div class="col-md-6 justify-content-center">
+      <?php dynamic_sidebar('contact-left'); ?>
     </div>
-    <div class="col-md-6 d-flex justify-content-center">
-      <div class="contact-img">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/team.jpg" alt="team" title="team"/>
-      </div>
+    <div class="col-md-6 justify-content-center">
+      <?php dynamic_sidebar('contact-right'); ?>
     </div>
   </section>
 </main>
@@ -48,10 +46,10 @@
 
 <section class="container" id="map-and-contact">
   <section class="row">
-    <div class="col-md-6 d-flex justify-content-center">
+    <div class="col-lg-6 col-md-8 col-sm-12 d-flex justify-content-center map">
       <?php dynamic_sidebar('map'); ?>
     </div>
-    <div class="col-md-6 justify-content-center">
+    <div class="col-lg-6 col-md-4 col-sm-12 justify-content-center contact-text">
       <?php dynamic_sidebar('contact-info'); ?>
     </div>
   </section>
