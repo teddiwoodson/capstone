@@ -302,6 +302,14 @@ Test nav bar
 #products-content {
   margin: 10px;
 }
+#products img {
+  display: block;
+  margin: auto;
+}
+#products div {
+  padding-top: .5%;
+  padding-bottom: .5%;
+}
 /* ========================
 
 Paint
@@ -341,6 +349,7 @@ Testimonials
   text-align: center;
   color: white;
   padding-top: 20px;
+  overflow-x: hidden;
 }
 #testimonials h2 {
   text-align: center;
@@ -358,7 +367,7 @@ Testimonials
   display: none;
 }
 .tesimonial-field {
-  max-width: 350px;
+  max-width: 300px;
   margin-left: 0px;
   margin-right: 0;
 }
@@ -656,6 +665,18 @@ button#wpforms-submit-97 {
   background-color: #839869;
   border-color: #839869;
   color: white;
+}
+a.btn.btn-secondary {
+  border-radius:0;
+    background-color: #264E83;
+    border: none;
+    margin: 10px;
+    box-shadow: none;
+    width: 100px;
+}
+section a.btn.btn-secondary:hover {
+  color: white;
+  background-color: #839869;
 }
 /* ======================================
 
