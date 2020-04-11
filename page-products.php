@@ -114,33 +114,48 @@
 
   <!-- ======================= Our Impact  ==================-->
 
-    <section class="container-fluid" id="impact">
+    <section class="container-fluid" id="learn-more">
       <div class="row justify-content-center">
         <h2>Our Impact</h2>
       </div>
-      <div class="row justify-content-around align-items-baseline">
-        <div class="col-md-4">
-          <div class="impact">
-            <img  src="<?php echo get_template_directory_uri(); ?>/images/leaves.png" alt="leaves" title="leaves"/>
-            <p>Our products have zero to low VOC levels.</p>
-          </div>
-
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-4 col-md-4 col-12 collapse-style">
+            <div>
+            <img  src="<?php echo get_template_directory_uri(); ?>/images/VOC-Icon-White.png" alt="VOC Free Icon" title="VOC Free Icon"/>
+            <h4>VOC Free Paints</h4>
+            <p><a class="btn btn-primary" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample">Link with href</a></p>
+            <div class="collapse" id="collapseExample1">
+              <div class="card card-body">
+                Volatile Organic Compounds (VOCs) are gases that are released into the air from ordinary products such as paint, cleaners, cosmetics, & more. VOCs can have short-term health effects such as headaches, respiratory issues, nausea, dizziness, etc. We are proud to say our paints & pigments have low to zero VOC levels. 
+              </div>
+              </div>
+              </div>
         </div>
-        <div class="col-md-4">
-          <div class="impact">
-            <img  src="<?php echo get_template_directory_uri(); ?>/images/recycle.png" alt="recycle" title="recycle"/>
-            <p>Our brochures and labels are printed on 100% recycled paper.</p>
-          </div>
-
-
-        </div>
-        <div class="col-md-4">
-          <div class="impact">
-            <img  src="<?php echo get_template_directory_uri(); ?>/images/renewable.png" alt="renewable" title="renewable"/>
-            <p>Our headquarters and warehouse use 98% renewable energy.</p>
-        </div>
+        <div class="col-lg-4 col-md-4 col-12 collapse-style">
+          <div>
+          <img  src="<?php echo get_template_directory_uri(); ?>/images/Recycle-Icon.png" alt="Recycle Icon" title="Recycle Icon"/>
+          <h4>Recycling Programs</h4>
+          <p><a class="btn btn-primary" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">Link with href</a></p>
+          <div class="collapse" id="collapseExample2">
+            <div class="card card-body">
+              Country Chic Paint is a proud member of paint recycling programs across North America to ensure that leftover paint is properly recycled and not dumped in a landfill. Our brochures and labels are also printed on 100% recycled paper from sustainable sources.
+            </div>
+            </div>
+            </div>
       </div>
+      <div class="col-lg-4 col-md-4 col-12 collapse-style">
+        <div>
+        <img  src="<?php echo get_template_directory_uri(); ?>/images/Headquarters-Icon.png" alt="Headquarters Icon" title="Headquarters Icon"/>
+        <h4>Renewable Energy</h4>
+        <p><a class="btn btn-primary" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample">Link with href</a></p>
+        <div class="collapse" id="collapseExample3">
+          <div class="card card-body">
+            Our headquarters and warehouse use 98% renewable energy. By devoting ourselves to sustainable business practices, we are able to create more enjoyable living spaces, while having a positive impact on our communities at the same time.
+          </div>
+          </div>
+          </div>
     </div>
+      </div>
     </section>
 
 
