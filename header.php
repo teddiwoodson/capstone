@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale = 1.0,maximum-scale=1.0, user-scalable=no" /> 
+  <meta name="viewport" content="width=device-width, initial-scale = 1.0,maximum-scale=1.0, user-scalable=no" />
   <title><?php bloginfo('name');?></title>
 
   <!--link to our style.css file -->
@@ -35,7 +35,7 @@
         <ul class="menu">
           <li><a href="http://www.teddiwoodson.com/capstone/">Home</a></li>
           <li><a href="http://www.teddiwoodson.com/capstone/products/">Products</a></li>
-          <li><a href="http://www.teddiwoodson.com/capstone/inspiration/">Inspiration</a></li>
+          <li><a href="http://www.teddiwoodson.com/capstone/inspiration/">Tutorials</a></li>
           <li><a href="http://www.teddiwoodson.com/capstone/our-story/">Our Story</a></li>
           <li><a href="http://www.teddiwoodson.com/capstone/contact-us/">Contact Us</a></li>
         </ul>
@@ -73,7 +73,7 @@
         <ul id="mobile-menu">
           <li><a href="http://www.teddiwoodson.com/capstone/">Home</a></li>
           <li><a href="http://www.teddiwoodson.com/capstone/products/">Products</a></li>
-          <li><a href="http://www.teddiwoodson.com/capstone/inspiration/">Inspiration</a></li>
+          <li><a href="http://www.teddiwoodson.com/capstone/inspiration/">Tutorials</a></li>
           <li><a href="http://www.teddiwoodson.com/capstone/our-story/">Our Story</a></li>
           <li><a href="http://www.teddiwoodson.com/capstone/contact-us/">Contact Us</a></li>
         </ul>

@@ -13,6 +13,10 @@
     <?php dynamic_sidebar('hero-image-products'); ?>
   </div>
   </section>
+<!-- ======================= Paint Carousel ==================-->
+  <section class="paint">
+    <?php dynamic_sidebar('paint-carousel'); ?>
+  </section>
 
 <!-- ======================= Image Grid ==================-->
 <section class="row justify-content-center" id="inspiration">

@@ -588,6 +588,14 @@ figure:hover h2 {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+.blog-title {
+  margin: 2%;
+  text-align: center;
+  color: #2F3E4D;
+}
+.insta-inspo {
+  text-align: center;
+}
 
 /* ======================================
 
