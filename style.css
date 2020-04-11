@@ -840,6 +840,7 @@ footer {
 ============================*/
 #oops {
   margin-top: 20px;
+  height: 100vh;
 }
 #oops p {
   margin: 10px;
@@ -871,6 +872,9 @@ Learn More Styles
 .collapse-style img {
     max-width: 150px;
     padding: 5px;
+}
+.collapse-style a.btn.btn-primary {
+    width: 200px;
 }
 .card {
     background-color: #DDC4C1;
