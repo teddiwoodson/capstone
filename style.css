@@ -388,7 +388,8 @@ Testimonials
 .grid {
   position: relative;
 	margin: 0 auto;
-	padding: 10px;
+	padding-left: 10px;
+  padding-right: 10px;
 	max-width: 1000px;
 	list-style: none;
 	text-align: center;
@@ -457,6 +458,7 @@ Testimonials
 figure.effect-steve {
   z-index: auto;
   background: white;
+  margin: 0px;
 }
 
 figure.effect-steve:before {
