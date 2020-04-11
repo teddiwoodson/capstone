@@ -31,7 +31,7 @@
   <section class="container-fluid" id="products">
     <div class="justify-content-center">
       <h2>Our Products</h2>
-      <p>Click below to browse our high-quality, eco-friendly furniture paint and supplies</p>
+      <p>Browse our high-quality, eco-friendly furniture paint and supplies</p>
     </div>
     <div class="row justify-content-center">
       <div class="col-lg-2 col-md-4 col-sm-4 col-6 justify-content-center product-img">
