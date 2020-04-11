@@ -745,6 +745,18 @@ div#posts {
 footer ul li a {
   color: #2F3E4D;
 }
+.recent-posts {
+  background-color: #264E83;
+  color: white;
+  padding-top:2%
+}
+.recent-posts-widget {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.wpcp-carousel-section .wpcp-all-captions a, .wpcp-carousel-section a, .wpcp-carousel-section a:hover {
+  color: white;
+}
 /* ======================================
 
                                 Individual Product Pages

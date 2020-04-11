@@ -239,6 +239,15 @@ function blank_widgets_init() {
     'before_title'  => '<h3 class="hero-image-contact-title">',
     'after_title'   => '</h3>'
   ));
+  register_sidebar(array(
+    'name'          => ('Recent Posts'),
+    'id'            => 'recent-post',
+    'description'   => 'Recent Posts',
+    'before_widget' => '<div class="recent-posts-widget">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="recent-posts-title">',
+    'after_title'   => '</h3>'
+  ));
 }
 
 add_action('widgets_init', 'blank_widgets_init');
