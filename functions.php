@@ -63,7 +63,7 @@ function blank_widgets_init() {
     'name'          => ('Hero Image Home'),
     'id'            => 'hero-image-home',
     'description'   => 'Hero image Home Page',
-    'before_widget' => '<div class="widget-hero-image-home>"',
+    'before_widget' => '<div class="widget-hero-image-home">',
     'after_widget'  => '</div>',
     'before_title'  => '<h3 class="hero-image-home-title">',
     'after_title'   => '</h3>'
@@ -72,7 +72,7 @@ function blank_widgets_init() {
     'name'          => ('Hero Image Products'),
     'id'            => 'hero-image-products',
     'description'   => 'Hero image Products Page',
-    'before_widget' => '<div class="widget-hero-image-products>"',
+    'before_widget' => '<div class="widget-hero-image-products">',
     'after_widget'  => '</div>',
     'before_title'  => '<h3 class="hero-image-products-title">',
     'after_title'   => '</h3>'
@@ -81,7 +81,7 @@ function blank_widgets_init() {
     'name'          => ('Hero Image Inspiration'),
     'id'            => 'hero-image-inspo',
     'description'   => 'Hero image Inspiration Page',
-    'before_widget' => '<div class="widget-hero-image-inspo>"',
+    'before_widget' => '<div class="widget-hero-image-inspo">',
     'after_widget'  => '</div>',
     'before_title'  => '<h3 class="hero-image-inspo-title">',
     'after_title'   => '</h3>'
@@ -90,7 +90,7 @@ function blank_widgets_init() {
     'name'          => ('Hero Image Our Story'),
     'id'            => 'hero-image-story',
     'description'   => 'Hero image Our Story Page',
-    'before_widget' => '<div class="widget-hero-image-story>"',
+    'before_widget' => '<div class="widget-hero-image-story">',
     'after_widget'  => '</div>',
     'before_title'  => '<h3 class="hero-image-story-title">',
     'after_title'   => '</h3>'
@@ -99,7 +99,7 @@ function blank_widgets_init() {
     'name'          => ('Home Slider 1'),
     'id'            => 'home-slider-1',
     'description'   => 'First Slider',
-    'before_widget' => '<div class="widget-home-slider-1>"',
+    'before_widget' => '<div class="widget-home-slider-1">',
     'after_widget'  => '</div>',
     'before_title'  => '<h3 class="home-slider-1-title">',
     'after_title'   => '</h3>'
@@ -108,7 +108,7 @@ function blank_widgets_init() {
     'name'          => ('Home Slider 2'),
     'id'            => 'home-slider-2',
     'description'   => 'Second Slider',
-    'before_widget' => '<div class="widget-home-slider-2>"',
+    'before_widget' => '<div class="widget-home-slider-2">',
     'after_widget'  => '</div>',
     'before_title'  => '<h3 class="home-slider-2-title">',
     'after_title'   => '</h3>'
@@ -126,7 +126,7 @@ function blank_widgets_init() {
     'name'          => ('Instagram'),
     'id'            => 'instagram',
     'description'   => 'Instagram Feed',
-    'before_widget' => '<div class="widget-instagram>"',
+    'before_widget' => '<div class="widget-instagram">',
     'after_widget'  => '</div>',
     'before_title'  => '<h3 class="instagram-title">',
     'after_title'   => '</h3>'
@@ -135,7 +135,7 @@ function blank_widgets_init() {
     'name'          => ('Instagram 2'),
     'id'            => 'instagram-2',
     'description'   => 'Instagram Feed',
-    'before_widget' => '<div class="widget-instagram-2>"',
+    'before_widget' => '<div class="widget-instagram-2">',
     'after_widget'  => '</div>',
     'before_title'  => '<h3 class="instagram-2-title">',
     'after_title'   => '</h3>'
@@ -144,7 +144,7 @@ function blank_widgets_init() {
     'name'          => ('Our Story Widget'),
     'id'            => 'story-widget',
     'description'   => 'Story Widget',
-    'before_widget' => '<div class="widget-story>"',
+    'before_widget' => '<div class="widget-story">',
     'after_widget'  => '</div>',
     'before_title'  => '<h3 class="story-title">',
     'after_title'   => '</h3>'
@@ -153,7 +153,7 @@ function blank_widgets_init() {
     'name'          => ('Meet The Team'),
     'id'            => 'meet-the-team',
     'description'   => 'meet the team',
-    'before_widget' => '<div class="widget-meet-the-team>"',
+    'before_widget' => '<div class="widget-meet-the-team">',
     'after_widget'  => '</div>',
     'before_title'  => '<h3 class="meet-the-team-title">',
     'after_title'   => '</h3>'
@@ -162,7 +162,7 @@ function blank_widgets_init() {
     'name'          => ('Instagram'),
     'id'            => 'instagram-2',
     'description'   => 'Instagram Feed',
-    'before_widget' => '<div class="widget-instagram-2>"',
+    'before_widget' => '<div class="widget-instagram-2">',
     'after_widget'  => '</div>',
     'before_title'  => '<h3 class="instagram-title-2">',
     'after_title'   => '</h3>'
@@ -171,7 +171,7 @@ function blank_widgets_init() {
     'name'          => ('Contact Form'),
     'id'            => 'contact-form',
     'description'   => 'Contact Form',
-    'before_widget' => '<div class="widget-contact-form"',
+    'before_widget' => '<div class="widget-contact-form">',
     'after_widget'  => '</div>',
     'before_title'  => '<h3 class="contact-form-title">',
     'after_title'   => '</h3>'
@@ -180,7 +180,7 @@ function blank_widgets_init() {
     'name'          => ('Contact Image'),
     'id'            => 'contact-image',
     'description'   => 'Contact Image',
-    'before_widget' => '<div class="widget-contact-image"',
+    'before_widget' => '<div class="widget-contact-image">',
     'after_widget'  => '</div>',
     'before_title'  => '<h3 class="contact-image-title">',
     'after_title'   => '</h3>'
@@ -189,7 +189,7 @@ function blank_widgets_init() {
     'name'          => ('Contact Info'),
     'id'            => 'contact-info',
     'description'   => 'Contact Info',
-    'before_widget' => '<div class="widget-contact-info"',
+    'before_widget' => '<div class="widget-contact-info">',
     'after_widget'  => '</div>',
     'before_title'  => '<h3 class="contact-info-title">',
     'after_title'   => '</h3>'
@@ -198,7 +198,7 @@ function blank_widgets_init() {
     'name'          => ('Map'),
     'id'            => 'map',
     'description'   => 'Map',
-    'before_widget' => '<div class="widget-map"',
+    'before_widget' => '<div class="widget-map">',
     'after_widget'  => '</div>',
     'before_title'  => '<h3 class="contact-map">',
     'after_title'   => '</h3>'
@@ -207,7 +207,7 @@ function blank_widgets_init() {
     'name'          => ('Paint Carousel'),
     'id'            => 'paint-carousel',
     'description'   => 'Paint Carousel',
-    'before_widget' => '<div class="widget-paint-carousel"',
+    'before_widget' => '<div class="widget-paint-carousel">',
     'after_widget'  => '</div>',
     'before_title'  => '<h3 class="paint-carousel-title">',
     'after_title'   => '</h3>'
@@ -216,7 +216,7 @@ function blank_widgets_init() {
     'name'          => ('Right Post Sidebar'),
     'id'            => 'right-post-sidebar',
     'description'   => 'Right Post Sidebar',
-    'before_widget' => '<div class="widget-right-post-sidebar"',
+    'before_widget' => '<div class="widget-right-post-sidebar">',
     'after_widget'  => '</div>',
     'before_title'  => '<h3 class="right-post-sidebar-title">',
     'after_title'   => '</h3>'
@@ -225,9 +225,27 @@ function blank_widgets_init() {
     'name'          => ('Footer Social Icons'),
     'id'            => 'footer-social',
     'description'   => 'Social Icons for Footer',
-    'before_widget' => '<div class="widget-footer-social"',
+    'before_widget' => '<div class="widget-footer-social">',
     'after_widget'  => '</div>',
     'before_title'  => '<h3 class="footer-social-title">',
+    'after_title'   => '</h3>'
+  ));
+  register_sidebar(array(
+    'name'          => ('Hero Image Contact'),
+    'id'            => 'hero-image-contact',
+    'description'   => 'Hero image Contact Page',
+    'before_widget' => '<div class="widget-hero-image-contact">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="hero-image-contact-title">',
+    'after_title'   => '</h3>'
+  ));
+  register_sidebar(array(
+    'name'          => ('Recent Posts'),
+    'id'            => 'recent-post',
+    'description'   => 'Recent Posts',
+    'before_widget' => '<div class="recent-posts-widget">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="recent-posts-title">',
     'after_title'   => '</h3>'
   ));
 }

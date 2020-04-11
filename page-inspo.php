@@ -19,7 +19,7 @@
       the_post(); ?>
       <div class="content">
         <div class="grid">
-          <figure class="effect-chico">
+          <figure class="effect-steve">
           <?php  the_post_thumbnail('medium'); ?>
             <figcaption>
               <h2><?php the_title(); ?></h2>
@@ -43,7 +43,7 @@
 </section>
 
 <section class="row justify-content-center">
-  <a href="#" type="button" class="btn btn-primary btn-lg">More Inspiration Here</a>
+  <a href="#" role="button" class="btn btn-primary btn-lg">More Inspiration Here</a>
 </section>
 
 

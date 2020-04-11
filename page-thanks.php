@@ -1,6 +1,6 @@
 <?php
 /*
-    Template Name: contact
+    Template Name: thanks
     Template Type: Page
 */
  ?>
@@ -8,18 +8,15 @@
 <?php get_header(); ?>
 
 <main class="container">
-  <section class="row">
-    <div class="col-md-12">
-    <?php dynamic_sidebar('hero-image-contact'); ?>
-  </div>
-</section>
+
 <!-- ======================= contact form and photo area ==================-->
-  <section class="row justify-content-around">
-    <div class="col-12 d-flex justify-content-center">
-      <?php dynamic_sidebar('contact-form'); ?>
+  <section class="row justify-content-center" id="thanks">
+    <div class="col-md-12 d-flex justify-content-center">
+      <h3>Thanks for getting in touch with us! You should expect to hear from back within 24 to 48 hours.</h3>
     </div>
   </section>
 </main>
+
 
 <!-- ======================= FAQ Area  ==================-->
 

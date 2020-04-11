@@ -7,11 +7,11 @@
   </div>
   </div>
 
-  <section class="paint">
-    <?php dynamic_sidebar('paint-carousel'); ?>
-  </section>
-
 <!-- ======================= Blog Posts ==================-->
+<div class="blog-title">
+  <h2>Tutorials</h2>
+  <p>We realize that starting on your first project can be quite intimidating, so we've put together some Country Chic Paint tutorials to help you get inspired! Click on any of the tiles below for step-by-step instructions for your next project.</p>
+</div>
     <section class="row justify-content-center" id="inspiration">
       <?php if(have_posts()){
         while(have_posts()){
@@ -31,14 +31,17 @@
       } // ends if statement
       ?>
       </section>
+
 <!-- ======================= Instagram ==================-->
   <section class="row" id="inspiration-instagram">
-    <div class="col-md-12">
-      <h2 id="follow-insta">Follow <a href="https://www.instagram.com/countrychicpaint/" target="blank">@CountryChicPaint</a> on Instagram for more inspiration!</h2>
+    <div class="col-md-12 heading">
+      <h4 id="follow-insta">Find us on on Instagram for even more inspiration!</h4>
       <?php dynamic_sidebar('instagram-2');?>
+      <a href="https://www.instagram.com/countrychicpaint/" role="button" class="btn btn-primary btn-lg">Follow Us on Instagram</a>
     </div>
   </section>
 
 </main>
+
 
 <?php get_footer(); ?>

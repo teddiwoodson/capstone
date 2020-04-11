@@ -1,4 +1,5 @@
 <footer>
+  <section>
       <div class="footer-desktop-nav">
         <div class="container">
           <div class="row d-flex justify-content-around align-items-baseline">
@@ -6,7 +7,7 @@
                 <?php if(get_header_image() == '') {?>
                     <h1><a href="<?php get_home_url();?>"><?php bloginfo('name');?></a></h1><?php
                   }else {?>
-                    <a href="<?php get_home_url();?>"><img src="<?php header_image();?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" atl="logo" /></a>
+                    <a href="<?php get_home_url();?>"><img src="<?php header_image();?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="logo" /></a>
 
                   <?php } ?>
                   <?php dynamic_sidebar('footer-social'); ?>
@@ -32,7 +33,7 @@
               <?php if(get_header_image() == '') {?>
                   <h1><a href="<?php get_home_url();?>"><?php bloginfo('name');?></a></h1><?php
                 }else {?>
-                  <a href="<?php get_home_url();?>"><img src="<?php header_image();?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" atl="logo" /></a>
+                  <a href="<?php get_home_url();?>"><img src="<?php header_image();?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="logo" /></a>
 
                 <?php } ?>
                 <?php dynamic_sidebar('footer-social'); ?>
@@ -47,6 +48,11 @@
               ?>
             </nav>
           </div>
+        </div>
+    </section>
+
+        <div class="copyright">
+          <p>&copy; 2020 Country Chic Paint</p>
         </div>
 
 </footer>

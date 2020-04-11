@@ -15,7 +15,8 @@
 
 <!-- ======================= Paint Carousel ==================-->
   <section class="paint">
-    <h2>Paint</h2>
+    <h2>Paint Colors</h2>
+    <p>We offer over 60 original non-toxic, eco-friendly paint colors.</p>
     <?php dynamic_sidebar('paint-carousel'); ?>
   </section>
 
@@ -28,29 +29,30 @@
 </main>
 <!-- ======================= Products ==================-->
   <section class="container-fluid" id="products">
-    <div class="row justify-content-center">
-      <h2>Products</h2>
+    <div class="justify-content-center">
+      <h2>Our Products</h2>
+      <p>Browse our high-quality, eco-friendly furniture paint and supplies</p>
     </div>
     <div class="row justify-content-center">
-      <div class="col-lg-2 col-md-4 justify-content-center" id="products-content">
-        <a href="https://www.countrychicpaint.com/collections/chalk-style-all-in-one-paint" target="blank"><img src="<?php echo get_template_directory_uri(); ?>/images/paint-150x150.png"></a>
-        <p>Paint</p>
+      <div class="col-lg-2 col-md-4 col-sm-4 col-6 justify-content-center product-img">
+        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/Paint-Icon.png" alt="paint jar icon" title="paint"></a>
+        <a href="#" class="btn btn-secondary" role="button">Paint</a>
       </div>
-      <div class="col-lg-2 col-md-4 justify-content-center">
-        <a href="https://www.countrychicpaint.com/collections/wax-top-coats-etc" target="blank"><img src="<?php echo get_template_directory_uri(); ?>/images/wax-150x150.png"></a>
-        <p>Waxes</p>
+      <div class="col-lg-2 col-md-4 col-sm-4 col-6 justify-content-center product-img">
+        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/Wax-Icon.png" alt="wax icon" title="wax icon"></a>
+        <a href="#" class="btn btn-secondary" role="button">Waxes</a>
       </div>
-      <div class="col-lg-2 col-md-4 justify-content-center">
-        <a href="https://www.countrychicpaint.com/collections/specialty-products" target="blank"><img src="<?php echo get_template_directory_uri(); ?>/images/finishes-150x150.png"></a>
-        <p>Finishes</p>
+      <div class="col-lg-2 col-md-4 col-sm-4 col-6 justify-content-center product-img">
+        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/Finish-Icon.png" alt="finishes icon" title="finishes"></a>
+        <a href="#" class="btn btn-secondary" role="button">Finishes</a>
       </div>
-      <div class="col-lg-2 col-md-4 justify-content-center">
-        <a href="https://www.countrychicpaint.com/collections/wax-and-paint-brushes" target="blank"><img src="<?php echo get_template_directory_uri(); ?>/images/brushes-150x150.png"></a>
-        <p>Brushes</p>
+      <div class="col-lg-2 col-md-4 col-sm-4 col-6 justify-content-center product-img">
+        <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/Brush-Icon.png" alt="brushe icon" title="brushes icon"></a>
+        <a href="#" class="btn btn-secondary" role="button">Brushes</a>
       </div>
-      <div class="col-lg-2 col-md-4 justify-content-center">
-        <a href="https://www.countrychicpaint.com/collections/diy-kits" target="blank"><img src="<?php echo get_template_directory_uri(); ?>/images/kits-150x150.png"></a>
-        <p>Kits</p>
+      <div class="col-lg-2 col-md-6 col-sm-4 col-6 justify-content-center product-img">
+        <a href="#" target="blank"><img src="<?php echo get_template_directory_uri(); ?>/images/Kit-Icon.png" alt="kits icon" title="kits icon"></a>
+        <a href="#" class="btn btn-secondary" role="button">Kits</a>
       </div>
     </div>
   </section>
