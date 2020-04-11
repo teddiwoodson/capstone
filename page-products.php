@@ -22,46 +22,62 @@
             <img  src="<?php echo get_template_directory_uri(); ?>/images/paint.jpg" alt="paint" title="paint"/>
             <figcaption>
               <h2>All-In-One Paints</h2>
+              <p>Our paints are 100% VOC-free & environmentally friendly.</p>
             </figcaption>
           </figure>
         </a>
+      </div>
+      <div class="grid">
         <a href="https://www.countrychicpaint.com/collections/wax-top-coats-etc">
           <figure class="effect-steve">
               <img  src="<?php echo get_template_directory_uri(); ?>/images/waxes.jpg" alt="waxes" title="waxes"/>
               <figcaption>
                   <h2>Waxes & Top Coats</h2>
+                  <p>Our furniture waxes contain only 100% natural ingredients.</p>
               </figcaption>
           </figure>
         </a>
+      </div>
+      <div class="grid">
         <a href="https://www.countrychicpaint.com/collections/specialty-products">
           <figure class="effect-steve">
               <img  src="<?php echo get_template_directory_uri(); ?>/images/finishes.jpg" alt="finishes" title="finishes"/>
               <figcaption>
                   <h2>Finishes</h2>
+                  <p>Your furniture will make a statement with our specialty finishes.</p>
               </figcaption>
           </figure>
         </a>
+      </div>
+      <div class="grid">
         <a href="https://www.countrychicpaint.com/collections/wax-and-paint-brushes">
           <figure class="effect-steve">
               <img  src="<?php echo get_template_directory_uri(); ?>/images/brushes.jpg" alt="brushes" title="brushes"/>
               <figcaption>
                   <h2>Brushes & Sponges</h2>
+                  <p>Each brush is designed to work seemlessly with each of our products.</p>
               </figcaption>
           </figure>
         </a>
+      </div>
+      <div class="grid">
         <a href="https://www.countrychicpaint.com/collections/diy-kits">
           <figure class="effect-steve">
               <img  src="<?php echo get_template_directory_uri(); ?>/images/kits.jpg" alt="kits" title="kits"/>
               <figcaption>
                   <h2>DIY Kits</h2>
+                  <p>Our curated kits will help you get started with your first project.</p>
               </figcaption>
           </figure>
         </a>
+      </div>
+      <div class="grid">
         <a href="https://www.countrychicpaint.com/collections/special-offers">
           <figure class="effect-steve">
               <img  src="<?php echo get_template_directory_uri(); ?>/images/special-offers.jpg" alt="special-offers" title="special offers"/>
               <figcaption>
                   <h2>Special Offers</h2>
+                  <p>Check out our special offers. Available only for a limited time!</p>
               </figcaption>
           </figure>
         </a>
