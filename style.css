@@ -458,7 +458,8 @@ Testimonials
 figure.effect-steve {
   z-index: auto;
   background: white;
-  margin: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 figure.effect-steve:before {
