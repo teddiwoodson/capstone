@@ -129,6 +129,8 @@
           </figure>
         </a>
       </div>
+=======
+>>>>>>> ErikaJenkins
   </section>
 
 <!-- ======================= Instagram Feed ==================-->
@@ -148,6 +150,17 @@
   </section>
 
 </div>
+
+<div class="col-md-4">
+  <div class="impact">
+    <img  src="<?php echo get_template_directory_uri(); ?>/images/renewable.png" alt="renewable" title="renewable"/>
+    <p>Country Chic Paint’s headquarters and warehouse use 98% renewable energy.</p>
+
+        </div>
+      </div>
+    </div>
+    </section>-->
+>>>>>>> 7fade8ba8d0aa930e2c498da766fdfd112e9b4e5
 
 
 
