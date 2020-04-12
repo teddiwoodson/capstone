@@ -13,14 +13,51 @@
     <?php dynamic_sidebar('hero-image-products'); ?>
   </div>
   </section>
-<!-- ======================= Paint Carousel ==================-->
-  <section class="paint">
-    <h2>Paint Colors</h2>
-    <p>We offer over 60 original non-toxic, eco-friendly paint colors that are independently tested and certified safe.</p>
-    <?php dynamic_sidebar('paint-carousel'); ?>
-  </section>
+  </main>
+
+
+  <!-- ======================= Our Impact  ==================-->
+
+    <section class="container-fluid" id="impact">
+      <div class="row justify-content-center">
+        <h2>Our Impact</h2>
+      </div>
+      <div class="row justify-content-around align-items-baseline">
+        <div class="col-md-4">
+          <div class="impact">
+            <img  src="<?php echo get_template_directory_uri(); ?>/images/leaves.png" alt="leaves" title="leaves"/>
+            <p>Country Chic Paint’s products and marketing materials have low impact on the environment.</p>
+          </div>
+
+        </div>
+        <div class="col-md-4">
+          <div class="impact">
+            <img  src="<?php echo get_template_directory_uri(); ?>/images/recycle.png" alt="recycle" title="recycle"/>
+            <p>Country Chic Paint is a proud member of paint recycling programs ensuring leftover paint is properly recycled.</p>
+          </div>
+
+
+        </div>
+        <div class="col-md-4">
+          <div class="impact">
+            <img  src="<?php echo get_template_directory_uri(); ?>/images/renewable.png" alt="renewable" title="renewable"/>
+            <p>Country Chic Paint’s headquarters and warehouse use 98% renewable energy.</p>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <!-- ======================= Paint Carousel ==================-->
+<main class="container">
+      <section class="paint">
+        <h2>Paint Colors</h2>
+        <p>We offer over 60 original non-toxic, eco-friendly paint colors that are independently tested and certified safe.</p>
+        <?php dynamic_sidebar('paint-carousel'); ?>
+      </section>
+
 
 <!-- ======================= Image Grid ==================-->
+
 <div class="heading">
   <h2>Our Products</h2>
   <p>Our products are manufactured in North America without the use of harsh chemical additives, and our paints are independently tested and certified safe for children’s furniture.</p>
@@ -112,7 +149,7 @@
 
 </main>
 
-  <!-- ======================= Our Impact  ==================-->
+  <!-- ======================= Our Impact  ==================
 
     <section class="container-fluid" id="impact">
       <div class="row justify-content-center">
@@ -122,14 +159,14 @@
         <div class="col-md-4">
           <div class="impact">
             <img  src="<?php echo get_template_directory_uri(); ?>/images/leaves.png" alt="leaves" title="leaves"/>
-            <p>Our products have zero to low VOC levels.</p>
+            <p>Country Chic Paint’s products and marketing materials have low impact on the environment.</p>
           </div>
 
         </div>
         <div class="col-md-4">
           <div class="impact">
             <img  src="<?php echo get_template_directory_uri(); ?>/images/recycle.png" alt="recycle" title="recycle"/>
-            <p>Our brochures and labels are printed on 100% recycled paper.</p>
+            <p>Country Chic Paint is a proud member of paint recycling programs ensuring leftover paint is properly recycled.</p>
           </div>
 
 
@@ -137,11 +174,11 @@
         <div class="col-md-4">
           <div class="impact">
             <img  src="<?php echo get_template_directory_uri(); ?>/images/renewable.png" alt="renewable" title="renewable"/>
-            <p>Our headquarters and warehouse use 98% renewable energy.</p>
+            <p>Country Chic Paint’s headquarters and warehouse use 98% renewable energy.</p>
         </div>
       </div>
     </div>
-    </section>
+    </section>-->
 
 
 

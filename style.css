@@ -29,6 +29,7 @@ h1, h2, h3, h4, h5 {
 }
 p {
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
 h2 {
   text-align: center;
@@ -845,4 +846,42 @@ footer {
 }
 .oops {
   text-align: center;
+}
+
+/* ========================
+
+Archive Page
+
+============================*/
+.archiveposts:nth-child(odd){
+  background: red;
+}
+
+.h2.archive-title{
+  margin: 15px 20px;
+}
+
+p.category-label, .post-categories{
+  display: inline-block;
+}
+/*style for category type (category type is in All Posts on dashboard); may not need*/
+ul.post-categories{
+  list-style-type: none;
+}
+
+.archivepost-title{
+  background: red;
+  text-align: center;
+}
+.archivepost-title h3{
+  margin: 0 0 10px 0;
+}
+
+.archivepost-title a{
+  color: purple;
+  text-decoration: none;
+}
+
+.archivepost-info{
+  margin: 10px 0px;
 }
