@@ -1,9 +1,7 @@
 <?php
 
 /* ================================================
-
 adds stylesheet, bootstrap and javascript files
-
 ====================================================*/
 
   function custom_theme_scripts(){
@@ -21,9 +19,7 @@ adds stylesheet, bootstrap and javascript files
   add_action('wp_enqueue_scripts', 'custom_theme_scripts');
 
   /* ================================================
-
     Custom Header Logo
-
   ====================================================*/
 
 $custom_image_header = array(
@@ -35,9 +31,7 @@ $custom_image_header = array(
 add_theme_support('custom-header', $custom_image_header);
 
 /* =========
-
 add menus to our theme
-
 =================*/
 
 function register_my_menus(){
@@ -53,9 +47,7 @@ function register_my_menus(){
 add_action('init', 'register_my_menus');
 
 /* =========
-
 adds widget areas to theme
-
 =================*/
 
 function blank_widgets_init() {
@@ -253,9 +245,7 @@ function blank_widgets_init() {
 add_action('widgets_init', 'blank_widgets_init');
 
 /* =========
-
 adds feature image functionality
-
 =================*/
 
 add_theme_support('post-thumbnails');
