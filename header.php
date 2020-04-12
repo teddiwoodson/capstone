@@ -58,7 +58,6 @@
 
         <!--
         Some spans to act as a hamburger.
-
         They are acting like a real hamburger,
         not that McDonalds stuff.
         -->
