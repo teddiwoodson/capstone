@@ -13,7 +13,7 @@
     <?php dynamic_sidebar('hero-image-contact'); ?>
   </div>
 </section>
-<!-- ======================= contact form and photo area ==================-->
+<!-- ======================= contact form ==================-->
   <section class="row justify-content-around">
     <div class="col-12 d-flex justify-content-center">
       <?php dynamic_sidebar('contact-form'); ?>
@@ -52,10 +52,10 @@
 
 <section class="container" id="map-and-contact">
   <section class="row">
-    <div class="col-lg-6 col-md-8 col-sm-12 d-flex justify-content-center map">
+    <div class="col-lg-6 col-md-5 col-sm-12 justify-content-center map">
       <?php dynamic_sidebar('map'); ?>
     </div>
-    <div class="col-lg-6 col-md-4 col-sm-12 justify-content-center contact-text">
+    <div class="col-lg-6 col-md-7 col-sm-12 justify-content-center contact-text">
       <?php dynamic_sidebar('contact-info'); ?>
     </div>
   </section>

@@ -650,6 +650,7 @@ figure:hover h2 {
   margin-right: 0;
   margin-top: 2%;
   margin-bottom: 2%;
+  text-align: center;
 }
 .widget-contact-form {
   font-family: 'Montserrat', sans-serif;
@@ -662,13 +663,17 @@ figure:hover h2 {
   margin-top: 2%;
   margin-bottom: 2%;
 }
+.widget_text.widget-map {
+    text-align: center;
+    margin-bottom: 2%;
+}
 .map iframe{
   width: 300px;
-  height: 150px;
+  height: 300px;
 }
 @media (min-width: 500px) {
   .map iframe{
-    width: 450px;
+    width: 270px;
     height: 300px;
   }
   .widget-contact-form {
@@ -676,6 +681,12 @@ figure:hover h2 {
   }
 }
 
+@media (min-width: 990px) {
+  .map iframe{
+    width: 450px;
+    height: 300px;
+  }
+}
 
 /* ======================================
 
