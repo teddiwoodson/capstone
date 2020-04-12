@@ -186,6 +186,9 @@
         </figure>
       </div>
     </div>
+<<<<<<< master
+>>>>>>> ErikaJenkins
+=======
 >>>>>>> ErikaJenkins
   </section>
 
@@ -239,6 +242,9 @@
           <div class="impact">
             <img src="http://localhost:8888/wordpress/wp-content/uploads/2020/03/recycle.png" />
             <p>Our brochures and labels are printed on 100% recycled paper.</p>
+<<<<<<< master
+>>>>>>> ErikaJenkins
+=======
 >>>>>>> ErikaJenkins
           </div>
 
@@ -254,6 +260,9 @@
           <div class="impact">
             <img src="http://localhost:8888/wordpress/wp-content/uploads/2020/03/recycle.png" />
             <p>Our headquarters and warehouse use 98% renewable energy.</p>
+<<<<<<< master
+>>>>>>> ErikaJenkins
+=======
 >>>>>>> ErikaJenkins
         </div>
       </div>
