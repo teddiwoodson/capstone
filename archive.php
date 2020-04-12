@@ -1,8 +1,11 @@
-<?php /* Template Name: Archive Page */
-get_header();
-?>
+<?php
+/*
+    Template Name: Archives
+    Template Type: Page
+*/
+ ?>
 
-
+<?php get_header(); ?>
 
 <div class="container">
   <div class="row">
