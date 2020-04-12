@@ -664,6 +664,13 @@ figure:hover h2 {
 .map iframe{
   width: 300px;
   height: 150px;
+=========================================*/
+#thanks {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+=======
 }
 @media (min-width: 500px) {
   .map iframe{
@@ -853,35 +860,4 @@ footer {
 Archive Page
 
 ============================*/
-.archiveposts:nth-child(odd){
-  background: red;
-}
-
-.h2.archive-title{
-  margin: 15px 20px;
-}
-
-p.category-label, .post-categories{
-  display: inline-block;
-}
-/*style for category type (category type is in All Posts on dashboard); may not need*/
-ul.post-categories{
-  list-style-type: none;
-}
-
-.archivepost-title{
-  background: red;
-  text-align: center;
-}
-.archivepost-title h3{
-  margin: 0 0 10px 0;
-}
-
-.archivepost-title a{
-  color: purple;
-  text-decoration: none;
-}
-
-.archivepost-info{
-  margin: 10px 0px;
 }

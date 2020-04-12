@@ -7,7 +7,7 @@
 
 <?php get_header(); ?>
 <!-- ======================= Hero Image ==================-->
-<main class="container">
+<div class="container">
   <section class="row">
     <div class="col-md-12">
     <?php dynamic_sidebar('hero-image-products'); ?>
@@ -147,38 +147,7 @@
     <a href="https://www.instagram.com/countrychicpaint/" role="button" class="btn btn-primary btn-lg">Follow Us on Instagram</a>
   </section>
 
-</main>
-
-  <!-- ======================= Our Impact  ==================
-
-    <section class="container-fluid" id="impact">
-      <div class="row justify-content-center">
-        <h2>Our Impact</h2>
-      </div>
-      <div class="row justify-content-around align-items-baseline">
-        <div class="col-md-4">
-          <div class="impact">
-            <img  src="<?php echo get_template_directory_uri(); ?>/images/leaves.png" alt="leaves" title="leaves"/>
-            <p>Country Chic Paint’s products and marketing materials have low impact on the environment.</p>
-          </div>
-
-        </div>
-        <div class="col-md-4">
-          <div class="impact">
-            <img  src="<?php echo get_template_directory_uri(); ?>/images/recycle.png" alt="recycle" title="recycle"/>
-            <p>Country Chic Paint is a proud member of paint recycling programs ensuring leftover paint is properly recycled.</p>
-          </div>
-
-
-        </div>
-        <div class="col-md-4">
-          <div class="impact">
-            <img  src="<?php echo get_template_directory_uri(); ?>/images/renewable.png" alt="renewable" title="renewable"/>
-            <p>Country Chic Paint’s headquarters and warehouse use 98% renewable energy.</p>
-        </div>
-      </div>
-    </div>
-    </section>-->
+</div>
 
 
 
