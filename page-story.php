@@ -71,10 +71,10 @@
   </section>
 
 <!-- ======================= Meet the Team ==================-->
-  <section class="meet-team">
-      <h2>Meet The Team</h2>
-      <?php echo do_shortcode('[sp_wpcarousel id="59"]'); ?>
-  </section>
+<section class="meet-team">
+    <h2>Meet The Team</h2>
+    <a href="http://www.teddiwoodson.com/capstone/meet-the-team/"><?php echo do_shortcode('[sp_wpcarousel id="59"]'); ?></a>
+</section>
 </section>
 
 
