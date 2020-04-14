@@ -80,7 +80,7 @@
         </a>
       </div>
       <div class="grid">
-        <a href="https://www.countrychicpaint.com/collections/wax-top-coats-etc">
+        <a href="http://www.teddiwoodson.com/capstone/wax-products/">
           <figure class="effect-steve">
               <img  src="<?php echo get_template_directory_uri(); ?>/images/waxes.jpg" alt="waxes" title="waxes"/>
               <figcaption>
@@ -91,7 +91,7 @@
         </a>
       </div>
       <div class="grid">
-        <a href="https://www.countrychicpaint.com/collections/specialty-products">
+        <a href="http://www.teddiwoodson.com/capstone/finishes-products/">
           <figure class="effect-steve">
               <img  src="<?php echo get_template_directory_uri(); ?>/images/finishes.jpg" alt="finishes" title="finishes"/>
               <figcaption>
@@ -102,7 +102,7 @@
         </a>
       </div>
       <div class="grid">
-        <a href="https://www.countrychicpaint.com/collections/wax-and-paint-brushes">
+        <a href="http://www.teddiwoodson.com/capstone/brushes-products/">
           <figure class="effect-steve">
               <img  src="<?php echo get_template_directory_uri(); ?>/images/brushes.jpg" alt="brushes" title="brushes"/>
               <figcaption>
@@ -113,7 +113,7 @@
         </a>
       </div>
       <div class="grid">
-        <a href="https://www.countrychicpaint.com/collections/diy-kits">
+        <a href="http://www.teddiwoodson.com/capstone/kits/">
           <figure class="effect-steve">
               <img  src="<?php echo get_template_directory_uri(); ?>/images/kits.jpg" alt="kits" title="kits"/>
               <figcaption>
@@ -124,7 +124,7 @@
         </a>
       </div>
       <div class="grid">
-        <a href="https://www.countrychicpaint.com/collections/special-offers">
+        <a href="http://www.teddiwoodson.com/capstone/specials/">
           <figure class="effect-steve">
               <img  src="<?php echo get_template_directory_uri(); ?>/images/special-offers.jpg" alt="special-offers" title="special offers"/>
               <figcaption>

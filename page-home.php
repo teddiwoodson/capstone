@@ -34,23 +34,23 @@
     <article class="row justify-content-center">
       <div class="col-lg-2 col-md-4 col-sm-4 col-6 justify-content-center product-img">
         <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/Paint-Icon.png" alt="paint jar icon" title="paint"></a>
-        <a href="#" class="btn btn-secondary" role="button">Paint</a>
+        <a href="http://www.teddiwoodson.com/capstone/paint-products/" class="btn btn-secondary" role="button">Paint</a>
       </div>
       <div class="col-lg-2 col-md-4 col-sm-4 col-6 justify-content-center product-img">
         <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/Wax-Icon.png" alt="wax icon" title="wax icon"></a>
-        <a href="#" class="btn btn-secondary" role="button">Waxes</a>
+        <a href="http://www.teddiwoodson.com/capstone/wax-products/" class="btn btn-secondary" role="button">Waxes</a>
       </div>
       <div class="col-lg-2 col-md-4 col-sm-4 col-6 justify-content-center product-img">
         <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/Finish-Icon.png" alt="finishes icon" title="finishes"></a>
-        <a href="#" class="btn btn-secondary" role="button">Finishes</a>
+        <a href="http://www.teddiwoodson.com/capstone/finishes-products/" class="btn btn-secondary" role="button">Finishes</a>
       </div>
       <div class="col-lg-2 col-md-4 col-sm-4 col-6 justify-content-center product-img">
         <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/Brush-Icon.png" alt="brushe icon" title="brushes icon"></a>
-        <a href="#" class="btn btn-secondary" role="button">Brushes</a>
+        <a href="http://www.teddiwoodson.com/capstone/brushes-products/" class="btn btn-secondary" role="button">Brushes</a>
       </div>
       <div class="col-lg-2 col-md-6 col-sm-4 col-6 justify-content-center product-img">
         <a href="#" target="blank"><img src="<?php echo get_template_directory_uri(); ?>/images/Kit-Icon.png" alt="kits icon" title="kits icon"></a>
-        <a href="#" class="btn btn-secondary" role="button">Kits</a>
+        <a href="http://www.teddiwoodson.com/capstone/kits/" class="btn btn-secondary" role="button">Kits</a>
       </div>
     </article>
   </section>
