@@ -312,6 +312,8 @@ add_theme_support('post-thumbnails');
 
 ====================================================*/
 
+
+/* ==== Paint Products ==== */
 function create_post_type(){
   register_post_type('paint_products',
     array(
@@ -328,11 +330,91 @@ function create_post_type(){
       'can_expost'            => true,
       'menu_icon'             => 'dashicons-art',
       'supports'              => array('title','editor', 'thumbnail'),
-    )
-  );
+    ));
+  register_post_type('wax_products',
+    array(
+      'labels'          => array(
+        'name'          => ('Wax Products'),
+        'singular name' => ('Wax Product')
+      ),
+      'public'                => true,
+      'has_archive'           => true,
+      'show_in_menu'          => true,
+      'show_in_nav_menus'     => true,
+      'show_in_admin_bar'     => true,
+      'menu_position'         => 4,
+      'can_expost'            => true,
+      'menu_icon'             => 'dashicons-art',
+      'supports'              => array('title','editor', 'thumbnail'),
+    ));
+  register_post_type('finishes_products',
+    array(
+      'labels'          => array(
+        'name'          => ('Finishes Products'),
+        'singular name' => ('Finishes Product')
+      ),
+      'public'                => true,
+      'has_archive'           => true,
+      'show_in_menu'          => true,
+      'show_in_nav_menus'     => true,
+      'show_in_admin_bar'     => true,
+      'menu_position'         => 4,
+      'can_expost'            => true,
+      'menu_icon'             => 'dashicons-art',
+      'supports'              => array('title','editor', 'thumbnail'),
+    ));
+  register_post_type('brushes_products',
+    array(
+      'labels'          => array(
+        'name'          => ('Brushes Products'),
+        'singular name' => ('Brush Product')
+      ),
+      'public'                => true,
+      'has_archive'           => true,
+      'show_in_menu'          => true,
+      'show_in_nav_menus'     => true,
+      'show_in_admin_bar'     => true,
+      'menu_position'         => 4,
+      'can_expost'            => true,
+      'menu_icon'             => 'dashicons-art',
+      'supports'              => array('title','editor', 'thumbnail'),
+    ));
+  register_post_type('kits_products',
+    array(
+      'labels'          => array(
+        'name'          => ('Kit Products'),
+        'singular name' => ('Kit Product')
+      ),
+      'public'                => true,
+      'has_archive'           => true,
+      'show_in_menu'          => true,
+      'show_in_nav_menus'     => true,
+      'show_in_admin_bar'     => true,
+      'menu_position'         => 4,
+      'can_expost'            => true,
+      'menu_icon'             => 'dashicons-art',
+      'supports'              => array('title','editor', 'thumbnail'),
+    ));
+  register_post_type('specials_products',
+    array(
+      'labels'          => array(
+        'name'          => ('Special Products'),
+        'singular name' => ('Special Product')
+      ),
+      'public'                => true,
+      'has_archive'           => true,
+      'show_in_menu'          => true,
+      'show_in_nav_menus'     => true,
+      'show_in_admin_bar'     => true,
+      'menu_position'         => 4,
+      'can_expost'            => true,
+      'menu_icon'             => 'dashicons-art',
+      'supports'              => array('title','editor', 'thumbnail'),
+    ));
 }
 
 add_action('init', 'create_post_type');
 
+/* ==== Paint Products ==== */
 
 ?>

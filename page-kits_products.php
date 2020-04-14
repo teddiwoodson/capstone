@@ -1,17 +1,17 @@
 <?php
 /*
-    Template Name: Paint Products
+    Template Name: Kits Products
     Template Type: Page
 */
  ?>
 
 <?php get_header(); ?>
 <main class="container">
-  <h2 class="heading">All-in-One Chalk Paints</h2>
-  <p>Hundreds of our customers have given our furniture paint a 5 star rating. We believe that there is no question about it: our eco-friendly furniture paint can’t be beat!</p>
+  <h2 class="heading">DIY Kits</h2>
+  <p>Are you new to furniture painting and you're not really sure what you need? We created these kits to help you get started with your first Country Chic Paint project.</p>
   <section class="row">
 <!-- ===============================Change label here ============================= -->
-      <?php $args = array ('post_type' => 'paint_products', 'posts_per_page' => 12);
+      <?php $args = array ('post_type' => 'kits_products', 'posts_per_page' => 12);
 
       $loop = new WP_Query($args);
 

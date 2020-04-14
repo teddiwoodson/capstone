@@ -1,17 +1,17 @@
 <?php
 /*
-    Template Name: Paint Products
+    Template Name: Wax Products
     Template Type: Page
 */
  ?>
 
 <?php get_header(); ?>
 <main class="container">
-  <h2 class="heading">All-in-One Chalk Paints</h2>
-  <p>Hundreds of our customers have given our furniture paint a 5 star rating. We believe that there is no question about it: our eco-friendly furniture paint can’t be beat!</p>
+  <h2 class="heading">Waxes & Top Coats</h2>
+  <p>Looking for a Furniture Wax that is easy to use, smells good, contains no chemical solvents? Well, you’ve come to the right place! Our 100% natural furniture waxes contain only natural waxes and oils.</p>
   <section class="row">
 <!-- ===============================Change label here ============================= -->
-      <?php $args = array ('post_type' => 'paint_products', 'posts_per_page' => 12);
+      <?php $args = array ('post_type' => 'wax_products', 'posts_per_page' => 12);
 
       $loop = new WP_Query($args);
 

@@ -1,17 +1,17 @@
 <?php
 /*
-    Template Name: Paint Products
+    Template Name: Finishes Products
     Template Type: Page
 */
  ?>
 
 <?php get_header(); ?>
 <main class="container">
-  <h2 class="heading">All-in-One Chalk Paints</h2>
-  <p>Hundreds of our customers have given our furniture paint a 5 star rating. We believe that there is no question about it: our eco-friendly furniture paint can’t be beat!</p>
+  <h2 class="heading">Speciality Finishes</h2>
+  <p>Looking to give that DIY project some extra love? No matter what technique you're looking to tackle or unique effects you'd like to create, we've got the specialty finish for you!</p>
   <section class="row">
 <!-- ===============================Change label here ============================= -->
-      <?php $args = array ('post_type' => 'paint_products', 'posts_per_page' => 12);
+      <?php $args = array ('post_type' => 'finishes_products', 'posts_per_page' => 12);
 
       $loop = new WP_Query($args);
 

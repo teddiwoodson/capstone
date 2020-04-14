@@ -1,17 +1,17 @@
 <?php
 /*
-    Template Name: Paint Products
+    Template Name: Brushes Products
     Template Type: Page
 */
  ?>
 
 <?php get_header(); ?>
 <main class="container">
-  <h2 class="heading">All-in-One Chalk Paints</h2>
-  <p>Hundreds of our customers have given our furniture paint a 5 star rating. We believe that there is no question about it: our eco-friendly furniture paint can’t be beat!</p>
+  <h2 class="heading">Brushes</h2>
+  <p>Each of the paint and wax brushes in the Country Chic Paint line has been carefully tested and designed to work beautifully with our products. All of our brushes are made with 100% synthetic bristles.</p>
   <section class="row">
 <!-- ===============================Change label here ============================= -->
-      <?php $args = array ('post_type' => 'paint_products', 'posts_per_page' => 12);
+      <?php $args = array ('post_type' => 'brushes_products', 'posts_per_page' => 12);
 
       $loop = new WP_Query($args);
 
