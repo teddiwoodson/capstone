@@ -248,6 +248,15 @@ function blank_widgets_init() {
     'before_title'  => '<h3 class="recent-posts-title">',
     'after_title'   => '</h3>'
   ));
+  register_sidebar(array(
+    'name'          => ('Shop Form'),
+    'id'            => 'shop-form',
+    'description'   => 'Form to mimick shopping feature',
+    'before_widget' => '<div class="shop-form-widget">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="shop-form-title">',
+    'after_title'   => '</h3>'
+  ));
 }
 
 add_action('widgets_init', 'blank_widgets_init');
@@ -260,6 +269,33 @@ adds feature image functionality
 
 add_theme_support('post-thumbnails');
 
+/* ================================================
+
+  Create a custom post type for product items
+
+====================================================*/
+
+function create_post_type(){
+  register_post_type('paint_products',
+    array(
+      'labels'          => array(
+        'name'          => ('Paint Products'),
+        'singular name' => ('Paint Product')
+      ),
+      'public'                => true,
+      'has_archive'           => true,
+      'show_in_menu'          => true,
+      'show_in_nav_menus'     => true,
+      'show_in_admin_bar'     => true,
+      'menu_position'         => 4,
+      'can_expost'            => true,
+      'menu_icon'             => 'dashicons-art',
+      'supports'              => array('title','editor', 'thumbnail'),
+    )
+  );
+}
+
+add_action('init', 'create_post_type');
 
 
 ?>

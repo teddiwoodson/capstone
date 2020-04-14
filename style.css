@@ -918,3 +918,58 @@ ul.post-categories{
 .archivepost-info{
   margin: 10px 0px;
 }
+/* ========================
+
+        Single Product Items
+
+============================*/
+
+.product-features {
+  text-align: left ;
+}
+.product-feature-img {
+  margin-bottom: 20px;
+}
+
+.description p {
+  text-align: left !important;
+}
+.single-product {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+button#wpforms-submit-683 {
+  border-radius:0;
+  color: white;
+  background-color: #839869;
+  border: none;
+  box-shadow: none;
+}
+button:hover#wpforms-submit-683 {
+  color: white;
+  background-color: #2F3E4D;
+}
+.product-entry-title {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+/* ========================
+
+        Page-Paint Product Items
+
+============================*/
+.product-displays {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.product-title {
+  color: #2F3E4D;
+  margin-top: 10px;
+}
+.product-title:hover {
+  color: #DDC4C1;
+}
+.product-displays p {
+  margin-bottom: 0px;
+}
