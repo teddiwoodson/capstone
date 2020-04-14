@@ -73,7 +73,7 @@
 </div>
 <section class="row justify-content-center" id="inspiration">
       <div class="grid">
-        <a href="https://www.countrychicpaint.com/collections/chalk-style-all-in-one-paint">
+        <a href="http://www.teddiwoodson.com/capstone/paint-products/">
           <figure class="effect-steve">
             <img  src="<?php echo get_template_directory_uri(); ?>/images/paint.jpg" alt="paint" title="paint"/>
             <figcaption>
