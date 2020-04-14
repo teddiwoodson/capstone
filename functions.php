@@ -245,8 +245,8 @@ function blank_widgets_init() {
     'description'   => 'Menu 1 for Footer',
     'before_widget' => '<div class="widget-footer-menu-1">',
     'after_widget'  => '</div>',
-    'before_title'  => '<h4 class="footer-menu-1-title">',
-    'after_title'   => '</h4>'
+    'before_title'  => '<h5 class="footer-menu-1-title">',
+    'after_title'   => '</h5>'
   ));
   register_sidebar(array(
     'name'          => ('Footer Menu 2'),
@@ -254,8 +254,8 @@ function blank_widgets_init() {
     'description'   => 'Menu 2 for Footer',
     'before_widget' => '<div class="widget-footer-menu-2">',
     'after_widget'  => '</div>',
-    'before_title'  => '<h4 class="footer-menu-2-title">',
-    'after_title'   => '</h4>'
+    'before_title'  => '<h5 class="footer-menu-2-title">',
+    'after_title'   => '</h5>'
   ));
   register_sidebar(array(
     'name'          => ('Footer newsletter'),
@@ -263,8 +263,8 @@ function blank_widgets_init() {
     'description'   => 'Newsletter for Footer',
     'before_widget' => '<div class="widget-footer-newsletter">',
     'after_widget'  => '</div>',
-    'before_title'  => '<h3 class="footer-newsletter-title">',
-    'after_title'   => '</h3>'
+    'before_title'  => '<h5 class="footer-newsletter-title">',
+    'after_title'   => '</h5>'
   ));
 
   register_sidebar(array(
