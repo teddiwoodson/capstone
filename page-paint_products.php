@@ -7,7 +7,7 @@
 
 <?php get_header(); ?>
 <main class="container">
-  <h2>All-in-One Chalk Paints</h2>
+  <h2 class="heading">All-in-One Chalk Paints</h2>
   <section class="row">
       <?php $args = array ('post_type' => 'paint_products', 'posts_per_page' => 12);
 
@@ -20,7 +20,7 @@
 
       <a href="<?php the_permalink(); ?>" class="product-title"><h5><?php the_title(); ?></h5></a>
 
-      <p>Available in sizes: <?php the_field('size') ?> | <?php the_field('price') ?></p>
+      <p><?php the_field('size') ?> | <?php the_field('price') ?></p>
 
       <a class="btn btn-primary" href="<?php the_permalink(); ?>">Read More</a>
 

@@ -926,6 +926,7 @@ ul.post-categories{
 
 .product-features {
   text-align: left ;
+    color: #2F3E4D;
 }
 .product-feature-img {
   margin-bottom: 20px;
@@ -933,6 +934,7 @@ ul.post-categories{
 
 .description p {
   text-align: left !important;
+  color: #2F3E4D;
 }
 .single-product {
   margin-top: 20px;
@@ -972,4 +974,5 @@ button:hover#wpforms-submit-683 {
 }
 .product-displays p {
   margin-bottom: 0px;
+  color: #2F3E4D;
 }
