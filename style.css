@@ -367,11 +367,8 @@ Testimonials
 #testimonials .row {
   margin:0;
 }
-.testimonial-content {
-  display: none;
-}
-.testimonial-content {
-  display: none;
+.wpmtst-testimonial-content {
+  display:none;
 }
 .testimonials-title {
   display: none;
