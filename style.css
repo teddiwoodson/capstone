@@ -727,6 +727,17 @@ button:hover#wpforms-submit-97 {
   color: white;
   background-color: #2F3E4D;
 }
+button#wpforms-submit-712 {
+  border-radius:0;
+  color: white;
+  background-color: #839869;
+  border: none;
+  box-shadow: none;
+}
+button:hover#wpforms-submit-712 {
+  color: white;
+  background-color: #2F3E4D;
+}
 a.btn.btn-secondary {
   border-radius:0;
     background-color: #264E83;
@@ -797,9 +808,15 @@ footer {
   color: white;
   text-decoration: none;
 }
+.widget-footer-menu-1 a:hover {
+  text-decoration: underline;
+}
 .widget-footer-menu-2 a {
   color: white;
   text-decoration: none;
+}
+.widget-footer-menu-2 a:hover {
+  text-decoration: underline;
 }
 .widget-footer-social h3 {
   display: none;
