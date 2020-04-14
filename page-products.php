@@ -18,13 +18,9 @@
   <!-- ======================= Our Impact  ==================-->
 
     <section class="container-fluid" id="learn-more">
-      <div class="row justify-content-center">
-        <div class="col-12">
-        <h2>Our Impact</h2>
-        <p>Country Chic Paint fuels the creativity of DIYers with thoughtfully designed, environmentally-conscious products.</p>
-      </div>
-      </div>
-        <div class="row d-flex justify-content-center">
+      <h2>Our Impact</h2>
+      <p>Country Chic Paint fuels the creativity of DIYers with thoughtfully designed, environmentally-conscious products.</p>
+      <div class="row d-flex justify-content-center">
           <div class="col-lg-4 col-md-4 col-12 collapse-style">
             <div>
             <img  src="<?php echo get_template_directory_uri(); ?>/images/VOC-Icon-White.png" alt="VOC Free Icon" title="VOC Free Icon"/>

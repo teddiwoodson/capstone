@@ -29,11 +29,9 @@
 </main>
 <!-- ======================= Products ==================-->
   <section class="container-fluid" id="products">
-    <div class="justify-content-center">
-      <h2>Our Products</h2>
-      <p>Browse our high-quality, eco-friendly furniture paint and supplies</p>
-    </div>
-    <div class="row justify-content-center">
+    <h2>Our Products</h2>
+    <p>Browse our high-quality, eco-friendly furniture paint and supplies</p>
+    <article class="row justify-content-center">
       <div class="col-lg-2 col-md-4 col-sm-4 col-6 justify-content-center product-img">
         <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/Paint-Icon.png" alt="paint jar icon" title="paint"></a>
         <a href="#" class="btn btn-secondary" role="button">Paint</a>
@@ -54,7 +52,7 @@
         <a href="#" target="blank"><img src="<?php echo get_template_directory_uri(); ?>/images/Kit-Icon.png" alt="kits icon" title="kits icon"></a>
         <a href="#" class="btn btn-secondary" role="button">Kits</a>
       </div>
-    </div>
+    </article>
   </section>
 <!-- ======================= Second Slider ==================-->
 <section class="container">

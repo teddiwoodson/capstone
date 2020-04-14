@@ -1,36 +1,36 @@
 <?php get_header(); ?>
 <!-- ======================= Header ==================-->
 <main class="container">
-  <div class="row">
+  <section class="row">
     <div class="col-md-12">
-    <?php dynamic_sidebar('hero-image-inspo'); ?>
-  </div>
-  </div>
+      <?php dynamic_sidebar('hero-image-inspo'); ?>
+    </div>
+  </section>
 
 <!-- ======================= Blog Posts ==================-->
-<div class="blog-title">
-  <h2>Tutorials</h2>
-  <p>We realize that starting on your first project can be quite intimidating, so we've put together some Country Chic Paint tutorials to help you get inspired! Click on any of the tiles below for step-by-step instructions for your next project.</p>
-</div>
-    <section class="row justify-content-center" id="inspiration">
-      <?php if(have_posts()){
-        while(have_posts()){
-          the_post(); ?>
-          <div class="grid">
-            <a href="<?php the_permalink(); ?>">
-              <figure class="effect-steve">
-                <?php  the_post_thumbnail('medium'); ?>
-                <figcaption>
-                  <h2><?php the_title(); ?></h2>
-                  <p><?php the_excerpt(); ?></p>
-                </figcaption>
-              </figure>
-            </a>
-          </div>
-        <?php } // ends while loop
-      } // ends if statement
-      ?>
-      </section>
+  <section class="blog-title">
+    <h2>Tutorials</h2>
+    <p>We realize that starting on your first project can be quite intimidating, so we've put together some Country Chic Paint tutorials to help you get inspired! Click on any of the tiles below for step-by-step instructions for your next project.</p>
+  </section>
+  <section class="row justify-content-center" id="inspiration">
+    <?php if(have_posts()){
+      while(have_posts()){
+        the_post(); ?>
+        <div class="grid">
+          <a href="<?php the_permalink(); ?>">
+            <figure class="effect-steve">
+              <?php  the_post_thumbnail('medium'); ?>
+              <figcaption>
+                <h2><?php the_title(); ?></h2>
+                <p><?php the_excerpt(); ?></p>
+              </figcaption>
+            </figure>
+          </a>
+        </div>
+      <?php } // ends while loop
+    } // ends if statement
+    ?>
+    </section>
 
 <!-- ======================= Instagram ==================-->
   <section class="row" id="inspiration-instagram">
