@@ -7,6 +7,7 @@
 
 <?php get_header(); ?>
 <main class="container">
+  <h2>All-in-One Chalk Paints</h2>
   <section class="row">
       <?php $args = array ('post_type' => 'paint_products', 'posts_per_page' => 12);
 
