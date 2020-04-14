@@ -231,6 +231,43 @@ function blank_widgets_init() {
     'after_title'   => '</h3>'
   ));
   register_sidebar(array(
+    'name'          => ('Footer Logo'),
+    'id'            => 'footer-logo',
+    'description'   => 'Logo for Footer',
+    'before_widget' => '<div class="widget-footer-logo">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="footer-logo-title">',
+    'after_title'   => '</h3>'
+  ));
+  register_sidebar(array(
+    'name'          => ('Footer Menu 1'),
+    'id'            => 'footer-menu-1',
+    'description'   => 'Menu 1 for Footer',
+    'before_widget' => '<div class="widget-footer-menu-1">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="footer-menu-1-title">',
+    'after_title'   => '</h3>'
+  ));
+  register_sidebar(array(
+    'name'          => ('Footer Menu 2'),
+    'id'            => 'footer-menu-2',
+    'description'   => 'Menu 2 for Footer',
+    'before_widget' => '<div class="widget-footer-menu-2">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="footer-menu-2-title">',
+    'after_title'   => '</h3>'
+  ));
+  register_sidebar(array(
+    'name'          => ('Footer newsletter'),
+    'id'            => 'footer-newsletter',
+    'description'   => 'Newsletter for Footer',
+    'before_widget' => '<div class="widget-footer-newsletter">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="footer-newsletter-title">',
+    'after_title'   => '</h3>'
+  ));
+
+  register_sidebar(array(
     'name'          => ('Hero Image Contact'),
     'id'            => 'hero-image-contact',
     'description'   => 'Hero image Contact Page',
