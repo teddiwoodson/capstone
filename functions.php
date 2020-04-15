@@ -250,6 +250,14 @@ adds feature image functionality
 
 add_theme_support('post-thumbnails');
 
+/* =========
+
+reduces image compression
+
+=================*/
+
+add_filter('jpeg_quality', function($arg){return 100;});
+
 
 
 ?>
