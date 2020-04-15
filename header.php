@@ -7,7 +7,7 @@
 
   <!--link to our style.css file -->
 
-  <link rel="preload" href="styles.css" as="style">
+  <link rel="preload" href="style.css" as="style">
 
   <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>"/>
 
