@@ -770,8 +770,9 @@ Learn More Styles
 
 ============================*/
 #learn-more {
-  background-color: #DDC4C1;
+  background-color: #264E83;
   color: white;
+  text-align: center;
   padding-top: 20px;
 }
 .collapse-style {
