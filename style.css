@@ -23,18 +23,11 @@ body, html {
   font-family: 'Montserrat', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-  font-family: 'Montserrat', sans-serif;
+h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   text-transform: uppercase;
 }
-p {
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-}
-h2 {
-  text-align: center;
-}
+
 .heading {
   text-align: center;
   color: #2F3E4D;
@@ -574,25 +567,6 @@ figure:hover h2 {
                                 Inspiration Page
 
 =========================================*/
-#follow-insta a {
-  color: #DDC4C1;
-}
-#follow-insta a:hover {
-  color: #2F3E4D;
-}
-#inspiration-instagram {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-#inspiration {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-.blog-title {
-  margin: 2%;
-  text-align: center;
-  color: #2F3E4D;
-}
 
 /* ======================================
 
@@ -785,6 +759,7 @@ footer {
     background: #2F3E4D;
     padding: 20px;
     color: white;
+    margin-top: 20px;
 }
 .footer-menus ul {
   list-style-type: none;
