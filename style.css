@@ -594,58 +594,28 @@ figure:hover h2 {
                                 Contact Page
 
 =========================================*/
-
-#FAQ {
-  background-color: #264E83;
-  color: white;
-  padding: 0;
-  margin: 0;
-}
-.faq-width {
-  max-width: 200px;
-}
-.faq-button {
-  width: 150px;
-}
-
-
-#map-and-contact {
-  margin-top: 10px;
-}
-.map {
-  margin-left: 0;
-  margin-right: 0;
+.contact-widget-spacing {
   margin-top: 2%;
   margin-bottom: 2%;
-}
-.contact-text {
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  text-align: center;
 }
 .widget-contact-form {
-  font-family: 'Montserrat', sans-serif;
   max-width: 300px;
   margin-top: 2%;
   margin-bottom: 2%;
+  color: #2F3E4D;
 }
 .contact-form-title {
   text-align: center;
   margin-top: 2%;
   margin-bottom: 2%;
 }
-.widget_text.widget-map {
-    text-align: center;
-    margin-bottom: 2%;
-}
-.map iframe{
+.widget-map iframe{
   width: 300px;
   height: 300px;
 }
+
 @media (min-width: 500px) {
-  .map iframe{
+.widget-map iframe{
     width: 270px;
     height: 300px;
   }
@@ -655,7 +625,7 @@ figure:hover h2 {
 }
 
 @media (min-width: 990px) {
-  .map iframe{
+.widget-map iframe{
     width: 450px;
     height: 300px;
   }

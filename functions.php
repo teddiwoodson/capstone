@@ -225,6 +225,16 @@ function blank_widgets_init() {
     'before_title'  => '<h3 class="contact-form-title">',
     'after_title'   => '</h3>'
   ));
+  /* ========= Conteact Form Widget =================*/
+  register_sidebar(array(
+    'name'          => ('Contact Retailer Widget'),
+    'id'            => 'contact-retailer-area',
+    'description'   => 'Contact Retailer Widget',
+    'before_widget' => '<div class="widget-contact-retailer-area">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h3 class="contact-retailer-area-title">',
+    'after_title'   => '</h3>'
+  ));
   /* ========= Contact Info Text Widget =================*/
   register_sidebar(array(
     'name'          => ('Contact Info'),
@@ -275,7 +285,7 @@ function blank_widgets_init() {
                         Footer Widgets
 
   ===========================================*/
-  
+
     /* ========= Footer Social Media Icons Widget =================*/
   register_sidebar(array(
     'name'          => ('Footer Social Icons'),

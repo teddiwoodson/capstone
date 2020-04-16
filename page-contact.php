@@ -7,17 +7,24 @@
 
 <?php get_header(); ?>
 
+<?php dynamic_sidebar('hero-image-contact'); ?>
+
 <main class="container">
-  <section class="row">
-    <div class="col-md-12">
-      <?php dynamic_sidebar('hero-image-contact'); ?>
-    </div>
-  </section>
 <!-- ======================= contact form ==================-->
-  <section class="row justify-content-around">
-    <div class="col-12 d-flex justify-content-center">
+  <section>
+    <article class="heading">
+    <h2>We'd Love to Hear From You</h2>
+    <p>If you have any questions or just want to say hi, you can reach us by phone, email, or fill out the form.</p>
+  </article>
+  <article class="row">
+    <div class="col-lg-6 col-md-6 col-12 d-flex justify-content-center">
       <?php dynamic_sidebar('contact-form'); ?>
     </div>
+    <div class="col-lg-6 col-md-6 col-12 d-flex justify-content-center heading">
+      <?php dynamic_sidebar('contact-retailer-area'); ?>
+    </div>
+
+  </article>
   </section>
 </main>
 
@@ -50,18 +57,14 @@
 
 <section class="container" id="map-and-contact">
   <article class="row">
-    <div class="col-lg-6 col-md-5 col-sm-12 justify-content-center map">
+    <div class="col-lg-6 col-md-5 col-sm-12 justify-content-center heading contact-widget-spacing">
       <?php dynamic_sidebar('map'); ?>
     </div>
-    <div class="col-lg-6 col-md-7 col-sm-12 justify-content-center contact-text">
+    <div class="col-lg-6 col-md-7 col-sm-12 justify-content-center heading contact-widget-spacing">
       <?php dynamic_sidebar('contact-info'); ?>
     </div>
   </articl>
 </section>
-
-
-
-
 
 
 <?php get_footer(); ?>
