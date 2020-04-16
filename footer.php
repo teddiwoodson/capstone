@@ -1,28 +1,28 @@
 <footer>
-  <section class="container">
-    <article class="row footer-spacing">
-      <div class="col-lg-6 col-md-4 col-12">
+<main class="container">
+  <section class="row footer-spacing">
+      <article class="col-lg-6 col-md-4 col-12">
         <h5>Social</h5>
         <?php dynamic_sidebar('footer-social'); ?>
         <?php dynamic_sidebar('footer-newsletter'); ?>
-      </div>
+      </article>
 
-      <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+      <article class="col-lg-3 col-md-4 col-sm-6 col-6 footer-menus">
         <?php dynamic_sidebar('footer-menu-1'); ?>
-      </div>
-      <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+      </article>
+      <article class="col-lg-3 col-md-4 col-sm-6 col-6 footer-menus">
         <?php dynamic_sidebar('footer-menu-2'); ?>
-      </div>
+      </article>
 
-      <div class="col-12 d-flex justify-content-center">
+      <article class="col-12 d-flex justify-content-center">
         <?php dynamic_sidebar('footer-logo'); ?>
-      </div>
+      </article>
 
-      <div class="col-12">
+      <article class="col-12">
         <p>&copy; 2020 Country Chic Paint</p>
-      </div>
-    </article>
+      </article>
     </section>
+  </main>
 
 </footer>
 

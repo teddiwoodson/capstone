@@ -763,9 +763,6 @@ div#posts {
 .widget-right-post-sidebar ul li {
     padding: 5px;
 }
-footer ul li a {
-  color: #2F3E4D;
-}
 .recent-posts {
   background-color: #264E83;
   color: white;
@@ -786,43 +783,21 @@ Footer
 ============================*/
 footer {
     background: #2F3E4D;
-    padding: 10px;
+    padding: 20px;
     color: white;
 }
-.footer-spacing {
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
-}
-.widget-footer-menu-1 ul {
+.footer-menus ul {
   list-style-type: none;
 }
-.widget-footer-menu-2 ul {
-  list-style-type: none;
-}
-.widget-footer-menu-1 a {
+.footer-menus a {
   color: white;
   text-decoration: none;
 }
-.widget-footer-menu-1 a:hover {
+.footer-menus a:hover {
   text-decoration: underline;
-}
-.widget-footer-menu-2 a {
-  color: white;
-  text-decoration: none;
-}
-.widget-footer-menu-2 a:hover {
-  text-decoration: underline;
-}
-.widget-footer-social h3 {
-  display: none;
 }
 .footer-social-title {
   display: none;
-}
-.widget-footer-logo {
-  margin-top: 10px;
-  margin-bottom: 10px;
 }
 .widget-footer-social {
   margin-bottom: 10px;
