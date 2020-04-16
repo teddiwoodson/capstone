@@ -1,5 +1,5 @@
 <footer>
-<main class="container">
+<div class="container">
   <section class="row footer-spacing">
       <article class="col-lg-6 col-md-4 col-12">
         <h5>Social</h5>
@@ -22,7 +22,7 @@
         <p>&copy; 2020 Country Chic Paint</p>
       </article>
     </section>
-  </main>
+  </div>
 
 </footer>
 
