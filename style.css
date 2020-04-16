@@ -27,11 +27,13 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   text-transform: uppercase;
 }
-
 .heading {
   text-align: center;
   color: #2F3E4D;
   margin-top: 20px;
+}
+.heading a:hover {
+  color: #DDC4C1;
 }
 
 /* ======================================
@@ -908,18 +910,9 @@ button:hover#wpforms-submit-683 {
 
 ============================*/
 .product-displays {
-  text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.product-title {
-  color: #2F3E4D;
-  margin-top: 10px;
-}
-.product-title:hover {
-  color: #DDC4C1;
-}
 .product-displays p {
   margin-bottom: 0px;
-  color: #2F3E4D;
 }

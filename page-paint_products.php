@@ -6,8 +6,8 @@
  ?>
 
 <?php get_header(); ?>
-<main class="container">
-  <h2 class="heading">All-in-One Chalk Paints</h2>
+<main class="container heading">
+  <h2>All-in-One Chalk Paints</h2>
   <p>Hundreds of our customers have given our furniture paint a 5 star rating. We believe that there is no question about it: our eco-friendly furniture paint can’t be beat!</p>
   <section class="row">
 <!-- ===============================Change label here ============================= -->
@@ -20,11 +20,12 @@
     <div class="col-lg-4 col-md-6 col-12 product-displays">
       <div class="product-feature-img"><?php if (has_post_thumbnail()) {the_post_thumbnail('medium'); }?></div>
 
-      <a href="<?php the_permalink(); ?>" class="product-title"><h5><?php the_title(); ?></h5></a>
+      <a href="<?php the_permalink(); ?>" class="heading"><h5><?php the_title(); ?></h5></a>
 
       <p><?php the_field('size') ?> | <?php the_field('price') ?></p>
 
-      <a class="btn btn-primary" href="<?php the_permalink(); ?>">Read More</a>
+      <a class="btn btn-primary" href="<?php the_permalink(); ?>">View More</a>
+      <a class="btn btn-primary" href="#">Add to Cart</a>
 
     </div>
     <?php endwhile; ?>

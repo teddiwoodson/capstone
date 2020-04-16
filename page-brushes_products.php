@@ -6,8 +6,8 @@
  ?>
 
 <?php get_header(); ?>
-<main class="container">
-  <h2 class="heading">Brushes</h2>
+<main class="container heading">
+  <h2>Brushes</h2>
   <p>Each of the paint and wax brushes in the Country Chic Paint line has been carefully tested and designed to work beautifully with our products. All of our brushes are made with 100% synthetic bristles.</p>
   <section class="row">
 <!-- ===============================Change label here ============================= -->
@@ -20,11 +20,12 @@
     <div class="col-lg-4 col-md-6 col-12 product-displays">
       <div class="product-feature-img"><?php if (has_post_thumbnail()) {the_post_thumbnail('medium'); }?></div>
 
-      <a href="<?php the_permalink(); ?>" class="product-title"><h5><?php the_title(); ?></h5></a>
+      <a href="<?php the_permalink(); ?>" class="heading"><h5><?php the_title(); ?></h5></a>
 
       <p><?php the_field('size') ?> | <?php the_field('price') ?></p>
 
-      <a class="btn btn-primary" href="<?php the_permalink(); ?>">Read More</a>
+      <a class="btn btn-primary" href="<?php the_permalink(); ?>">View More</a>
+      <a class="btn btn-primary" href="#">Add to Cart</a>
 
     </div>
     <?php endwhile; ?>
