@@ -872,22 +872,15 @@ ul.post-categories{
         Single Product Items
 
 ============================*/
-
-.product-features {
-  text-align: left ;
-    color: #2F3E4D;
+.product-entry-text {
+  color: #2F3E4D;
 }
 .product-feature-img {
   margin-bottom: 20px;
 }
-
-.description p {
-  text-align: left !important;
-  color: #2F3E4D;
-}
-.single-product {
-  margin-top: 20px;
+.product-entry-spacing {
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 button#wpforms-submit-683 {
   border-radius:0;
@@ -899,10 +892,6 @@ button#wpforms-submit-683 {
 button:hover#wpforms-submit-683 {
   color: white;
   background-color: #2F3E4D;
-}
-.product-entry-title {
-  margin-bottom: 20px;
-  margin-top: 20px;
 }
 /* ========================
 
