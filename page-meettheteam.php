@@ -9,7 +9,6 @@
 
 <?php dynamic_sidebar('hero-image-team'); ?>
 
-<main class="container">
 <!-- ======================= Meet the Team ==================-->
   <section class="row justify-content-center mt-4">
     <article class="col-lg-3 col-md-6 col-sm-12 text-center m-2 justify-content-center">
@@ -74,7 +73,6 @@
     </article>
   </section>
 
-</main>
 
 
 
