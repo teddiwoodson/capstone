@@ -7,7 +7,7 @@
 
 <?php get_header(); ?>
 
-<?php dynamic_sidebar('hero-image-contact'); ?>
+<?php dynamic_sidebar('hero-image-team'); ?>
 
 <main class="container">
 <!-- ======================= Meet the Team ==================-->

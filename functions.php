@@ -342,6 +342,21 @@ function blank_widgets_init() {
     'before_title'  => '<h3 class="shop-form-title">',
     'after_title'   => '</h3>'
   ));
+  /* ========================================
+
+                      Meet the Team Widgets
+
+  ===========================================*/
+  /* ========= Recent Posts Slider =================*/
+    register_sidebar(array(
+      'name'          => ('Hero Image Meet the team'),
+      'id'            => 'hero-image-team',
+      'description'   => 'Hero Image Meet the team',
+      'before_widget' => '<div class="hero-image-team-widget">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3 class="hero-image-team-title">',
+      'after_title'   => '</h3>'
+    ));
 }
 
 add_action('widgets_init', 'blank_widgets_init');
