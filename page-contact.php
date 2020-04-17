@@ -17,13 +17,9 @@
     <p>If you have any questions or just want to say hi, you can reach us by phone, email, or fill out the form.</p>
   </article>
   <article class="row">
-    <div class="col-lg-6 col-md-6 col-12 d-flex justify-content-center">
+    <div class="col-12 d-flex justify-content-center">
       <?php dynamic_sidebar('contact-form'); ?>
     </div>
-    <div class="col-lg-6 col-md-6 col-12 d-flex justify-content-center heading">
-      <?php dynamic_sidebar('contact-retailer-area'); ?>
-    </div>
-
   </article>
   </section>
 </main>
