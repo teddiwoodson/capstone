@@ -16,8 +16,8 @@
         <h2>Country Chic Paint Values</h2>
       </article>
     </section>
-    <section class="row d-flex justify-content-center">
-      <article class="col-lg-3 col-md-3 col-12 collapse-style">
+    <div class="row d-flex justify-content-center">
+      <section class="col-lg-3 col-md-3 col-12 collapse-style">
         <img  src="<?php echo get_template_directory_uri(); ?>/images/VOC-Icon-White.png" alt="VOC Free Icon" title="VOC Free Icon"/>
         <h5>Lowering Environmental Impacts</h5>
         <p><a class="btn btn-primary" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample">Read More</a></p>
@@ -26,10 +26,8 @@
               Our products and pigments have low to zero VOC level, all printed materials use 100% recycled paper from sustainable sources, and our headquarters and warehouse use 98% renewable energy.
           </div>
         </div>
-      </article>
-    </section>
+      </section>
     <section class="col-lg-3 col-md-3 col-12 collapse-style">
-      <article>
       <img  src="<?php echo get_template_directory_uri(); ?>/images/Economy-Icon.png" alt="Economy Icon" title="Economy Icon"/>
       <h5>Supporting the local economy</h5>
       <p><a class="btn btn-primary" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample">Read More</a></p>
@@ -38,10 +36,8 @@
           Our products and raw materials are sourced and manufactured in North America whenever possible, supporting the sustainability of the local economy, in addition to leading innovation, productivity, and jobs.
         </div>
         </div>
-      </article>
   </section>
   <section class="col-lg-3 col-md-3 col-12 collapse-style">
-    <article>
     <img  src="<?php echo get_template_directory_uri(); ?>/images/Heart-Icon.png" alt="Heart Icon" title="Heart Icon"/>
     <h5>Giving Back to the community</h5>
     <p><a class="btn btn-primary" data-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample">Read More</a></p>
@@ -50,8 +46,8 @@
         We are proud to donate a portion of our profits to Food Banks Canada and Feeding America to help relieve hunger by providing meals to families in North America.
       </div>
       </div>
-    </article>
 </section>
+</div>
   </main>
 
 <!-- ======================= A Family Affair ==================-->
@@ -63,7 +59,7 @@
   </div>
 
 <!-- ======================= Meet the Team ==================-->
-<article class="meet-team">
+<article class="meet-team heading">
     <h2>Meet The Team</h2>
     <a href="http://www.teddiwoodson.com/capstone/meet-the-team/"><?php echo do_shortcode('[sp_wpcarousel id="59"]'); ?></a>
 </article>
