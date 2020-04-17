@@ -7,14 +7,10 @@
 
 <?php get_header(); ?>
 
-<main>
-  <section class="row">
-    <div class="col-md-12">
-      <?php dynamic_sidebar('hero-image-contact'); ?>
-    </div>
-  </section>
-<!-- ======================= Meet the Team ==================-->
+<?php dynamic_sidebar('hero-image-contact'); ?>
 
+<main class="container">
+<!-- ======================= Meet the Team ==================-->
   <section class="row justify-content-center mt-4">
     <article class="col-lg-3 col-md-6 col-sm-12 text-center m-2 justify-content-center">
       <img src="<?php echo get_template_directory_uri(); ?>/images/Rosanne.png" alt="Rosanne" title="Rosanne">
