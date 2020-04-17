@@ -508,7 +508,7 @@ button:hover#wpforms-submit-97, button:hover#wpforms-submit-712, button:hover#wp
   background-color: #2F3E4D;
 }
 /* ============== Individual Posts Area ============== */
-div#posts {
+#posts {
     margin: 20px;
 }
 .widget-right-post-sidebar ul {
