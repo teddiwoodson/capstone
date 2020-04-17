@@ -733,6 +733,9 @@ footer {
     color: white;
     margin-top: 20px;
 }
+footer p {
+  text-align: center;
+}
 .footer-menus ul {
   list-style-type: none;
 }
@@ -755,14 +758,10 @@ footer {
 
 ============================*/
 #oops {
-  margin-top: 20px;
-  height: 100vh;
+  height: 70vh;
 }
 #oops p {
   margin: 10px;
-}
-.oops {
-  text-align: center;
 }
 /* ========================
 
