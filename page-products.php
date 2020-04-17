@@ -21,8 +21,7 @@
       <h2>Our Impact</h2>
       <p>Country Chic Paint fuels the creativity of DIYers with thoughtfully designed, environmentally-conscious products.</p>
       <div class="row d-flex justify-content-center">
-          <div class="col-lg-4 col-md-4 col-12 collapse-style">
-            <div>
+          <article class="col-lg-4 col-md-4 col-12 collapse-style">
             <img  src="<?php echo get_template_directory_uri(); ?>/images/VOC-Icon-White.png" alt="VOC Free Icon" title="VOC Free Icon"/>
             <h4>VOC Free Paints</h4>
             <p><a class="btn btn-primary" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample">Read More</a></p>
@@ -30,11 +29,9 @@
               <div class="card card-body">
                 Volatile Organic Compounds (VOCs) are gases that are released into the air from ordinary products such as paint, cleaners, cosmetics, & more. VOCs can have short-term health effects such as headaches, respiratory issues, nausea, dizziness, etc. We are proud to say our paints & pigments have low to zero VOC levels.
               </div>
-              </div>
-              </div>
-        </div>
-        <div class="col-lg-4 col-md-4 col-12 collapse-style">
-          <div>
+            </div>
+        </article>
+        <article class="col-lg-4 col-md-4 col-12 collapse-style">
           <img  src="<?php echo get_template_directory_uri(); ?>/images/Recycle-Icon.png" alt="Recycle Icon" title="Recycle Icon"/>
           <h4>Recycling Programs</h4>
           <p><a class="btn btn-primary" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">Read More</a></p>
@@ -43,10 +40,8 @@
               Country Chic Paint is a proud member of paint recycling programs across North America to ensure that leftover paint is properly recycled and not dumped in a landfill. Our brochures and labels are also printed on 100% recycled paper from sustainable sources.
             </div>
             </div>
-            </div>
-      </div>
-      <div class="col-lg-4 col-md-4 col-12 collapse-style">
-        <div>
+      </article>
+      <article class="col-lg-4 col-md-4 col-12 collapse-style">
         <img  src="<?php echo get_template_directory_uri(); ?>/images/Headquarters-Icon.png" alt="Headquarters Icon" title="Headquarters Icon"/>
         <h4>Renewable Energy</h4>
         <p><a class="btn btn-primary" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample">Read More</a></p>
@@ -55,20 +50,19 @@
             Our headquarters and warehouse use 98% renewable energy. By devoting ourselves to sustainable business practices, we are able to create more enjoyable living spaces, while having a positive impact on our communities at the same time.
           </div>
           </div>
-          </div>
-    </div>
+    </article>
       </div>
     </section>
 
 <div class="container">
 
 <!-- ======================= Image Grid ==================-->
-<div class="heading">
+<section class="heading">
   <h2>Our Products</h2>
   <p>Our products are manufactured in North America without the use of harsh chemical additives. Our paints are also independently tested and certified safe for children’s furniture.</p>
-</div>
+</section>
 <section class="row justify-content-center" id="inspiration">
-      <div class="grid">
+      <article class="grid">
         <a href="http://www.teddiwoodson.com/capstone/paint-products/">
           <figure class="effect-steve">
             <img  src="<?php echo get_template_directory_uri(); ?>/images/paint.jpg" alt="paint" title="paint"/>
@@ -78,8 +72,8 @@
             </figcaption>
           </figure>
         </a>
-      </div>
-      <div class="grid">
+      </article>
+      <article class="grid">
         <a href="http://www.teddiwoodson.com/capstone/wax-products/">
           <figure class="effect-steve">
               <img  src="<?php echo get_template_directory_uri(); ?>/images/waxes.jpg" alt="waxes" title="waxes"/>
@@ -89,8 +83,8 @@
               </figcaption>
           </figure>
         </a>
-      </div>
-      <div class="grid">
+      </article>
+      <article class="grid">
         <a href="http://www.teddiwoodson.com/capstone/finishes-products/">
           <figure class="effect-steve">
               <img  src="<?php echo get_template_directory_uri(); ?>/images/finishes.jpg" alt="finishes" title="finishes"/>
@@ -100,8 +94,8 @@
               </figcaption>
           </figure>
         </a>
-      </div>
-      <div class="grid">
+      </article>
+      <article class="grid">
         <a href="http://www.teddiwoodson.com/capstone/brushes-products/">
           <figure class="effect-steve">
               <img  src="<?php echo get_template_directory_uri(); ?>/images/brushes.jpg" alt="brushes" title="brushes"/>
@@ -111,8 +105,8 @@
               </figcaption>
           </figure>
         </a>
-      </div>
-      <div class="grid">
+      </article>
+      <article class="grid">
         <a href="http://www.teddiwoodson.com/capstone/kits/">
           <figure class="effect-steve">
               <img  src="<?php echo get_template_directory_uri(); ?>/images/kits.jpg" alt="kits" title="kits"/>
@@ -122,8 +116,8 @@
               </figcaption>
           </figure>
         </a>
-      </div>
-      <div class="grid">
+      </article>
+      <article class="grid">
         <a href="http://www.teddiwoodson.com/capstone/specials/">
           <figure class="effect-steve">
               <img  src="<?php echo get_template_directory_uri(); ?>/images/special-offers.jpg" alt="special-offers" title="special offers"/>
@@ -133,7 +127,7 @@
               </figcaption>
           </figure>
         </a>
-      </div>
+      </article>
   </section>
 
 <!-- ======================= Instagram Feed ==================-->
