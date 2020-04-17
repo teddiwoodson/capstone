@@ -479,68 +479,43 @@ figure:hover h2 {
 }
 
 /* ============== Button Styles ============== */
-a.btn.btn-primary {
+a.btn {
   border-radius:0;
-    background-color: #839869;
-    border: none;
-    margin: 10px;
-    box-shadow: none;
-}
-section a.btn.btn-primary:hover {
-  color: white;
-  background-color: #2F3E4D;
-}
-button#wpforms-submit-97 {
-  border-radius:0;
-  color: white;
-  background-color: #839869;
-  border: none;
-  box-shadow: none;
-}
-button:hover#wpforms-submit-97 {
-  color: white;
-  background-color: #2F3E4D;
-}
-button#wpforms-submit-712 {
-  border-radius:0;
-  color: white;
-  background-color: #839869;
-  border: none;
-  box-shadow: none;
-}
-button:hover#wpforms-submit-712 {
-  color: white;
-  background-color: #2F3E4D;
-}
-a.btn.btn-secondary {
-  border-radius:0;
-  background-color: #264E83;
   border: none;
   margin: 10px;
   box-shadow: none;
+  color: white;
+}
+.btn-primary {
+  background-color: #839869;
+}
+.btn-primary:hover {
+  background-color: #2F3E4D;
+}
+.btn-secondary {
+  background-color: #264E83;
   width: 100px;
 }
-section a.btn.btn-secondary:hover {
-  color: white;
+.btn-secondary:hover {
   background-color: #DDC4C1;
+}
+button#wpforms-submit-97, button#wpforms-submit-712, button#wpforms-submit-683 {
+  color: white;
+  background-color: #839869;
+  border: none;
+}
+button:hover#wpforms-submit-97, button:hover#wpforms-submit-712, button:hover#wpforms-submit-683 {
+  background-color: #2F3E4D;
 }
 /* ============== Individual Posts Area ============== */
 div#posts {
     margin: 20px;
-}
-#posts h2 {
-  text-align: left;
 }
 .widget-right-post-sidebar ul {
     list-style-type: none;
 }
 .widget-right-post-sidebar ul li {
     padding: 5px;
-}
-.recent-posts {
-  background-color: #264E83;
-  color: white;
-  padding-top:2%
 }
 .recent-posts-widget {
   padding-top: 2%;
@@ -659,17 +634,6 @@ ul.post-categories{
 .product-entry-spacing {
   margin-bottom: 20px;
   margin-top: 20px;
-}
-button#wpforms-submit-683 {
-  border-radius:0;
-  color: white;
-  background-color: #839869;
-  border: none;
-  box-shadow: none;
-}
-button:hover#wpforms-submit-683 {
-  color: white;
-  background-color: #2F3E4D;
 }
 /* ============== Product Display Pages ============== */
 .product-displays {

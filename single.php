@@ -21,7 +21,7 @@
       </aside>
     </div>
   </div>
-  <div class="container-fluid recent-posts">
+  <div class="container-fluid" id="learn-more">
     <h2>Check out some of our other Tutorials</h2>
     <div class="row justify-content-center">
       <div class="col-10">
