@@ -30,12 +30,12 @@
     </section>
 
 <!-- ======================= Instagram ==================-->
-  <section class="row">
+  <section class="row justify-content-center">
     <article class="col-md-12 heading">
       <h4>Find us on on Instagram for even more inspiration!</h4>
       <?php dynamic_sidebar('instagram-2');?>
-      <a href="https://www.instagram.com/countrychicpaint/" role="button" class="btn btn-primary btn-lg">Follow Us on Instagram</a>
     </article>
+      <a href="https://www.instagram.com/countrychicpaint/" role="button" class="btn btn-primary btn-lg">Follow Us on Instagram</a>
   </section>
 
 </main>
