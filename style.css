@@ -32,10 +32,18 @@ h1, h2, h3, h4, h5, h6 {
   color: #2F3E4D;
   margin-top: 20px;
 }
+.heading a {
+  color: #DDC4C1;
+  font-weight: 600;
+}
 .heading a:hover {
   color: #DDC4C1;
 }
-
+.heading-white {
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+}
 /* ======================================
 
                                 Header Styles
@@ -298,69 +306,33 @@ Test nav bar
                                 Home Page
 
 =========================================*/
-
-#products {
-  background-color: #DDC4C1;
-  color: white;
-}
-#products-content {
-  margin: 10px;
-}
-#products img {
-  display: block;
-  margin: auto;
-}
-#products div {
-  padding-top: .5%;
-  padding-bottom: .5%;
-}
 /* ========================
 
 Paint
 
 ============================*/
-.paint {
+.widget-paint-carousel {
   margin: 20px;
-  color: #2F3E4D;
 }
-.paint p {
-    text-align: center;
-}
-
 /* ========================
 
 products
 
 ============================*/
 #products {
-  padding: 10px;
-  text-align: center;
+  background-color: #839969;
+  padding: 20px;
 }
-.product-img img {
+#products img {
+  display: block;
+  margin: auto;
   max-width: 125px;
 }
-.product-img p {
-  font-weight: 600;
-}
-
 /* ========================
 
 Testimonials
 
 ============================*/
-#testimonials {
-  background-color: #264E83;
-  text-align: center;
-  color: white;
-  padding-top: 20px;
-  overflow-x: hidden;
-}
-#testimonials h2 {
-  text-align: center;
-}
-#testimonials .row {
-  margin:0;
-}
 .wpmtst-testimonial-content {
   display:none;
 }
@@ -682,15 +654,15 @@ button:hover#wpforms-submit-712 {
 }
 a.btn.btn-secondary {
   border-radius:0;
-    background-color: #264E83;
-    border: none;
-    margin: 10px;
-    box-shadow: none;
-    width: 100px;
+  background-color: #264E83;
+  border: none;
+  margin: 10px;
+  box-shadow: none;
+  width: 100px;
 }
 section a.btn.btn-secondary:hover {
   color: white;
-  background-color: #839869;
+  background-color: #DDC4C1;
 }
 /* ======================================
 
@@ -731,7 +703,6 @@ footer {
     background: #2F3E4D;
     padding: 20px;
     color: white;
-    margin-top: 20px;
 }
 footer p {
   text-align: center;

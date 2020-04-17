@@ -6,70 +6,65 @@
  ?>
 <?php get_header(); ?>
 <!-- ======================= Hero Image ==================-->
-<main class="container">
-  <section class="row">
-    <div class="col-md-12 justify-content-center">
-      <?php dynamic_sidebar('hero-image-home'); ?>
-    </div>
-  </section>
+<?php dynamic_sidebar('hero-image-home'); ?>
+
+<main class="container heading">
 
 <!-- ======================= Paint Carousel ==================-->
-  <section class="paint">
+  <section>
     <h2>Paint Colors</h2>
-    <p>We offer over 60 original non-toxic, eco-friendly paint colors.</p>
+    <p>We offer over 60 original VOC-free, eco-friendly paint colors that are manufactured without the use of harsh chemical additives.</br>You can learn more about paint safety & view our test results <a href="https://www.countrychicpaint.com/pages/voc-free-furniture-paint" target="blank">here</a>.</p>
     <?php dynamic_sidebar('paint-carousel'); ?>
   </section>
 
 <!-- ======================= First Slider Plugin ==================-->
-  <section class="row">
-    <div class="col-md-12">
+    <section>
       <?php dynamic_sidebar('home-slider-1'); ?>
-    </div>
   </section>
 </main>
 <!-- ======================= Products ==================-->
-  <section class="container-fluid" id="products">
+  <section class="container-fluid heading-white" id="products">
     <h2>Our Products</h2>
     <p>Browse our high-quality, eco-friendly furniture paint and supplies</p>
-    <article class="row justify-content-center">
-      <div class="col-lg-2 col-md-4 col-sm-4 col-6 justify-content-center product-img">
+    <div class="row justify-content-center">
+      <article class="col-lg-2 col-md-4 col-sm-4 col-6 justify-content-center ">
         <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/Paint-Icon.png" alt="paint jar icon" title="paint"></a>
         <a href="http://www.teddiwoodson.com/capstone/paint-products/" class="btn btn-secondary" role="button">Paint</a>
-      </div>
-      <div class="col-lg-2 col-md-4 col-sm-4 col-6 justify-content-center product-img">
+      </article>
+      <article class="col-lg-2 col-md-4 col-sm-4 col-6 justify-content-center ">
         <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/Wax-Icon.png" alt="wax icon" title="wax icon"></a>
         <a href="http://www.teddiwoodson.com/capstone/wax-products/" class="btn btn-secondary" role="button">Waxes</a>
-      </div>
-      <div class="col-lg-2 col-md-4 col-sm-4 col-6 justify-content-center product-img">
+      </article>
+      <article class="col-lg-2 col-md-4 col-sm-4 col-6 justify-content-center ">
         <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/Finish-Icon.png" alt="finishes icon" title="finishes"></a>
         <a href="http://www.teddiwoodson.com/capstone/finishes-products/" class="btn btn-secondary" role="button">Finishes</a>
-      </div>
-      <div class="col-lg-2 col-md-4 col-sm-4 col-6 justify-content-center product-img">
+      </article>
+      <article class="col-lg-2 col-md-4 col-sm-4 col-6 justify-content-center ">
         <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/Brush-Icon.png" alt="brushe icon" title="brushes icon"></a>
         <a href="http://www.teddiwoodson.com/capstone/brushes-products/" class="btn btn-secondary" role="button">Brushes</a>
-      </div>
-      <div class="col-lg-2 col-md-6 col-sm-4 col-6 justify-content-center product-img">
+      </article>
+      <article class="col-lg-2 col-md-4 col-sm-4 col-6 justify-content-center ">
         <a href="#" target="blank"><img src="<?php echo get_template_directory_uri(); ?>/images/Kit-Icon.png" alt="kits icon" title="kits icon"></a>
         <a href="http://www.teddiwoodson.com/capstone/kits/" class="btn btn-secondary" role="button">Kits</a>
-      </div>
-    </article>
+      </article>
+      <article class="col-lg-2 col-md-4 col-sm-4 col-6 justify-content-center ">
+        <a href="#" target="blank"><img src="<?php echo get_template_directory_uri(); ?>/images/Kit-Icon.png" alt="kits icon" title="kits icon"></a>
+        <a href="http://www.teddiwoodson.com/capstone/kits/" class="btn btn-secondary" role="button">Kits</a>
+      </article>
+    </div>
   </section>
 <!-- ======================= Second Slider ==================-->
 <section class="container">
-  <section class="row">
-    <div class="col-md-12">
-      <?php dynamic_sidebar('home-slider-2'); ?>
-    </div>
-  </section>
+    <?php dynamic_sidebar('home-slider-2'); ?>
 </section>
 
 <!-- ======================= Testimonials ==================-->
 
-  <section class="container-fluid" id="testimonials">
-    <div class="row justify-content-center">
+  <section class="container-fluid" id="learn-more">
+    <article class="row justify-content-center">
       <h2>Testimonials</h2>
       <?php dynamic_sidebar('testimonials'); ?>
-    </div>
+    </article>
   </section>
 
 
