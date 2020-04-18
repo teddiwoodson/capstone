@@ -48,7 +48,7 @@
         <a href="http://www.teddiwoodson.com/capstone/kits/" class="btn btn-secondary" role="button">Kits</a>
       </article>
       <article class="col-lg-2 col-md-4 col-sm-4 col-6 justify-content-center ">
-        <a href="http://www.teddiwoodson.com/capstone/specials/" target="blank"><img src="<?php echo get_template_directory_uri(); ?>/images/icon_kit.png" alt="kits icon" title="kits icon"></a>
+        <a href="http://www.teddiwoodson.com/capstone/specials/" target="blank"><img src="<?php echo get_template_directory_uri(); ?>/images/icon_specials.png" alt="kits icon" title="kits icon"></a>
         <a href="http://www.teddiwoodson.com/capstone/specials/" class="btn btn-secondary" role="button">Specials</a>
       </article>
     </div>
