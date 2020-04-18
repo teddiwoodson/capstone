@@ -31,19 +31,19 @@
 
       <!-- === Retailer ===-->
       <div class="col-lg-4 col-md-4 col-12 collapse-style">
-            <img  src="<?php echo get_template_directory_uri(); ?>/images/VOC-Icon-White.png" alt="VOC Free Icon" title="VOC Free Icon"/>
+            <img  src="<?php echo get_template_directory_uri(); ?>/images/Retailer-Icon.png" alt="VOC Free Icon" title="VOC Free Icon"/>
             <p><a class="btn btn-primary" href="#" role="button">Become a Retailer</a></p>
       </div>
 
       <!-- === FAQ ===-->
       <div class="col-lg-4 col-md-4 col-12 collapse-style">
-        <img  src="<?php echo get_template_directory_uri(); ?>/images/VOC-Icon-White.png" alt="VOC Free Icon" title="VOC Free Icon"/>
+        <img  src="<?php echo get_template_directory_uri(); ?>/images/FAQ-Icon.png" alt="VOC Free Icon" title="VOC Free Icon"/>
         <p><a class="btn btn-primary" href="#" role="button">FAQs</a></p>
       </div>
 
       <!-- === Chat ===-->
       <div class="col-lg-4 col-md-4 col-12 collapse-style">
-        <img  src="<?php echo get_template_directory_uri(); ?>/images/VOC-Icon-White.png" alt="VOC Free Icon" title="VOC Free Icon"/>
+        <img  src="<?php echo get_template_directory_uri(); ?>/images/Phone-Icon.png" alt="VOC Free Icon" title="VOC Free Icon"/>
         <p><a class="btn btn-primary" href="#" role="button">Chat With Us 24/7</a></p>
       </div>
     </article>
