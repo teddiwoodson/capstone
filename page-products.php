@@ -22,7 +22,7 @@
       <p>Country Chic Paint fuels the creativity of DIYers with thoughtfully designed, environmentally-conscious products.</p>
       <div class="row d-flex justify-content-center">
           <article class="col-lg-4 col-md-4 col-12 collapse-style">
-            <img  src="<?php echo get_template_directory_uri(); ?>/images/VOC-Icon-White.png" alt="VOC Free Icon" title="VOC Free Icon"/>
+            <img  src="<?php echo get_template_directory_uri(); ?>/images/icon_voc.png" alt="VOC Free Icon" title="VOC Free Icon"/>
             <h4>VOC Free Paints</h4>
             <p><a class="btn btn-primary" data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample">Read More</a></p>
             <div class="collapse" id="collapseExample1">
@@ -32,7 +32,7 @@
             </div>
         </article>
         <article class="col-lg-4 col-md-4 col-12 collapse-style">
-          <img  src="<?php echo get_template_directory_uri(); ?>/images/Recycle-Icon.png" alt="Recycle Icon" title="Recycle Icon"/>
+          <img  src="<?php echo get_template_directory_uri(); ?>/images/icon_recycle.png" alt="Recycle Icon" title="Recycle Icon"/>
           <h4>Recycling Programs</h4>
           <p><a class="btn btn-primary" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">Read More</a></p>
           <div class="collapse" id="collapseExample2">
@@ -42,7 +42,7 @@
             </div>
       </article>
       <article class="col-lg-4 col-md-4 col-12 collapse-style">
-        <img  src="<?php echo get_template_directory_uri(); ?>/images/Headquarters-Icon.png" alt="Headquarters Icon" title="Headquarters Icon"/>
+        <img  src="<?php echo get_template_directory_uri(); ?>/images/icon_renewable.png" alt="Headquarters Icon" title="Headquarters Icon"/>
         <h4>Renewable Energy</h4>
         <p><a class="btn btn-primary" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample">Read More</a></p>
         <div class="collapse" id="collapseExample3">
