@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-  <main class="container">
+  <main class="container post">
     <section class="row justify-content-center" id="posts">
       <article class="col-md-9">
         <?php

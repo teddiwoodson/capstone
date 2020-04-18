@@ -505,6 +505,9 @@ button:hover#wpforms-submit-97, button:hover#wpforms-submit-712, button:hover#wp
 #posts {
     margin: 20px;
 }
+.post {
+  color: #2F3E4D;
+}
 .widget-right-post-sidebar ul {
     list-style-type: none;
 }
