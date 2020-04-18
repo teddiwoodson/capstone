@@ -23,7 +23,7 @@
     <div class="row desktop">
       <div class="col-lg-3 col-md-12 col-sm-12 header-logo">
         <div class="logo">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/CountryChicPaintLogo.png" alt="Country Chic Paint Logo" title="Country Chic Paint Logo"></a>
+          <a href="http://www.teddiwoodson.com/capstone/"><img src="<?php echo get_template_directory_uri(); ?>/images/CountryChicPaintLogo.png" alt="Country Chic Paint Logo" title="Country Chic Paint Logo"></a>
         </div>
       </div>
       <div class="col-lg-9 col-md-12 col-sm-12 links">
