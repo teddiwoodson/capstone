@@ -13,7 +13,7 @@
 <!-- ======================= Paint Carousel ==================-->
   <section>
     <h2>Paint Colors</h2>
-    <p>We offer over 60 original VOC-free, eco-friendly paint colors that are manufactured without the use of harsh chemical additives.</br>You can learn more about paint safety & view our test results <a href="https://www.countrychicpaint.com/pages/voc-free-furniture-paint" target="blank">here</a>.</p>
+    <p>We offer over 60 original VOC-free, eco-friendly paint colors that are manufactured without the use of harsh chemical additives.<br>You can learn more about paint safety & view our test results <a href="https://www.countrychicpaint.com/pages/voc-free-furniture-paint" target="blank">here</a>.</p>
     <?php dynamic_sidebar('paint-carousel'); ?>
   </section>
 

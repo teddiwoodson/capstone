@@ -23,11 +23,7 @@
     <div class="row desktop">
       <div class="col-lg-3 col-md-12 col-sm-12 header-logo">
         <div class="logo">
-            <?php if(get_header_image() == '') {?>
-                <h1><a href="<?php echo home_url('/') ?>"><?php bloginfo('name');?></a></h1><?php
-              }else {?>
-            <a href="<?php echo home_url('/') ?>"><img src="<?php header_image();?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="logo" /></a>
-          <?php } ?>
+          <img src="<?php echo get_template_directory_uri(); ?>/images/CountryChicPaintLogo.png" alt="Country Chic Paint Logo" title="Country Chic Paint Logo"></a>
         </div>
       </div>
       <div class="col-lg-9 col-md-12 col-sm-12 links">
@@ -82,11 +78,7 @@
       </div>
       <div class="col-lg-3 col-md-12 col-sm-10 col-10 header-logo">
         <div class="logo">
-            <?php if(get_header_image() == '') {?>
-                <h1><a href="<?php echo home_url('/') ?>"><?php bloginfo('name');?></a></h1><?php
-              }else {?>
-            <a href="<?php echo home_url('/') ?>"><img src="<?php header_image();?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" alt="logo" /></a>
-          <?php } ?>
+            <a href="http://www.teddiwoodson.com/capstone/"><img src="<?php echo get_template_directory_uri(); ?>/images/CountryChicPaintLogo.png" alt="Country Chic Paint Logo" title="Country Chic Paint Logo"></a>
         </div>
       </div>
 
