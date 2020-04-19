@@ -259,6 +259,9 @@ header {
   margin-right: 0;
 }
 /* ============== Products Page Area ============== */
+.insta-buttons {
+  margin-bottom: 20px;
+}
 .grid {
   position: relative;
 	margin: 0 auto;

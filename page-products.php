@@ -141,7 +141,7 @@
 
 <!-- ======================= Instagram Buttons ==================-->
 
-  <section class="row justify-content-center">
+  <section class="row justify-content-center insta-buttons">
     <a href="http://www.teddiwoodson.com/capstone/inspiration/" role="button" class="btn btn-primary btn-lg">More Inspiration Here</a>
     <a href="https://www.instagram.com/countrychicpaint/" role="button" class="btn btn-primary btn-lg">Follow Us on Instagram</a>
   </section>

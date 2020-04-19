@@ -30,7 +30,7 @@
     </section>
 
 <!-- ======================= Instagram ==================-->
-  <section class="row justify-content-center">
+  <section class="row justify-content-center insta-buttons">
     <article class="col-md-12 heading">
       <h4>Find us on on Instagram for even more inspiration!</h4>
       <?php dynamic_sidebar('instagram-2');?>
