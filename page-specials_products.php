@@ -10,7 +10,7 @@
   <h2>Special offers</h2>
   <section class="row">
 <!-- ===============================Change label here ============================= -->
-      <?php $args = array ('post_type' => 'brushes_products', 'posts_per_page' => 12);
+      <?php $args = array ('post_type' => 'specials_products', 'posts_per_page' => 12);
 
       $loop = new WP_Query($args);
 
